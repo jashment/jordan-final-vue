@@ -47,6 +47,7 @@
     <v-content>
       <router-view/>
       <HelloWorld style="text-align: center;"/>
+      <Swapi/>
     </v-content>
     <v-navigation-drawer
       temporary
@@ -72,6 +73,7 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import Swapi from './views/Swapi.vue'
 
 export default {
   name: 'App',
@@ -91,7 +93,8 @@ export default {
     }
   },
   components: {
-    HelloWorld
+    HelloWorld,
+    Swapi
   }
 }
 </script>
