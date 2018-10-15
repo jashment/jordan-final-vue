@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app dark>
     <v-navigation-drawer
       persistent
       :mini-variant="miniVariant"
@@ -46,6 +46,7 @@
     </v-toolbar>
     <v-content>
       <router-view/>
+      <HelloWorld style="text-align: center;"/>
     </v-content>
     <v-navigation-drawer
       temporary
@@ -70,6 +71,7 @@
 </template>
 
 <script>
+import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
@@ -85,8 +87,11 @@ export default {
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Vuetify.js'
+      title: 'Final Project'
     }
+  },
+  components: {
+    HelloWorld
   }
 }
 </script>
