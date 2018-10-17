@@ -32,7 +32,7 @@
             <v-divider
               v-else-if="item.divider"
               :inset="item.inset"
-              :key="index"
+              :key="people"
             ></v-divider>
 
             <v-list-tile
