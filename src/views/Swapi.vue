@@ -31,6 +31,7 @@
 
 
         <v-list three-line>
+          <v-list-group>
           <template v-for="people in allPeople">
             <v-subheader
               v-if="people.name"
@@ -68,6 +69,7 @@
               </v-list-tile-content>
             </v-list-tile>
           </template>
+          </v-list-group>
         </v-list>
       </v-card>
     </v-flex>
