@@ -49,6 +49,7 @@
         <v-btn>Search</v-btn>
       </v-card-action>
       <Swapi/>
+      <Starships/>
       <router-view/>
       <HelloWorld style="text-align: center;"/>
 
@@ -78,6 +79,7 @@
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import Swapi from './views/Swapi.vue'
+import Starships from './views/Starships.vue'
 
 export default {
   name: 'App',
@@ -98,7 +100,8 @@ export default {
   },
   components: {
     HelloWorld,
-    Swapi
+    Swapi,
+    Starships
   }
 }
 </script>
