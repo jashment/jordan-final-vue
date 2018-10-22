@@ -8,19 +8,18 @@
                   <div>
                     <h3 class="headline mb-0">{{people.name}}</h3>
                     <hr>
-                    <div>Height: {{people.height}}</div>
-                    <div>Mass: {{people.mass}}</div>
-                    <span>Birth Year: {{people.birth_year}}</span>
-                    <div>Hair Color: {{people.hair_color}}</div>
-                    <div>Skin Color: {{people.skin_color}}</div>
-                    <div>Eye Color: {{people.eye_color}}</div>
-                    <div>Gender: {{people.gender}}</div>
-                    <div>Homeworld: {{people.homeworld}}</div>
+                    <v-list-group>
+                      <div>Height: {{people.height}}</div>
+                      <div>Mass: {{people.mass}}</div>
+                      <span>Birth Year: {{people.birth_year}}</span>
+                      <div>Hair Color: {{people.hair_color}}</div>
+                      <div>Skin Color: {{people.skin_color}}</div>
+                      <div>Eye Color: {{people.eye_color}}</div>
+                      <div>Gender: {{people.gender}}</div>
+                      <div>Homeworld: {{people.homeworld}}</div>
+                    </v-list-group>
                   </div>
                 </v-card-title>
-                <v-card-action>
-                  <v-btn>Search</v-btn>
-                </v-card-action>
               </v-card>
             </v-flex>
           </v-layout>

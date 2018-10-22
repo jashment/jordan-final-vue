@@ -45,6 +45,9 @@
       </v-btn>
     </v-toolbar>
     <v-content>
+      <v-card-action>
+        <v-btn>Search</v-btn>
+      </v-card-action>
       <Swapi/>
       <router-view/>
       <HelloWorld style="text-align: center;"/>
