@@ -45,9 +45,10 @@
       </v-btn>
     </v-toolbar>
     <v-content>
+      <Swapi/>
       <router-view/>
       <HelloWorld style="text-align: center;"/>
-      <Swapi/>
+
     </v-content>
     <v-navigation-drawer
       temporary

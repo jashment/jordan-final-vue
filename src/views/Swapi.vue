@@ -1,12 +1,30 @@
 <template>
     <div>
-        <!--<div>
-            <ul>
-                <li v-for="people in allPeople" :key="people.name">
-                    {{people.name}}
-                </li>
-            </ul>
-        </div>-->
+        <v-container grid-list-xl>
+          <v-layout row wrap>
+            <v-flex v-for="people in allPeople" :key="`1${i}`" xs4>
+              <v-card>
+                <v-card-title primary-title>
+                  <div>
+                    <h3 class="headline mb-0">{{people.name}}</h3>
+                    <hr>
+                    <div>Height: {{people.height}}</div>
+                    <div>Mass: {{people.mass}}</div>
+                    <span>Birth Year: {{people.birth_year}}</span>
+                    <div>Hair Color: {{people.hair_color}}</div>
+                    <div>Skin Color: {{people.skin_color}}</div>
+                    <div>Eye Color: {{people.eye_color}}</div>
+                    <div>Gender: {{people.gender}}</div>
+                    <div>Homeworld: {{people.homeworld}}</div>
+                  </div>
+                </v-card-title>
+                <v-card-action>
+                  <v-btn>Search</v-btn>
+                </v-card-action>
+              </v-card>
+            </v-flex>
+          </v-layout>
+        </v-container>
 
         <v-layout row>
     <v-flex xs12 sm6 offset-sm3>
@@ -60,15 +78,22 @@
 
 <script>
 import {people} from '../assets/people';
+import {planets} from '../assets/planets';
 export default {
     data () {
         return {
-            allPeople: people
+            allPeople: people,
+            allPlanets: planets,
+            info: null
         }
     },
     created () {
         console.log(people);
-    }
+    },
+    mounted() {
+    axios.get("https://swapi.co/api/planets")
+    .then(response => {this.info = response.data})
+  }
 }
 </script>
 
