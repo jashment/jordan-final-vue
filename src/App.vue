@@ -50,6 +50,7 @@
       </v-card-action>
       <Swapi/>
       <Starships/>
+      <Vehicles/>
       <router-view/>
       <HelloWorld style="text-align: center;"/>
 
@@ -80,6 +81,7 @@
 import HelloWorld from './components/HelloWorld.vue'
 import Swapi from './views/Swapi.vue'
 import Starships from './views/Starships.vue'
+import Vehicles from './views/Vehicles.vue'
 
 export default {
   name: 'App',
