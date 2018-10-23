@@ -48,8 +48,11 @@
       <v-card-action>
         <v-btn>Search</v-btn>
       </v-card-action>
-      <Swapi/>
+        <v-list-group>
+            <Swapi/>
+        </v-list-group>
       <Starships/>
+      <br>
       <Vehicles/>
       <router-view/>
       <HelloWorld style="text-align: center;"/>
@@ -103,7 +106,8 @@ export default {
   components: {
     HelloWorld,
     Swapi,
-    Starships
+    Starships,
+    Vehicles
   }
 }
 </script>
