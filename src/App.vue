@@ -51,9 +51,19 @@
         <v-list-group>
             <Swapi/>
         </v-list-group>
-      <Starships/>
-      <br>
-      <Vehicles/>
+        <v-list-group>
+          <Species/>
+        </v-list-group>
+        <v-list-group>
+          <Starships/>
+        </v-list-group>
+        <v-list-group>
+          <Vehicles/>
+        </v-list-group>
+        <v-list-group>
+          <Planets/>
+        </v-list-group>
+
       <router-view/>
       <HelloWorld style="text-align: center;"/>
 
@@ -86,6 +96,7 @@ import Swapi from './views/Swapi.vue'
 import Starships from './views/Starships.vue'
 import Vehicles from './views/Vehicles.vue'
 import Planets from './views/Planets.vue'
+import Species from './views/Species.vue'
 
 export default {
   name: 'App',
@@ -109,7 +120,8 @@ export default {
     Swapi,
     Starships,
     Vehicles,
-    Planets
+    Planets,
+    Species
   }
 }
 </script>
