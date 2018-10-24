@@ -85,6 +85,7 @@ import HelloWorld from './components/HelloWorld.vue'
 import Swapi from './views/Swapi.vue'
 import Starships from './views/Starships.vue'
 import Vehicles from './views/Vehicles.vue'
+import Planets from './views/Planets.vue'
 
 export default {
   name: 'App',
@@ -107,7 +108,8 @@ export default {
     HelloWorld,
     Swapi,
     Starships,
-    Vehicles
+    Vehicles,
+    Planets
   }
 }
 </script>
