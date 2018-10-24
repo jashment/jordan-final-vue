@@ -48,22 +48,33 @@
       <v-card-action>
         <v-btn>Search</v-btn>
       </v-card-action>
-        <v-list-group>
-            <Swapi/>
-        </v-list-group>
-        <v-list-group>
-          <Species/>
-        </v-list-group>
-        <v-list-group>
-          <Starships/>
-        </v-list-group>
-        <v-list-group>
-          <Vehicles/>
-        </v-list-group>
-        <v-list-group>
-          <Planets/>
-        </v-list-group>
-
+      <v-list>
+        <div>People
+          <v-list-group>
+              <Swapi/>
+          </v-list-group>
+        </div>
+        <div>Species
+          <v-list-group>
+            <Species/>
+          </v-list-group>
+        </div>
+        <div>Starships
+          <v-list-group>
+            <Starships/>
+          </v-list-group>
+        </div>
+        <div>Vehicles
+          <v-list-group>
+            <Vehicles/>
+          </v-list-group>
+        </div>
+        <div>Planets
+          <v-list-group>
+            <Planets/>
+          </v-list-group>
+        </div>
+      </v-list>
       <router-view/>
       <HelloWorld style="text-align: center;"/>
 

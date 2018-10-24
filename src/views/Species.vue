@@ -11,9 +11,9 @@
                     <v-list-group>
                       <div>Classification: {{species.classification}}</div>
                       <span>Designation: {{species.designation}}</span>
-                      <div>Cost in Credits: {{vehicles.cost_in_credits}}</div>
-                      <div>Length: {{vehicles.length}}</div>
-                      <div>Max Atmosphering Speed: {{vehicles.max_atmosphering_speed}}</div>
+                      <div>Average Height: {{species.average_height}}</div>
+                      <div>Skin Colors: {{species.skin_colors}}</div>
+                      <div>Hair Colors: {{species.hair_colors}}</div>
                       <div>Crew: {{vehicles.crew}}</div>
                       <div>Vehicle Class: {{vehicles.vehicle_class}}</div>
                     </v-list-group>
