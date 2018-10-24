@@ -1,7 +1,15 @@
 <template>
-  <v-app dark>
+  <v-app>
     <div>
-      <router-link to="/login">Login</router-link>
+      <span>
+        <router-link to="/home">Home</router-link>
+      </span>
+      <span>
+        <router-link to="/login">Login</router-link>
+        </span>
+      <span>
+        <router-link to="/about">About</router-link>
+      </span>
     </div>
     <router-view></router-view>
   </v-app>
@@ -42,3 +50,13 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+  div {
+    padding: 1em;
+    text-align: center;
+  }
+  span {
+    padding: 1em;
+  }
+</style>
