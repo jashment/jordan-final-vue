@@ -26,8 +26,8 @@ export default {
     data () {
         return {
             show1: false,
-            password: 'Password',
-            email: 'Email'
+            password: '',
+            email: ''
         }
     },
     methods: {
