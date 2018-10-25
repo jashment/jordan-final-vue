@@ -17,7 +17,7 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import Swapi from './views/Swapi.vue'
+import People from './views/People.vue'
 import Starships from './views/Starships.vue'
 import Vehicles from './views/Vehicles.vue'
 import Planets from './views/Planets.vue'
@@ -42,7 +42,7 @@ export default {
   },
   components: {
     HelloWorld,
-    Swapi,
+    People,
     Starships,
     Vehicles,
     Planets,
