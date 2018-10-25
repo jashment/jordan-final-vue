@@ -10,21 +10,25 @@
       app
     >
       <v-list>
-          <div>
+          <v-card>
             <router-link to="/people">People</router-link>
-          </div>
-          <div>
+          </v-card>
+          <v-divider></v-divider>
+          <v-card>
             <router-link to="/planets">Planets</router-link>
-          </div>
-          <div>
+          </v-card>
+          <v-divider></v-divider>
+          <v-card>
             <router-link to="/species">Species</router-link>
-          </div>
-          <div>
+          </v-card>
+          <v-divider></v-divider>
+          <v-card>
             <router-link to="/starships">Starships</router-link>
-          </div>
-          <div>
+          </v-card>
+          <v-divider></v-divider>
+          <v-card>
             <router-link to="/vehicles">Vehicles</router-link>
-          </div>
+          </v-card>
       </v-list>
     </v-navigation-drawer>
     <v-toolbar
@@ -113,3 +117,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+    div {
+      padding: 1em;
+    }
+</style>
