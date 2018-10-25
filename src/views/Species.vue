@@ -14,8 +14,9 @@
                       <div>Average Height: {{species.average_height}}</div>
                       <div>Skin Colors: {{species.skin_colors}}</div>
                       <div>Hair Colors: {{species.hair_colors}}</div>
-                      <div>Crew: {{vehicles.crew}}</div>
-                      <div>Vehicle Class: {{vehicles.vehicle_class}}</div>
+                      <div>Eye Colors: {{species.eye_colors}}</div>
+                      <div>Average Lifespan: {{species.average_lifespan}}</div>
+                      <div>Language: {{species.language}}</div>
                     </v-list-group>
                   </div>
                 </v-card-title>

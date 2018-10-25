@@ -10,18 +10,21 @@
       app
     >
       <v-list>
-        <v-list-tile
-          value="true"
-          v-for="(item, i) in items"
-          :key="i"
-        >
-          <v-list-tile-action>
-            <v-icon v-html="item.icon"></v-icon>
-          </v-list-tile-action>
-          <v-list-tile-content>
-            <v-list-tile-title v-text="item.title"></v-list-tile-title>
-          </v-list-tile-content>
-        </v-list-tile>
+          <div>
+            <router-link to="/people">People</router-link>
+          </div>
+          <div>
+            <router-link to="/planets">Planets</router-link>
+          </div>
+          <div>
+            <router-link to="/species">Species</router-link>
+          </div>
+          <div>
+            <router-link to="/starships">Starships</router-link>
+          </div>
+          <div>
+            <router-link to="/vehicles">Vehicles</router-link>
+          </div>
       </v-list>
     </v-navigation-drawer>
     <v-toolbar
@@ -48,33 +51,6 @@
       <v-card-action>
         <v-btn>Search</v-btn>
       </v-card-action>
-      <v-list>
-        <div>People
-          <v-list-group>
-              <Swapi/>
-          </v-list-group>
-        </div>
-        <div>Species
-          <v-list-group>
-            <Species/>
-          </v-list-group>
-        </div>
-        <div>Starships
-          <v-list-group>
-            <Starships/>
-          </v-list-group>
-        </div>
-        <div>Vehicles
-          <v-list-group>
-            <Vehicles/>
-          </v-list-group>
-        </div>
-        <div>Planets
-          <v-list-group>
-            <Planets/>
-          </v-list-group>
-        </div>
-      </v-list>
       <router-view/>
       <HelloWorld style="text-align: center;"/>
 
@@ -103,7 +79,7 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import Swapi from './views/Swapi.vue'
+import People from './views/People.vue'
 import Starships from './views/Starships.vue'
 import Vehicles from './views/Vehicles.vue'
 import Planets from './views/Planets.vue'
@@ -118,7 +94,8 @@ export default {
       fixed: false,
       items: [{
         icon: 'mdi-chart-bubble',
-        title: 'Inspire'
+        title: 'Contents',
+
       }],
       miniVariant: false,
       right: true,
@@ -128,7 +105,7 @@ export default {
   },
   components: {
     HelloWorld,
-    Swapi,
+    People,
     Starships,
     Vehicles,
     Planets,
