@@ -10,11 +10,11 @@
       app
     >
       <v-list>
-          <v-card>
+          <v-card hover>
             <router-link to="/people">People</router-link>
           </v-card>
           <v-divider></v-divider>
-          <v-card>
+          <v-card hover>
             <router-link to="/planets">Planets</router-link>
           </v-card>
           <v-divider></v-divider>
