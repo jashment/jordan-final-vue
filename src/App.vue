@@ -10,6 +10,9 @@
       <span>
         <router-link to="/about">About</router-link>
       </span>
+      <span>
+        <router-link to="/people">People</router-link>
+      </span>
     </div>
     <router-view></router-view>
   </v-app>
