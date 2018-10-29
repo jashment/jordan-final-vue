@@ -18,15 +18,15 @@
             <router-link to="/planets">Planets</router-link>
           </v-card>
           <v-divider></v-divider>
-          <v-card>
+          <v-card hover>
             <router-link to="/species">Species</router-link>
           </v-card>
           <v-divider></v-divider>
-          <v-card>
+          <v-card hover>
             <router-link to="/starships">Starships</router-link>
           </v-card>
           <v-divider></v-divider>
-          <v-card>
+          <v-card hover>
             <router-link to="/vehicles">Vehicles</router-link>
           </v-card>
       </v-list>
@@ -53,7 +53,7 @@
     </v-toolbar>
     <v-content>
       <v-card-action>
-        <v-btn>Search</v-btn>
+        <v-btn extended>Search</v-btn>
       </v-card-action>
       <router-view/>
       <HelloWorld style="text-align: center;"/>
