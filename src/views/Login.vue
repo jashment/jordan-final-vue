@@ -31,13 +31,11 @@
                             :class="{invalid: $v.password.$error}"
                             @input="$v.password.$touch()">
                         </v-text-field>
-                        <v-btn @click="clear">clear</v-btn>
+                        <v-btn @click="clear">Clear</v-btn>
                     </v-form>
                     </div>
                 </v-card>
             </v-flex>
-            <p>{{email}}</p>
-            <p>{{password}}</p>
         </v-layout>
     </v-container>
 </template>
@@ -49,12 +47,19 @@ export default {
         return {
             show1: false,
             password: '',
-            email: ''
+            email: '',
+            emailRules: [
+            v => !!v || 'E-mail is required',
+            v => /.+@.+/.test(v) || 'E-mail must be valid'
+      ]
         }
     },
     methods: {
         clear () {
-            this.$refs.form.reset();
+        this.$v.$reset()
+        this.name = ''
+        this.email = ''
+        this.password = ''
         }
     },
     validations: {
