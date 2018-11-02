@@ -75,6 +75,6 @@ export default {
         padding: .5em;
     }
     .input.invalid div {
-        border: 1px solid red;
+        background-color: red;
     }
 </style>
