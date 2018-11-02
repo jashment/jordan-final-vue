@@ -29,7 +29,8 @@
                             label="Password" 
                             :type="show1 ? 'text' : 'password'"
                             :class="{invalid: $v.password.$error}"
-                            @input="$v.password.$touch()">
+                            @input="$v.password.$touch()"
+                            :rules="[rules.required, rules.min]">
                         </v-text-field>
                         <v-btn @click="clear">Clear</v-btn>
                     </v-form>
@@ -51,7 +52,12 @@ export default {
             emailRules: [
             v => !!v || 'E-mail is required',
             v => /.+@.+/.test(v) || 'E-mail must be valid'
-      ]
+            ],
+            rules: {
+            required: value => !!value || 'Required.',
+            min: v => v.length >= 8 || 'Min 8 characters',
+            emailMatch: () => ('The email and password you entered don\'t match')
+            }
         }
     },
     methods: {
