@@ -29,6 +29,10 @@
           <v-card hover>
             <router-link to="/vehicles">Vehicles</router-link>
           </v-card>
+          <v-divider></v-divider>
+          <v-card hover>
+            <router-link to="/login">Login</router-link>
+          </v-card>
       </v-list>
     </v-navigation-drawer>
     <v-toolbar

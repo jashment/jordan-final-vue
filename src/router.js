@@ -6,6 +6,7 @@ import Planets from "./views/Planets.vue";
 import Species from "./views/Species.vue";
 import Vehicles from "./views/Vehicles.vue";
 import Starships from "./views/Starships.vue";
+import Login from "./views/Login.vue";
 
 
 Vue.use(Router);
@@ -50,6 +51,11 @@ export default new Router({
       path: "/starships",
       name: "starships",
       component: Starships
+    },
+    {
+      path: "/login",
+      name: "login",
+      component: Login
     }
   ]
 });
