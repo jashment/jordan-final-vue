@@ -30,8 +30,10 @@
                             :type="show1 ? 'text' : 'password'"
                             :class="{invalid: $v.password.$error}"
                             @blur="$v.password.$touch()"
-                            :rules="[rules.required, rules.min]">
+                            :rules="[rules.required, rules.min]"
+                            validate-on-blur="">
                         </v-text-field>
+                        <v-btn>Submit</v-btn>
                         <v-btn @click="clear">Clear</v-btn>
                     </v-form>
                     </div>
