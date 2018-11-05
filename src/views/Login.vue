@@ -15,7 +15,7 @@
                         <v-spacer></v-spacer>
                         <div class ="input" :class="{invalid: $v.email.$error}">
                             <v-text-field 
-                                v-model.lazy="email" 
+                                v-model.lazy="email"
                                 :rules="emailRules" 
                                 label="E-mail" 
                                 @blur="$v.email.$touch()"
@@ -56,7 +56,7 @@ export default {
             v => /.+@.+/.test(v) || 'E-mail must be valid'
             ],
             rules: {
-                required: value => !!value || 'Required.',
+                required: value => !!value || 'Password is Required.',
                 min: v => v.length >= 8 || 'Min 8 characters',
                 emailMatch: () => ('The email and password you entered don\'t match')
             }
