@@ -8,6 +8,19 @@ import people from "./assets/people";
 import Vuelidate from "vuelidate"
 
 Vue.use(Vuelidate)
+Vue.directive('box-shadow', {
+  bind(el, binding){
+    let blur = 0
+    if(binding.modifiers['blur']) {
+      blur = 5
+    }
+    if (binding.arg === 'offset') {
+      el.style.boxShadow = '0px ${binding.value}px ${blur}px #666'
+    }else{
+    el.style.boxShadow = '0px 3px 5px #666'
+    }
+  }
+})
 
 Vue.config.productionTip = false;
 

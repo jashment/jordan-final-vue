@@ -1,5 +1,5 @@
 <template>
-  <v-app dark>
+  <v-app>
     <v-navigation-drawer
       persistent
       :mini-variant="miniVariant"
@@ -10,6 +10,9 @@
       app
     >
       <v-list>
+        <v-card hover>
+            <router-link to="/login">Login</router-link>
+          </v-card>
           <v-card hover>
             <router-link to="/people">People</router-link>
           </v-card>
@@ -30,9 +33,6 @@
             <router-link to="/vehicles">Vehicles</router-link>
           </v-card>
           <v-divider></v-divider>
-          <v-card hover>
-            <router-link to="/login">Login</router-link>
-          </v-card>
       </v-list>
     </v-navigation-drawer>
     <v-toolbar
@@ -80,7 +80,7 @@
       </v-list>
     </v-navigation-drawer>
     <v-footer :fixed="fixed" app>
-      <span>&copy; 2017</span>
+      <span>&copy; 2018</span>
     </v-footer>
   </v-app>
 </template>
