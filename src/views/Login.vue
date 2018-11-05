@@ -15,21 +15,21 @@
                         <v-spacer></v-spacer>
                         <div class ="input" :class="{invalid: $v.email.$error}">
                             <v-text-field 
-                                v-model="email" 
+                                v-model.lazy="email" 
                                 :rules="emailRules" 
                                 label="E-mail" 
-                                @input="$v.email.$touch()"
+                                @blur="$v.email.$touch()"
                                 required>
                             </v-text-field>
                             <p v-if="!$v.email.email">Please provide a valid email.</p>
                         </div>
                         <v-spacer></v-spacer>
                         <v-text-field 
-                            v-model="password" 
+                            v-model.lazy="password" 
                             label="Password" 
                             :type="show1 ? 'text' : 'password'"
                             :class="{invalid: $v.password.$error}"
-                            @input="$v.password.$touch()"
+                            @blur="$v.password.$touch()"
                             :rules="[rules.required, rules.min]">
                         </v-text-field>
                         <v-btn @click="clear">Clear</v-btn>
@@ -54,9 +54,9 @@ export default {
             v => /.+@.+/.test(v) || 'E-mail must be valid'
             ],
             rules: {
-            required: value => !!value || 'Required.',
-            min: v => v.length >= 8 || 'Min 8 characters',
-            emailMatch: () => ('The email and password you entered don\'t match')
+                required: value => !!value || 'Required.',
+                min: v => v.length >= 8 || 'Min 8 characters',
+                emailMatch: () => ('The email and password you entered don\'t match')
             }
         }
     },
@@ -84,8 +84,5 @@ export default {
 <style scoped>
     div {
         padding: .5em;
-    }
-    .input.invalid div {
-        background-color: red;
     }
 </style>
