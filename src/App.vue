@@ -33,6 +33,10 @@
             <router-link to="/vehicles">Vehicles</router-link>
           </v-card>
           <v-divider></v-divider>
+          <v-card hover>
+            <router-link to="/animations">Animations</router-link>
+          </v-card>
+          <v-divider></v-divider>
       </v-list>
     </v-navigation-drawer>
     <v-toolbar
@@ -60,7 +64,7 @@
         <v-btn extended>Search</v-btn>
       </v-card-action>
       <router-view/>
-      <HelloWorld style="text-align: center;"/>
+
 
     </v-content>
     <v-navigation-drawer
@@ -92,6 +96,8 @@ import Starships from './views/Starships.vue'
 import Vehicles from './views/Vehicles.vue'
 import Planets from './views/Planets.vue'
 import Species from './views/Species.vue'
+import Login from "./views/Login.vue"
+import Animations from "./views/Animations.vue";
 
 export default {
   name: 'App',
@@ -117,7 +123,9 @@ export default {
     Starships,
     Vehicles,
     Planets,
-    Species
+    Species,
+    Animations,
+    Login
   }
 }
 </script>
