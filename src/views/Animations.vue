@@ -1,7 +1,7 @@
 <template>
     <div>
             
-        <h1>Animations</h1>
+        <h1 class="animated infinite flash">Animations</h1>
         <hr>
         <v-btn color="warning" @click="show = !show">Show Alert</v-btn>
         <br><br>
@@ -13,8 +13,10 @@
             <v-card v-if="show">This is some info</v-card>
         </transition>
 
-        <transition name="slide" type="animation">
-            <v-card v-if="show">This is some info</v-card>
+        <transition name="flip" type="animation">
+            <v-card 
+            v-if="show"
+            height="100px">This is some info</v-card>
         </transition>
 
         <hr>
@@ -106,6 +108,38 @@ export default {
             transform: translateY(0);
         } to {
             transform: translateY(20px);
+        }
+    }
+
+    .flip-enter {
+        animation: flip-in 2s ease-out backwards
+    }
+
+    .flip-enter-active {
+
+    }
+
+    .flip-leave {
+
+    }
+
+    .flip-leave-active {
+        animation: flip-out 0.5s ease-out forwards
+    }
+
+    @keyframes flip-in {
+        from {
+            transform: rotateY(90deg)
+        } to {
+            transform: rotateY(0deg)
+        }
+    }
+
+    @keyframes flip-out {
+        from {
+            transform: rotateY(0deg)
+        } to {
+            transform: rotateY(90deg)
         }
     }
 </style>
