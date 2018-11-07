@@ -51,27 +51,12 @@
     <v-content>
       <v-card-action>
         <v-btn extended>Search</v-btn>
+        <input v-model="filterText">
       </v-card-action>
       <router-view/>
-      <HelloWorld style="text-align: center;"/>
 
     </v-content>
-    <v-navigation-drawer
-      temporary
-      :right="right"
-      v-model="rightDrawer"
-      fixed
-      app
-    >
-      <v-list>
-        <v-list-tile @click="right = !right">
-          <v-list-tile-action>
-            <v-icon>mdi-arrows-left-right-bold-outline</v-icon>
-          </v-list-tile-action>
-          <v-list-tile-title>Switch drawer (click me)</v-list-tile-title>
-        </v-list-tile>
-      </v-list>
-    </v-navigation-drawer>
+
     <v-footer :fixed="fixed" app>
       <span>&copy; 2018</span>
     </v-footer>
@@ -101,7 +86,8 @@ export default {
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Final Project'
+      title: 'Final Project',
+      filterText: ''
     }
   },
   components: {
@@ -111,6 +97,9 @@ export default {
     Vehicles,
     Planets,
     Species
+  },
+  computed: {
+
   }
 }
 </script>

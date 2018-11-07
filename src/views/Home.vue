@@ -2,15 +2,12 @@
   <v-container fluid>
     <v-slide-y-transition mode="out-in">
       <v-layout column align-center>
-        <img src="@/assets/logo.png" alt="Vuetify.js" class="mb-5">
-        <blockquote>
-          &#8220;First, solve the problem. Then, write the code.&#8221;
-          <footer>
-            <small>
-              <em>&mdash;John Johnson</em>
-            </small>
-          </footer>
-        </blockquote>
+        <v-card>
+          <div style="text-align: center;">
+            <h1>Welcome to an App using Swapi.co</h1>
+            <p >Please use side navigation to navigate site</p>
+          </div>
+        </v-card>
       </v-layout>
     </v-slide-y-transition>
   </v-container>
