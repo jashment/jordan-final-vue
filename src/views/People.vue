@@ -6,7 +6,7 @@
               <v-card>
                 <v-card-title primary-title>
                   <div>
-                    <h3 class="headline mb-0">{{people.name}}</h3>
+                    <h3 class="headline mb-0">{{people.name | allCaps}}</h3>
                     <hr>
                     <v-list-group>
                       <div>Height: {{people.height}}</div>
@@ -78,22 +78,18 @@
 </template>
 
 <script>
-import {people} from '../assets/people';
-import {planets} from '../assets/planets';
+import {Mixins} from '../assets/Mixins.js';
 export default {
-    data () {
-        return {
-            allPeople: people,
-            allPlanets: planets,
-            info: null
+  mixins: [Mixins],
+  filters: {
+        allCaps(value) {
+            return value.toUpperCase()
         }
     },
-    created () {
-        console.log(people);
-    },
-    mounted() {
-    axios.get("https://swapi.co/api/planets")
-    .then(response => {this.info = response.data})
+  computed: {
+    allCapped(value) {
+      return value.toUpperCase()
+    }
   }
 }
 </script>
