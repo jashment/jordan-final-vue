@@ -17,7 +17,6 @@
 <style scoped>
 h1, h2 {
   font-weight: normal;
- 
 }
 ul {
   list-style-type: none;
