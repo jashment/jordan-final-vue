@@ -2,12 +2,12 @@
   <v-container fluid>
     <v-slide-y-transition mode="out-in">
       <v-layout column align-center>
-        <v-card>
+
           <div style="text-align: center;">
-            <h1>Welcome to an App using Swapi.co</h1>
+            <h1 class="animated infinite flash slower">Welcome to an App using Swapi.co</h1>
             <p >Please use side navigation to navigate site</p>
           </div>
-        </v-card>
+
       </v-layout>
     </v-slide-y-transition>
   </v-container>
