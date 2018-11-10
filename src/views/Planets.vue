@@ -30,22 +30,9 @@
 </template>
 
 <script>
-import {people} from '../assets/people';
-import {planets} from '../assets/planets';
-import {starships} from '../assets/starships';
-import {vehicles} from '../assets/vehicles';
-import {species} from '../assets/species';
+import {Mixins} from '../assets/Mixins.js';
 export default {
-    data () {
-        return {
-            allPeople: people,
-            allPlanets: planets,
-            allStarships: starships,
-            allVehicles: vehicles,
-            allSpecies: species,
-            info: null
-        }
-    },
+  mixins: [Mixins],
     created () {
         console.log(people);
     },

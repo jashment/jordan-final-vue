@@ -78,16 +78,9 @@
 </template>
 
 <script>
-import {people} from '../assets/people';
-import {planets} from '../assets/planets';
+import {Mixins} from '../assets/Mixins.js';
 export default {
-    data () {
-        return {
-            allPeople: people,
-            allPlanets: planets,
-            info: null
-        }
-    },
+    mixins: [Mixins],
     created () {
         console.log(people);
     },
