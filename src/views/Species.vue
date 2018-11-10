@@ -8,15 +8,17 @@
                   <div>
                     <h3 class="headline mb-0">{{species.name}}</h3>
                     <hr>
-                    <v-list-group>
-                      <div>Classification: {{species.classification}}</div>
-                      <span>Designation: {{species.designation}}</span>
-                      <div>Average Height: {{species.average_height}}</div>
-                      <div>Skin Colors: {{species.skin_colors}}</div>
-                      <div>Hair Colors: {{species.hair_colors}}</div>
-                      <div>Eye Colors: {{species.eye_colors}}</div>
-                      <div>Average Lifespan: {{species.average_lifespan}}</div>
-                      <div>Language: {{species.language}}</div>
+                    <v-list-group class="animated fadeInDown">
+                      <div class="animated fadeInDown">
+                        <div>Classification: {{species.classification}}</div>
+                        <span>Designation: {{species.designation}}</span>
+                        <div>Average Height: {{species.average_height}}</div>
+                        <div>Skin Colors: {{species.skin_colors}}</div>
+                        <div>Hair Colors: {{species.hair_colors}}</div>
+                        <div>Eye Colors: {{species.eye_colors}}</div>
+                        <div>Average Lifespan: {{species.average_lifespan}}</div>
+                        <div>Language: {{species.language}}</div>
+                      </div>
                     </v-list-group>
                   </div>
                 </v-card-title>
