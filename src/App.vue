@@ -34,6 +34,10 @@
             <router-link to="/vehicles">Vehicles</router-link>
           </v-card>
           <v-divider></v-divider>
+          <v-card hover>
+            <router-link to="/axios">Axios</router-link>
+          </v-card>
+          <v-divider></v-divider>
       </v-list>
     </v-navigation-drawer>
     <v-toolbar
@@ -70,6 +74,7 @@ import Starships from './views/Starships.vue'
 import Vehicles from './views/Vehicles.vue'
 import Planets from './views/Planets.vue'
 import Species from './views/Species.vue'
+import Axios from './views/Axios.vue'
 
 export default {
   name: 'App',
@@ -96,7 +101,8 @@ export default {
     Starships,
     Vehicles,
     Planets,
-    Species
+    Species,
+    Axios
   },
   computed: {
 

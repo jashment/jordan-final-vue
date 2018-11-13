@@ -7,6 +7,7 @@ import Species from "./views/Species.vue";
 import Vehicles from "./views/Vehicles.vue";
 import Starships from "./views/Starships.vue";
 import Login from "./views/Login.vue";
+import Axios from "./views/Axios.vue";
 
 
 Vue.use(Router);
@@ -56,6 +57,11 @@ export default new Router({
       path: "/login",
       name: "login",
       component: Login
+    },
+    {
+      path: "/axios",
+      name: "axios",
+      component: Axios
     }
   ]
 });
