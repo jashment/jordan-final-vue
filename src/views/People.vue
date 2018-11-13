@@ -1,5 +1,6 @@
 <template>
     <div>
+      {{SWArray}}
         <v-container grid-list-xl>
           <v-layout row wrap>
             <v-flex v-for="people in SWArray" :key="`1${i}`" xs4>
@@ -45,7 +46,7 @@ export default {
     },
     mounted() {
     axios
-        .get("/people")
+        .get("/people/?page=2")
         .then(response => (this.SWArray = response.data.results))
         console.log(SWArray)
   }
