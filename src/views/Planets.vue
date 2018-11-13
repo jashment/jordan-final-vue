@@ -2,7 +2,7 @@
     <div>
         <v-container grid-list-xl>
           <v-layout row wrap>
-            <v-flex v-for="planets in allPlanets" :key="`1${i}`" xs4>
+            <v-flex v-for="planets in SWArray" :key="`1${i}`" xs4>
               <v-card>
                 <v-card-title primary-title>
                   <div>
@@ -31,15 +31,22 @@
 
 <script>
 import {Mixins} from '../assets/Mixins.js';
+import axios from 'axios';
 export default {
+  data () {
+    return {
+      SWArray: null
+    }
+  },
   mixins: [Mixins],
     created () {
-        console.log(people);
+        console.log(planets);
     },
-    mounted() {
-    axios.get("https://swapi.co/api/planets")
-    .then(response => {this.info = response.data})
-    }
+    mounted () {
+      axios
+        .get("planets/")
+        .then(response => (this.SWArray = response.data.results))
+  }
 }
 </script>
 

@@ -6,6 +6,7 @@ import router from "./router";
 import store from "./store";
 import people from "./assets/people";
 import Vuelidate from "vuelidate"
+import axios from 'axios'
 
 Vue.use(Vuelidate)
 Vue.directive('box-shadow', {
@@ -23,6 +24,8 @@ Vue.directive('box-shadow', {
 })
 
 Vue.config.productionTip = false;
+
+axios.defaults.baseURL = "https://swapi.co/api"
 
 new Vue({
   router,
