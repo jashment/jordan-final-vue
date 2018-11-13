@@ -20,7 +20,7 @@ export default {
   },
   mounted () {
       axios
-        .get("https://swapi.co/api/planets/")
+        .get("planets/")
         .then(response => (this.SWArray = response.data.results))
   }
 }
