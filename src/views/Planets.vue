@@ -1,11 +1,9 @@
 <template>
     <div>
-      <v-btn @click="getCourses()">Click Me</v-btn>
-      <div v-for="course in courses">
-        <div>{{courses.description}}</div>
-        <div>{{courses.lectureCredits}}</div>
-      </div>
-      <div>{{courses.descritpion}}</div>
+      <h1 id="heading" style="text-align: center;">Planets</h1>
+      <br>
+      <br>
+      <br>
         <v-container grid-list-xl>
           <v-layout row wrap>
             <v-flex v-for="planets in SWArray" :key="`1${i}`" xs4>
@@ -220,6 +218,12 @@
             </v-flex>
           </v-layout>
         </v-container>
+        <v-btn @click="getCourses()">Click Me</v-btn>
+      <div v-for="course in courses">
+        <div>{{courses.description}}</div>
+        <div>{{courses.lectureCredits}}</div>
+      </div>
+      <div>{{courses.descritpion}}</div>
     </div>
 </template>
 
@@ -254,6 +258,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+   #heading {
+    font-size: 4em;
+  }
 </style>

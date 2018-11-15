@@ -1,5 +1,9 @@
 <template>
     <div>
+      <h1 id="heading" style="text-align: center;">Vehicles</h1>
+      <br>
+      <br>
+      <br>
         <v-container grid-list-xl>
           <v-layout row wrap>
             <v-flex v-for="vehicles in SWArray" :key="`1${i}`" xs4>
@@ -128,5 +132,7 @@ export default {
 </script>
 
 <style>
-
+  #heading {
+    font-size: 4em;
+  }
 </style>

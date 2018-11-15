@@ -1,5 +1,9 @@
 <template>
     <div>
+      <h1 id="heading" style="text-align: center;">Starships</h1>
+      <br>
+      <br>
+      <br>
         <v-container grid-list-xl>
           <v-layout row wrap>
             <v-flex v-for="starships in SWArray" :key="`1${i}`" xs4>
@@ -127,6 +131,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+  #heading {
+    font-size: 4em;
+  }
 </style>

@@ -1,5 +1,9 @@
 <template>
     <div>
+      <h1 id="heading" style="text-align: center;">People</h1>
+      <br>
+      <br>
+      <br>
         <v-container grid-list-xl>
           <v-layout row wrap>
 
@@ -274,5 +278,9 @@ export default {
 <style scoped>
   .shadowed {
     box-shadow: 10px 10px 10px grey;
+  }
+
+  #heading {
+    font-size: 4em;
   }
 </style>
