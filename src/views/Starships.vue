@@ -10,13 +10,19 @@
                     <hr>
                     <v-list-group class="animated fadeInDown">
                       <div class="animated fadeInDown">
-                        <div>Model: {{starships.model}}</div>
-                        <span>Manufacturer: {{starships.manufacturer}}</span>
-                        <div>Cost in Credits: {{starships.cost_in_credits}}</div>
-                        <div>Length: {{starships.length}}</div>
-                        <div>Max Atmosphering Speed: {{starships.max_atmosphering_speed}}</div>
-                        <div>Crew: {{starships.crew}}</div>
-                        <div>Starship Class: {{starships.starship_class}}</div>
+                        <v-list-tile>Model: {{starships.model}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Manufacturer: {{starships.manufacturer}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Cost in Credits: {{starships.cost_in_credits}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Length: {{starships.length}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Max Atmosphering Speed: {{starships.max_atmosphering_speed}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Crew: {{starships.crew}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Starship Class: {{starships.starship_class}}</v-list-tile>
                       </div>
                     </v-list-group>
                   </div>
@@ -31,13 +37,19 @@
                     <hr>
                     <v-list-group class="animated fadeInDown">
                       <div class="animated fadeInDown">
-                        <div>Model: {{starships.model}}</div>
-                        <span>Manufacturer: {{starships.manufacturer}}</span>
-                        <div>Cost in Credits: {{starships.cost_in_credits}}</div>
-                        <div>Length: {{starships.length}}</div>
-                        <div>Max Atmosphering Speed: {{starships.max_atmosphering_speed}}</div>
-                        <div>Crew: {{starships.crew}}</div>
-                        <div>Starship Class: {{starships.starship_class}}</div>
+                        <v-list-tile>Model: {{starships.model}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Manufacturer: {{starships.manufacturer}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Cost in Credits: {{starships.cost_in_credits}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Length: {{starships.length}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Max Atmosphering Speed: {{starships.max_atmosphering_speed}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Crew: {{starships.crew}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Starship Class: {{starships.starship_class}}</v-list-tile>
                       </div>
                     </v-list-group>
                   </div>
@@ -52,13 +64,19 @@
                     <hr>
                     <v-list-group class="animated fadeInDown">
                       <div class="animated fadeInDown">
-                        <div>Model: {{starships.model}}</div>
-                        <span>Manufacturer: {{starships.manufacturer}}</span>
-                        <div>Cost in Credits: {{starships.cost_in_credits}}</div>
-                        <div>Length: {{starships.length}}</div>
-                        <div>Max Atmosphering Speed: {{starships.max_atmosphering_speed}}</div>
-                        <div>Crew: {{starships.crew}}</div>
-                        <div>Starship Class: {{starships.starship_class}}</div>
+                        <v-list-tile>Model: {{starships.model}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Manufacturer: {{starships.manufacturer}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Cost in Credits: {{starships.cost_in_credits}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Length: {{starships.length}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Max Atmosphering Speed: {{starships.max_atmosphering_speed}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Crew: {{starships.crew}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Starship Class: {{starships.starship_class}}</v-list-tile>
                       </div>
                     </v-list-group>
                   </div>
@@ -73,13 +91,19 @@
                     <hr>
                     <v-list-group class="animated fadeInDown">
                       <div class="animated fadeInDown">
-                        <div>Model: {{starships.model}}</div>
-                        <span>Manufacturer: {{starships.manufacturer}}</span>
-                        <div>Cost in Credits: {{starships.cost_in_credits}}</div>
-                        <div>Length: {{starships.length}}</div>
-                        <div>Max Atmosphering Speed: {{starships.max_atmosphering_speed}}</div>
-                        <div>Crew: {{starships.crew}}</div>
-                        <div>Starship Class: {{starships.starship_class}}</div>
+                        <v-list-tile>Model: {{starships.model}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Manufacturer: {{starships.manufacturer}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Cost in Credits: {{starships.cost_in_credits}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Length: {{starships.length}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Max Atmosphering Speed: {{starships.max_atmosphering_speed}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Crew: {{starships.crew}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Starship Class: {{starships.starship_class}}</v-list-tile>
                       </div>
                     </v-list-group>
                   </div>

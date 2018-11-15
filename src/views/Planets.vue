@@ -16,14 +16,22 @@
                     <hr>
                     <v-list-group class="animated fadeInDown">
                       <div class="animated fadeInDown">
-                        <div>Rotation Period: {{planets.rotation_period}}</div>
-                        <span>Orbital Period: {{planets.orbital_period}}</span>
-                        <div>Diameter: {{planets.diameter}}</div>
-                        <div>Climate: {{planets.climate}}</div>
-                        <div>Gravity: {{planets.gravity}}</div>
-                        <div>Terrain: {{planets.terrain}}</div>
-                        <div>Surface Water: {{planets.surface_water}}</div>
-                        <div>Population: {{planets.population}}</div>
+                        <v-list-tile>Rotation Period: {{planets.rotation_period}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Orbital Period: {{planets.orbital_period}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Diameter: {{planets.diameter}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Climate: {{planets.climate}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Gravity: {{planets.gravity}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Terrain: {{planets.terrain}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Surface Water: {{planets.surface_water}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Population: {{planets.population}}</v-list-tile>
+                        <v-divider></v-divider>
                       </div>
                     </v-list-group>
                   </div>
@@ -38,14 +46,22 @@
                     <hr>
                     <v-list-group class="animated fadeInDown">
                       <div class="animated fadeInDown">
-                        <div>Rotation Period: {{planets.rotation_period}}</div>
-                        <span>Orbital Period: {{planets.orbital_period}}</span>
-                        <div>Diameter: {{planets.diameter}}</div>
-                        <div>Climate: {{planets.climate}}</div>
-                        <div>Gravity: {{planets.gravity}}</div>
-                        <div>Terrain: {{planets.terrain}}</div>
-                        <div>Surface Water: {{planets.surface_water}}</div>
-                        <div>Population: {{planets.population}}</div>
+                        <v-list-tile>Rotation Period: {{planets.rotation_period}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Orbital Period: {{planets.orbital_period}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Diameter: {{planets.diameter}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Climate: {{planets.climate}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Gravity: {{planets.gravity}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Terrain: {{planets.terrain}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Surface Water: {{planets.surface_water}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Population: {{planets.population}}</v-list-tile>
+                        <v-divider></v-divider>
                       </div>
                     </v-list-group>
                   </div>
@@ -60,14 +76,22 @@
                     <hr>
                     <v-list-group class="animated fadeInDown">
                       <div class="animated fadeInDown">
-                        <div>Rotation Period: {{planets.rotation_period}}</div>
-                        <span>Orbital Period: {{planets.orbital_period}}</span>
-                        <div>Diameter: {{planets.diameter}}</div>
-                        <div>Climate: {{planets.climate}}</div>
-                        <div>Gravity: {{planets.gravity}}</div>
-                        <div>Terrain: {{planets.terrain}}</div>
-                        <div>Surface Water: {{planets.surface_water}}</div>
-                        <div>Population: {{planets.population}}</div>
+                        <v-list-tile>Rotation Period: {{planets.rotation_period}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Orbital Period: {{planets.orbital_period}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Diameter: {{planets.diameter}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Climate: {{planets.climate}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Gravity: {{planets.gravity}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Terrain: {{planets.terrain}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Surface Water: {{planets.surface_water}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Population: {{planets.population}}</v-list-tile>
+                        <v-divider></v-divider>
                       </div>
                     </v-list-group>
                   </div>
@@ -82,14 +106,22 @@
                     <hr>
                     <v-list-group class="animated fadeInDown">
                       <div class="animated fadeInDown">
-                        <div>Rotation Period: {{planets.rotation_period}}</div>
-                        <span>Orbital Period: {{planets.orbital_period}}</span>
-                        <div>Diameter: {{planets.diameter}}</div>
-                        <div>Climate: {{planets.climate}}</div>
-                        <div>Gravity: {{planets.gravity}}</div>
-                        <div>Terrain: {{planets.terrain}}</div>
-                        <div>Surface Water: {{planets.surface_water}}</div>
-                        <div>Population: {{planets.population}}</div>
+                        <v-list-tile>Rotation Period: {{planets.rotation_period}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Orbital Period: {{planets.orbital_period}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Diameter: {{planets.diameter}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Climate: {{planets.climate}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Gravity: {{planets.gravity}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Terrain: {{planets.terrain}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Surface Water: {{planets.surface_water}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Population: {{planets.population}}</v-list-tile>
+                        <v-divider></v-divider>
                       </div>
                     </v-list-group>
                   </div>
@@ -104,14 +136,22 @@
                     <hr>
                     <v-list-group class="animated fadeInDown">
                       <div class="animated fadeInDown">
-                        <div>Rotation Period: {{planets.rotation_period}}</div>
-                        <span>Orbital Period: {{planets.orbital_period}}</span>
-                        <div>Diameter: {{planets.diameter}}</div>
-                        <div>Climate: {{planets.climate}}</div>
-                        <div>Gravity: {{planets.gravity}}</div>
-                        <div>Terrain: {{planets.terrain}}</div>
-                        <div>Surface Water: {{planets.surface_water}}</div>
-                        <div>Population: {{planets.population}}</div>
+                        <v-list-tile>Rotation Period: {{planets.rotation_period}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Orbital Period: {{planets.orbital_period}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Diameter: {{planets.diameter}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Climate: {{planets.climate}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Gravity: {{planets.gravity}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Terrain: {{planets.terrain}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Surface Water: {{planets.surface_water}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Population: {{planets.population}}</v-list-tile>
+                        <v-divider></v-divider>
                       </div>
                     </v-list-group>
                   </div>
@@ -126,14 +166,22 @@
                     <hr>
                     <v-list-group class="animated fadeInDown">
                       <div class="animated fadeInDown">
-                        <div>Rotation Period: {{planets.rotation_period}}</div>
-                        <span>Orbital Period: {{planets.orbital_period}}</span>
-                        <div>Diameter: {{planets.diameter}}</div>
-                        <div>Climate: {{planets.climate}}</div>
-                        <div>Gravity: {{planets.gravity}}</div>
-                        <div>Terrain: {{planets.terrain}}</div>
-                        <div>Surface Water: {{planets.surface_water}}</div>
-                        <div>Population: {{planets.population}}</div>
+                        <v-list-tile>Rotation Period: {{planets.rotation_period}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Orbital Period: {{planets.orbital_period}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Diameter: {{planets.diameter}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Climate: {{planets.climate}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Gravity: {{planets.gravity}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Terrain: {{planets.terrain}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Surface Water: {{planets.surface_water}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Population: {{planets.population}}</v-list-tile>
+                        <v-divider></v-divider>
                       </div>
                     </v-list-group>
                   </div>
@@ -148,14 +196,22 @@
                     <hr>
                     <v-list-group class="animated fadeInDown">
                       <div class="animated fadeInDown">
-                        <div>Rotation Period: {{planets.rotation_period}}</div>
-                        <span>Orbital Period: {{planets.orbital_period}}</span>
-                        <div>Diameter: {{planets.diameter}}</div>
-                        <div>Climate: {{planets.climate}}</div>
-                        <div>Gravity: {{planets.gravity}}</div>
-                        <div>Terrain: {{planets.terrain}}</div>
-                        <div>Surface Water: {{planets.surface_water}}</div>
-                        <div>Population: {{planets.population}}</div>
+                        <v-list-tile>Rotation Period: {{planets.rotation_period}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Orbital Period: {{planets.orbital_period}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Diameter: {{planets.diameter}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Climate: {{planets.climate}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Gravity: {{planets.gravity}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Terrain: {{planets.terrain}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Surface Water: {{planets.surface_water}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Population: {{planets.population}}</v-list-tile>
+                        <v-divider></v-divider>
                       </div>
                     </v-list-group>
                   </div>

@@ -10,13 +10,19 @@
                     <hr>
                     <v-list-group class="animated fadeInDown">
                       <div class="animated fadeInDown">
-                        <div>Model: {{vehicles.model}}</div>
-                        <span>Manufacturer: {{vehicles.manufacturer}}</span>
-                        <div>Cost in Credits: {{vehicles.cost_in_credits}}</div>
-                        <div>Length: {{vehicles.length}}</div>
-                        <div>Max Atmosphering Speed: {{vehicles.max_atmosphering_speed}}</div>
-                        <div>Crew: {{vehicles.crew}}</div>
-                        <div>Vehicle Class: {{vehicles.vehicle_class}}</div>
+                        <v-list-tile>Model: {{vehicles.model}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Manufacturer: {{vehicles.manufacturer}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Cost in Credits: {{vehicles.cost_in_credits}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Length: {{vehicles.length}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Max Atmosphering Speed: {{vehicles.max_atmosphering_speed}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Crew: {{vehicles.crew}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Vehicle Class: {{vehicles.vehicle_class}}</v-list-tile>
                       </div>
                     </v-list-group>
                   </div>
@@ -31,13 +37,19 @@
                     <hr>
                     <v-list-group class="animated fadeInDown">
                       <div class="animated fadeInDown">
-                        <div>Model: {{vehicles.model}}</div>
-                        <span>Manufacturer: {{vehicles.manufacturer}}</span>
-                        <div>Cost in Credits: {{vehicles.cost_in_credits}}</div>
-                        <div>Length: {{vehicles.length}}</div>
-                        <div>Max Atmosphering Speed: {{vehicles.max_atmosphering_speed}}</div>
-                        <div>Crew: {{vehicles.crew}}</div>
-                        <div>Vehicle Class: {{vehicles.vehicle_class}}</div>
+                        <v-list-tile>Model: {{vehicles.model}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Manufacturer: {{vehicles.manufacturer}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Cost in Credits: {{vehicles.cost_in_credits}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Length: {{vehicles.length}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Max Atmosphering Speed: {{vehicles.max_atmosphering_speed}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Crew: {{vehicles.crew}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Vehicle Class: {{vehicles.vehicle_class}}</v-list-tile>
                       </div>
                     </v-list-group>
                   </div>
@@ -52,13 +64,19 @@
                     <hr>
                     <v-list-group class="animated fadeInDown">
                       <div class="animated fadeInDown">
-                        <div>Model: {{vehicles.model}}</div>
-                        <span>Manufacturer: {{vehicles.manufacturer}}</span>
-                        <div>Cost in Credits: {{vehicles.cost_in_credits}}</div>
-                        <div>Length: {{vehicles.length}}</div>
-                        <div>Max Atmosphering Speed: {{vehicles.max_atmosphering_speed}}</div>
-                        <div>Crew: {{vehicles.crew}}</div>
-                        <div>Vehicle Class: {{vehicles.vehicle_class}}</div>
+                        <v-list-tile>Model: {{vehicles.model}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Manufacturer: {{vehicles.manufacturer}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Cost in Credits: {{vehicles.cost_in_credits}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Length: {{vehicles.length}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Max Atmosphering Speed: {{vehicles.max_atmosphering_speed}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Crew: {{vehicles.crew}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Vehicle Class: {{vehicles.vehicle_class}}</v-list-tile>
                       </div>
                     </v-list-group>
                   </div>
@@ -73,13 +91,19 @@
                     <hr>
                     <v-list-group class="animated fadeInDown">
                       <div class="animated fadeInDown">
-                        <div>Model: {{vehicles.model}}</div>
-                        <span>Manufacturer: {{vehicles.manufacturer}}</span>
-                        <div>Cost in Credits: {{vehicles.cost_in_credits}}</div>
-                        <div>Length: {{vehicles.length}}</div>
-                        <div>Max Atmosphering Speed: {{vehicles.max_atmosphering_speed}}</div>
-                        <div>Crew: {{vehicles.crew}}</div>
-                        <div>Vehicle Class: {{vehicles.vehicle_class}}</div>
+                        <v-list-tile>Model: {{vehicles.model}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Manufacturer: {{vehicles.manufacturer}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Cost in Credits: {{vehicles.cost_in_credits}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Length: {{vehicles.length}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Max Atmosphering Speed: {{vehicles.max_atmosphering_speed}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Crew: {{vehicles.crew}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Vehicle Class: {{vehicles.vehicle_class}}</v-list-tile>
                       </div>
                     </v-list-group>
                   </div>

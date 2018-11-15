@@ -10,14 +10,21 @@
                     <hr>
                     <v-list-group class="animated fadeInDown">
                       <div class="animated fadeInDown">
-                        <div>Classification: {{species.classification}}</div>
-                        <span>Designation: {{species.designation}}</span>
-                        <div>Average Height: {{species.average_height}}</div>
-                        <div>Skin Colors: {{species.skin_colors}}</div>
-                        <div>Hair Colors: {{species.hair_colors}}</div>
-                        <div>Eye Colors: {{species.eye_colors}}</div>
-                        <div>Average Lifespan: {{species.average_lifespan}}</div>
-                        <div>Language: {{species.language}}</div>
+                        <v-list-tile>Classification: {{species.classification}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Designation: {{species.designation}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Average Height: {{species.average_height}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Skin Colors: {{species.skin_colors}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Hair Colors: {{species.hair_colors}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Eye Colors: {{species.eye_colors}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Average Lifespan: {{species.average_lifespan}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Language: {{species.language}}</v-list-tile>
                       </div>
                     </v-list-group>
                   </div>
@@ -32,14 +39,21 @@
                     <hr>
                     <v-list-group class="animated fadeInDown">
                       <div class="animated fadeInDown">
-                        <div>Classification: {{species.classification}}</div>
-                        <span>Designation: {{species.designation}}</span>
-                        <div>Average Height: {{species.average_height}}</div>
-                        <div>Skin Colors: {{species.skin_colors}}</div>
-                        <div>Hair Colors: {{species.hair_colors}}</div>
-                        <div>Eye Colors: {{species.eye_colors}}</div>
-                        <div>Average Lifespan: {{species.average_lifespan}}</div>
-                        <div>Language: {{species.language}}</div>
+                        <v-list-tile>Classification: {{species.classification}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Designation: {{species.designation}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Average Height: {{species.average_height}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Skin Colors: {{species.skin_colors}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Hair Colors: {{species.hair_colors}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Eye Colors: {{species.eye_colors}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Average Lifespan: {{species.average_lifespan}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Language: {{species.language}}</v-list-tile>
                       </div>
                     </v-list-group>
                   </div>
@@ -54,14 +68,21 @@
                     <hr>
                     <v-list-group class="animated fadeInDown">
                       <div class="animated fadeInDown">
-                        <div>Classification: {{species.classification}}</div>
-                        <span>Designation: {{species.designation}}</span>
-                        <div>Average Height: {{species.average_height}}</div>
-                        <div>Skin Colors: {{species.skin_colors}}</div>
-                        <div>Hair Colors: {{species.hair_colors}}</div>
-                        <div>Eye Colors: {{species.eye_colors}}</div>
-                        <div>Average Lifespan: {{species.average_lifespan}}</div>
-                        <div>Language: {{species.language}}</div>
+                        <v-list-tile>Classification: {{species.classification}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Designation: {{species.designation}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Average Height: {{species.average_height}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Skin Colors: {{species.skin_colors}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Hair Colors: {{species.hair_colors}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Eye Colors: {{species.eye_colors}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Average Lifespan: {{species.average_lifespan}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Language: {{species.language}}</v-list-tile>
                       </div>
                     </v-list-group>
                   </div>
@@ -76,14 +97,21 @@
                     <hr>
                     <v-list-group class="animated fadeInDown">
                       <div class="animated fadeInDown">
-                        <div>Classification: {{species.classification}}</div>
-                        <span>Designation: {{species.designation}}</span>
-                        <div>Average Height: {{species.average_height}}</div>
-                        <div>Skin Colors: {{species.skin_colors}}</div>
-                        <div>Hair Colors: {{species.hair_colors}}</div>
-                        <div>Eye Colors: {{species.eye_colors}}</div>
-                        <div>Average Lifespan: {{species.average_lifespan}}</div>
-                        <div>Language: {{species.language}}</div>
+                        <v-list-tile>Classification: {{species.classification}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Designation: {{species.designation}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Average Height: {{species.average_height}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Skin Colors: {{species.skin_colors}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Hair Colors: {{species.hair_colors}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Eye Colors: {{species.eye_colors}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Average Lifespan: {{species.average_lifespan}}</v-list-tile>
+                        <v-divider></v-divider>
+                        <v-list-tile>Language: {{species.language}}</v-list-tile>
                       </div>
                     </v-list-group>
                   </div>
