@@ -98,9 +98,9 @@
 <script>
 import axios from 'axios';
 import {Mixins} from '../assets/Mixins.js';
-import {axiosMixin} from '../assets/AxiosMixin.js';
+import {axiosMixin3} from '../assets/AxiosMixin3.js';
 export default {
-  mixins: [Mixins, axiosMixin],
+  mixins: [Mixins, axiosMixin3],
     created () {
         console.log(species);
     }

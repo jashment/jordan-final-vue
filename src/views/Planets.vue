@@ -170,14 +170,14 @@
 <script>
 import {Mixins} from '../assets/Mixins.js';
 import axios from 'axios';
-import {axiosMixin} from '../assets/AxiosMixin.js';
+import {axiosMixin2} from '../assets/AxiosMixin2.js';
 export default {
   data () {
     return {
       courses: []
     }
   },
-  mixins: [Mixins, axiosMixin],
+  mixins: [Mixins, axiosMixin2],
     created () {
         console.log(planets);
     },

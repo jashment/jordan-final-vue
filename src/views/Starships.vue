@@ -94,9 +94,9 @@
 <script>
 import axios from 'axios';
 import {Mixins} from '../assets/Mixins.js';
-import {axiosMixin} from '../assets/AxiosMixin.js';
+import {axiosMixin4} from '../assets/AxiosMixin4.js';
 export default {
-  mixins: [Mixins, axiosMixin],
+  mixins: [Mixins, axiosMixin4],
     created () {
         console.log(SWArray);
     }
