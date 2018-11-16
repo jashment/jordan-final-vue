@@ -77,7 +77,6 @@ import Planets from './views/Planets.vue'
 import Species from './views/Species.vue'
 import Signup from './views/Signup.vue'
 import axios from 'axios'
-import store from './assets/store.js'
 
 export default {
   name: 'App',
