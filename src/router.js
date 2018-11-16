@@ -7,7 +7,7 @@ import Species from "./views/Species.vue";
 import Vehicles from "./views/Vehicles.vue";
 import Starships from "./views/Starships.vue";
 import Login from "./views/Login.vue";
-
+import Signup from "./views/Signup.vue";
 
 Vue.use(Router);
 
@@ -56,6 +56,11 @@ export default new Router({
       path: "/login",
       name: "login",
       component: Login
+    },
+    {
+      path: "/signup",
+      name: "signup",
+      component: Signup
     }
   ]
 });

@@ -1,5 +1,8 @@
 <template>
     <div>
+      <v-progress-circular
+      color="primary"
+    ></v-progress-circular>
       <h1 id="heading" style="text-align: center;">Planets</h1>
       <br>
       <br>

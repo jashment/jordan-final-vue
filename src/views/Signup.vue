@@ -5,6 +5,13 @@
                 <v-card>
                     <div>
                     <v-form @submit.prevent="onSubmit">
+                        <v-text-field 
+                            v-model="name" 
+                            :rules="[nameRules.required]"
+                            :counter="10" 
+                            label="Name" 
+                            required>
+                        </v-text-field>
                         <v-spacer></v-spacer>
                         <div class ="input" :class="{invalid: $v.email.$error}">
                             <v-text-field 
@@ -52,15 +59,13 @@ export default {
                 required: value => !!value || 'Password is Required.',
                 min: v => v.length >= 8 || 'Min 8 characters',
                 emailMatch: () => ('The email and password you entered don\'t match')
+            },
+            nameRules: {
+                required: value => !!value || 'Name is Required.'
             }
         }
     },
     methods: {
-        clear () {
-        this.$v.$reset()
-        this.email = ''
-        this.password = ''
-        },
         onSubmit() {
             const formData = {
                 email: this.email,
@@ -68,7 +73,13 @@ export default {
                 name: this.name
             }
             console.log(formData)
-            this.$store.dispatch('login', {email: formData.email, password: formData.password})
+            this.$store.dispatch('signup', {email: formData.email, password: formData.password})
+        },
+        clear () {
+        this.$v.$reset()
+        this.name = ''
+        this.email = ''
+        this.password = ''
         }
     },
     validations: {
@@ -79,6 +90,9 @@ export default {
         password: {
             required,
             minLen: minLength(6)
+        },
+        name: {
+            required
         }
     }
 }
@@ -86,6 +100,6 @@ export default {
 
 <style scoped>
     div {
-        padding: .5em;
+            padding: .5em;
     }
 </style>
