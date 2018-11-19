@@ -42,6 +42,7 @@
       <v-toolbar-items>
         <v-btn v-if="!auth" to="/login">Sign In</v-btn>
         <v-btn v-if="!auth" to="/signup">Sign Up</v-btn>
+        <v-btn v-if="auth" @click="onLogout">Logout</v-btn>
       </v-toolbar-items>
       
     </v-toolbar>
@@ -108,6 +109,11 @@ export default {
     },
     auth() {
       return this.$store.getters.authenticatedUser
+    }
+  },
+  methods: {
+    onLogout() {
+      this.$store.dispatch('logout')
     }
   }
 }

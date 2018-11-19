@@ -1,6 +1,7 @@
 import Vue from "vue";
 import Vuex from "vuex";
 import axios from 'axios'
+import router from './router'
 
 Vue.use(Vuex);
 
@@ -17,6 +18,10 @@ export default new Vuex.Store({
     },
     storeUser (state, user) {
       state.user = user
+    },
+    clearAuthenticatedData (state) {
+      state.idToken = null,
+      state.userId = null
     }
   },
   actions: {
@@ -64,19 +69,23 @@ export default new Vuex.Store({
         return
       }
       axios.get('https://vuejs-project-58f6b.firebaseio.com/users.json' + '?auth=' + state.idToken)
-    .then(response => {
-      console.log(response)
-      const data = response.data
-      const users = []
-      for (let key in data) {
-        const user = data[key]
-        user.id = key
-        users.push(user)
-      }
-      console.log(users)
-      commit('storeUser', users[0])
-      })
-    .catch(error => console.log(error))
+      .then(response => {
+        console.log(response)
+        const data = response.data
+        const users = []
+        for (let key in data) {
+          const user = data[key]
+          user.id = key
+          users.push(user)
+        }
+        console.log(users)
+        commit('storeUser', users[0])
+        })
+      .catch(error => console.log(error))
+    },
+    logout ({commit}) {
+      commit('clearAuthenticatedData')
+      router.replace('/login')
     }
   },
   getters: {
