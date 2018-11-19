@@ -1,7 +1,7 @@
 <template>
   <v-app dark>
     <v-navigation-drawer
-      persistent
+      temporary
       :mini-variant="miniVariant"
       :clipped="clipped"
       v-model="drawer"
@@ -10,32 +10,24 @@
       app
     >
       <v-list>
-        <v-card hover>
-            <router-link to="/login">Login</router-link>
-          </v-card>
-          <v-divider></v-divider>
-          <v-card hover>
+          <v-card hover v-if="auth">
             <router-link to="/people">People</router-link>
           </v-card>
           <v-divider></v-divider>
-          <v-card hover>
+          <v-card hover v-if="auth">
             <router-link to="/planets">Planets</router-link>
           </v-card>
           <v-divider></v-divider>
-          <v-card hover>
+          <v-card hover v-if="auth">
             <router-link to="/species">Species</router-link>
           </v-card>
           <v-divider></v-divider>
-          <v-card hover>
+          <v-card hover v-if="auth">
             <router-link to="/starships">Starships</router-link>
           </v-card>
           <v-divider></v-divider>
-          <v-card hover>
+          <v-card hover v-if="auth">
             <router-link to="/vehicles">Vehicles</router-link>
-          </v-card>
-          <v-divider></v-divider>
-          <v-card hover>
-            <router-link to="/signup">Signup</router-link>
           </v-card>
           <v-divider></v-divider>
       </v-list>
@@ -45,12 +37,13 @@
       :clipped-left="clipped"
     >
       <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>Navigation
-      
-      
-
       <v-toolbar-title v-text="title"></v-toolbar-title>
       <v-spacer></v-spacer>
-
+      <v-toolbar-items>
+        <v-btn v-if="!auth" to="/login">Sign In</v-btn>
+        <v-btn v-if="!auth" to="/signup">Sign Up</v-btn>
+      </v-toolbar-items>
+      
     </v-toolbar>
     <v-content>
       <v-card-action>
@@ -58,6 +51,7 @@
         <input v-model="filterText">
       </v-card-action>
       <h1 style="text-align: center;">Welcome Authenticated User!</h1>
+      <p>Your email address: {{email}}</p>
       <router-view/>
 
     </v-content>
@@ -83,9 +77,8 @@ export default {
   data () {
     return {
       clipped: false,
-      drawer: true,
+      drawer: null,
       fixed: false,
-      email: '',
       items: [{
         icon: 'mdi-chart-bubble',
         title: 'Contents',
@@ -107,20 +100,15 @@ export default {
     Species
   },
   created() {
-    axios.get('https://vuejs-project-58f6b.firebaseio.com/users.json')
-    .then(response => {
-          console.log(response)
-          const data = response.data
-          const users = []
-          for (let key in data) {
-            const user = data[key]
-            user.id = key
-            users.push(user)
-          }
-          console.log(users)
-          this.email = users[0].email
-        })
-        .catch(error => console.log(error))
+    this.$store.dispatch('fetchUser')
+  },
+  computed: {
+    email () {
+      return !this.$store.getters.user ? false : this.$store.getters.user.email
+    },
+    auth() {
+      return this.$store.getters.authenticatedUser
+    }
   }
 }
 </script>

@@ -8,6 +8,7 @@ import Vehicles from "./views/Vehicles.vue";
 import Starships from "./views/Starships.vue";
 import Login from "./views/Login.vue";
 import Signup from "./views/Signup.vue";
+import store from './store'
 
 Vue.use(Router);
 
@@ -30,27 +31,62 @@ export default new Router({
     {
       path: "/people",
       name: "people",
-      component: People
+      component: People,
+      beforeEnter(to, from, next) {
+        if (store.state.idToken) {
+          next()
+        } else {
+          next('/login')
+        }
+      }
     },
     {
       path: "/planets",
       name: "planets",
-      component: Planets
+      component: Planets,
+      beforeEnter(to, from, next) {
+        if (store.state.idToken) {
+          next()
+        } else {
+          next('/login')
+        }
+      }
     },
     {
       path: "/species",
       name: "species",
-      component: Species
+      component: Species,
+      beforeEnter(to, from, next) {
+        if (store.state.idToken) {
+          next()
+        } else {
+          next('/login')
+        }
+      }
     },
     {
       path: "/vehicles",
       name: "vehcles",
-      component: Vehicles
+      component: Vehicles,
+      beforeEnter(to, from, next) {
+        if (store.state.idToken) {
+          next()
+        } else {
+          next('/login')
+        }
+      }
     },
     {
       path: "/starships",
       name: "starships",
-      component: Starships
+      component: Starships,
+      beforeEnter(to, from, next) {
+        if (store.state.idToken) {
+          next()
+        } else {
+          next('/login')
+        }
+      }
     },
     {
       path: "/login",

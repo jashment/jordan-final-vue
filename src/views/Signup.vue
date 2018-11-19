@@ -44,6 +44,7 @@
 </template>
 
 <script>
+import axios from 'axios'
 import {required, email, minLength} from 'vuelidate/lib/validators'
 export default {
     data () {
@@ -73,13 +74,13 @@ export default {
                 name: this.name
             }
             console.log(formData)
-            this.$store.dispatch('signup', {email: formData.email, password: formData.password})
+            this.$store.dispatch('signup', formData)
         },
         clear () {
-        this.$v.$reset()
-        this.name = ''
-        this.email = ''
-        this.password = ''
+            this.$v.$reset()
+            this.name = ''
+            this.email = ''
+            this.password = ''
         }
     },
     validations: {

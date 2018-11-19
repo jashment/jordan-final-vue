@@ -27,6 +27,19 @@ Vue.config.productionTip = false;
 
 axios.defaults.baseURL = "https://swapi.co/api"
 
+const requestInterceptor = axios.interceptors.request.use(config =>{
+  console.log(config)
+  return config
+})
+
+const responseInterceptor = axios.interceptors.response.use(response =>{
+  console.log(response)
+  return response
+})
+
+axios.interceptors.request.eject(requestInterceptor)
+axios.interceptors.request.eject(responseInterceptor)
+
 new Vue({
   router,
   store,
