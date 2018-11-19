@@ -38,10 +38,11 @@ export default new Vuex.Store({
               userId: response.data.localId
             })
             dispatch('storeUser', authData)
+            dispatch('setLogoutTimer', response.data.expiresIn)
           })
           .catch(error => console.log(error))
     },
-    login ({commit}, authData) {
+    login ({commit, dispatch}, authData) {
       axios.post('https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPassword?key=AIzaSyA9mrnhThk-Ptq-BXKiqdqr9ahWIsjtiWE', {
                 email: authData.email,
                 password: authData.password,
@@ -53,6 +54,7 @@ export default new Vuex.Store({
               token: response.data.idToken,
               userId: response.data.localId
             })
+            dispatch('setLogoutTimer', response.data.expiresIn)
           })
           .catch(error => console.log(error))
     },
@@ -86,6 +88,11 @@ export default new Vuex.Store({
     logout ({commit}) {
       commit('clearAuthenticatedData')
       router.replace('/login')
+    },
+    setLogoutTimer ({commit}, expTime) {
+      setTimeout (() => {
+        commit('clearAuthenticatedData')
+      }, expTime * 1000)
     }
   },
   getters: {
