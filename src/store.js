@@ -37,6 +37,11 @@ export default new Vuex.Store({
               token: response.data.idToken,
               userId: response.data.localId
             })
+            const now = new Date ()
+            const expDate = new Date (now.getTime() + response.data.expiresIn * 1000)
+            localStorage.setItem('token', response.data.idToken)
+            localStorage.setItem('userId', response.data.localId)
+            localStorage.setItem('expDate', expDate)
             dispatch('storeUser', authData)
             dispatch('setLogoutTimer', response.data.expiresIn)
           })
@@ -50,6 +55,11 @@ export default new Vuex.Store({
             })
           .then(response => {
             console.log(response)
+            const now = new Date ()
+            const expDate = new Date (now.getTime() + response.data.expiresIn * 1000)
+            localStorage.setItem('token', response.data.idToken)
+            localStorage.setItem('userId', response.data.localId)
+            localStorage.setItem('expDate', expDate)
             commit('authUser', {
               token: response.data.idToken,
               userId: response.data.localId
@@ -57,6 +67,22 @@ export default new Vuex.Store({
             dispatch('setLogoutTimer', response.data.expiresIn)
           })
           .catch(error => console.log(error))
+    },
+    autoLogin({commit}) {
+      const token = localStorage.getItem('token')
+      if (!token) {
+        return
+      }
+      const expDate = localStorage.getItem('expDate')
+      const now = new Date()
+      if (now >= expDate) {
+        return
+      }
+      const userId = localStorage.getItem('userId')
+      commit('authUser', {
+        token: token,
+        userId: userId
+      })
     },
     storeUser ({commit, state}, userData){
       if(!state.idToken) {
@@ -87,6 +113,9 @@ export default new Vuex.Store({
     },
     logout ({commit}) {
       commit('clearAuthenticatedData')
+      localStorage.removeItem('expDate')
+      localStorage.removeItem('token')
+      localStorage.removeItem('userId')
       router.replace('/login')
     },
     setLogoutTimer ({commit}, expTime) {
