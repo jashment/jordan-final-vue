@@ -46,6 +46,7 @@ export default new Vuex.Store({
             dispatch('setLogoutTimer', response.data.expiresIn)
           })
           .catch(error => console.log(error))
+          router.replace('/')
     },
     login ({commit, dispatch}, authData) {
       axios.post('https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPassword?key=AIzaSyA9mrnhThk-Ptq-BXKiqdqr9ahWIsjtiWE', {
@@ -67,6 +68,7 @@ export default new Vuex.Store({
             dispatch('setLogoutTimer', response.data.expiresIn)
           })
           .catch(error => console.log(error))
+          router.replace('/')
     },
     autoLogin({commit}) {
       const token = localStorage.getItem('token')

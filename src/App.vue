@@ -47,12 +47,6 @@
       
     </v-toolbar>
     <v-content>
-      <v-card-action>
-        <v-btn extended>Search</v-btn>
-        <input v-model="filterText">
-      </v-card-action>
-      <h1 style="text-align: center;">Welcome Authenticated User!</h1>
-      <p>Your email address: {{email}}</p>
       <router-view/>
 
     </v-content>
