@@ -1,7 +1,9 @@
 <template>
     <v-container grid-list-md>
+        <h1>Please Login to View Content</h1>
         <v-layout>
             <v-flex xs6 class="ma-auto">
+
                 <v-card>
                     <div>
                     <v-form @submit.prevent="onSubmit">
@@ -88,5 +90,8 @@ export default {
 <style scoped>
     div {
         padding: .5em;
+    }
+    h1 {
+        text-align: center;
     }
 </style>
