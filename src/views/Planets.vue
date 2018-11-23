@@ -1,8 +1,5 @@
 <template>
     <div>
-      <v-progress-circular
-      color="primary"
-    ></v-progress-circular>
       <h1 id="heading" style="text-align: center;">Planets</h1>
       <br>
       <br>
@@ -221,12 +218,12 @@
             </v-flex>
           </v-layout>
         </v-container>
-        <v-btn @click="getCourses()">Click Me</v-btn>
+        <!--<v-btn @click="getCourses()">Click Me</v-btn>
       <div v-for="course in courses">
         <div>{{courses.description}}</div>
         <div>{{courses.lectureCredits}}</div>
       </div>
-      <div>{{courses.descritpion}}</div>
+      <div>{{courses.descritpion}}</div>-->
     </div>
 </template>
 

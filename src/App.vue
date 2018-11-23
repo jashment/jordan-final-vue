@@ -10,24 +10,27 @@
       app
     >
       <v-list>
+        <v-card v-if="!auth">
+          Please Login to View Content
+          </v-card>
           <v-card hover v-if="auth">
-            <router-link to="/people">People</router-link>
+            <router-link to="/people" style="text-decoration: none;">People</router-link>
           </v-card>
           <v-divider></v-divider>
           <v-card hover v-if="auth">
-            <router-link to="/planets">Planets</router-link>
+            <router-link to="/planets" style="text-decoration: none;">Planets</router-link>
           </v-card>
           <v-divider></v-divider>
           <v-card hover v-if="auth">
-            <router-link to="/species">Species</router-link>
+            <router-link to="/species" style="text-decoration: none;">Species</router-link>
           </v-card>
           <v-divider></v-divider>
           <v-card hover v-if="auth">
-            <router-link to="/starships">Starships</router-link>
+            <router-link to="/starships" style="text-decoration: none;">Starships</router-link>
           </v-card>
           <v-divider></v-divider>
           <v-card hover v-if="auth">
-            <router-link to="/vehicles">Vehicles</router-link>
+            <router-link to="/vehicles" style="text-decoration: none;">Vehicles</router-link>
           </v-card>
           <v-divider></v-divider>
       </v-list>
@@ -36,8 +39,8 @@
       app
       :clipped-left="clipped"
     >
-      <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>Navigation
-      <v-toolbar-title v-text="title"></v-toolbar-title>
+      <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
+      <v-toolbar-title><router-link v-text="title" to="/" style="text-decoration: none;"></router-link></v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items>
         <v-btn v-if="!auth" to="/login">Sign In</v-btn>
