@@ -40,7 +40,7 @@
       :clipped-left="clipped"
     >
       <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
-      <v-toolbar-title><router-link v-text="title" to="/" style="text-decoration: none;"></router-link></v-toolbar-title>
+      <v-toolbar-title><router-link v-text="title" to="/" style="text-decoration: none; color: white;"></router-link></v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items>
         <v-btn v-if="!auth" to="/login">Sign In</v-btn>
@@ -85,7 +85,7 @@ export default {
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Final Project',
+      title: 'Star Wars Guide (Made with Swapi.co API',
       filterText: ''
     }
   },

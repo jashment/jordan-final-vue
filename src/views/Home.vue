@@ -5,7 +5,6 @@
 
           <div style="text-align: center;">
             <h1 class="animated infinite flash slower">Welcome to an App using Swapi.co</h1>
-            <p >Please use side navigation to navigate site</p>
           </div>
 
       </v-layout>
