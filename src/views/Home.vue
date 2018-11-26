@@ -1,16 +1,84 @@
 <template>
+<v-app dark>
   <v-container fluid>
     <v-slide-y-transition mode="out-in">
       <v-layout column align-center>
-
           <div style="text-align: center;">
             <h1 class="animated infinite flash slower">Welcome to an App using Swapi.co</h1>
+            <p v-if="!auth">Please Login or Sign Up to View Content</p>
           </div>
-
       </v-layout>
     </v-slide-y-transition>
+    <v-img src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/3B1EMIOKH5.jpg" height="400" position="100% 20%"></v-img>
+    <v-container grid-list-xl v-if="auth">
+      <v-layout>
+        <v-flex xs4>
+          <v-card>
+            <v-card-title hover>
+                <router-link to="/people" style="text-decoration: none;">People</router-link>
+            </v-card-title>
+          </v-card>
+        </v-flex>
+            <v-divider></v-divider>
+        <v-flex xs4>
+          <v-card>
+            <v-card-title hover>
+              <div>
+              <router-link to="/planets" style="text-decoration: none;">Planets</router-link>
+              </div>
+            </v-card-title>
+            </v-card>
+        </v-flex>
+            <v-divider></v-divider>
+        <v-flex xs4>
+          <v-card>
+            <v-card-title hover>
+              <router-link to="/species" style="text-decoration: none;">Species</router-link>
+            </v-card-title>
+            </v-card>
+        </v-flex>
+            <v-divider></v-divider>
+        <v-flex xs4>
+          <v-card>
+            <v-card-title hover>
+              <router-link to="/starships" style="text-decoration: none;">Starships</router-link>
+            </v-card-title>
+            </v-card>
+        </v-flex>
+            <v-divider></v-divider>
+        <v-flex xs4>
+          <v-card>
+            <v-card-title hover>
+              <router-link to="/vehicles" style="text-decoration: none;">Vehicles</router-link>
+            </v-card-title>
+            </v-card>
+        </v-flex>
+      </v-layout>
+    </v-container>
   </v-container>
+</v-app>
 </template>
+
+<script>
+import axios from 'axios'
+export default {
+  data () {
+    return {
+      height: 100
+    }
+  },
+  created() {
+    this.$store.dispatch('fetchUser')
+    this.$store.dispatch('autoLogin')
+  },
+  computed: {
+    auth() {
+      return this.$store.getters.authenticatedUser
+    }
+  },
+}
+</script>
+
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
