@@ -9,7 +9,7 @@
           </div>
       </v-layout>
     </v-slide-y-transition>
-    <v-img v-box-shadow src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/3B1EMIOKH5.jpg" height="400" position="100% 20%"></v-img>
+    <v-img class="animated fadeIn" v-box-shadow src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/3B1EMIOKH5.jpg" height="400" position="100% 20%"></v-img>
     <v-container grid-list-xl v-if="auth">
       <v-layout>
         <v-flex xs4>

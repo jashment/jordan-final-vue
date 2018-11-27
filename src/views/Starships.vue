@@ -1,6 +1,6 @@
 <template>
     <div>
-      <h1 id="heading" style="text-align: center;">Starships</h1>
+      <h1 id="heading" style="text-align: center;" class="animated fadeInDown">Starships</h1>
       <br>
       <br>
         <v-container grid-list-xl>

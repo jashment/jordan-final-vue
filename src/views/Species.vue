@@ -1,6 +1,6 @@
 <template>
     <div>
-      <h1 id="heading" style="text-align: center;">Species</h1>
+      <h1 id="heading" style="text-align: center;" class="animated fadeInDown">Species</h1>
       <br>
       <br>
         <v-container grid-list-xl>

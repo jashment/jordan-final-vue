@@ -1,6 +1,6 @@
 <template>
     <div>
-      <h1 id="heading" style="text-align: center;">People</h1>
+      <h1 id="heading" style="text-align: center;" class="animated fadeInDown">People</h1>
       <br>
       <br>
         <v-container grid-list-xl>
@@ -12,8 +12,8 @@
                   <div>
                     <h3 class="headline mb-0">{{people.name}}</h3>
                     <hr>
-                    <v-list-group class="animated fadeInDown">
-                      <div class="animated fadeInDown">
+                    <v-list-group>
+                      <v-list class="animated fadeInDown">
                         <v-list-tile>Height: {{people.height}}</v-list-tile>
                         <v-divider></v-divider>
                         <v-list-tile>Mass: {{people.mass}}</v-list-tile>
@@ -27,7 +27,7 @@
                         <v-list-tile>Eye Color: {{people.eye_color}}</v-list-tile>
                         <v-divider></v-divider>
                         <v-list-tile>Gender: {{people.gender}}</v-list-tile>
-                      </div>
+                      </v-list>
                     </v-list-group>
                   </div>
                 </v-card-title>
@@ -40,7 +40,7 @@
                   <div>
                     <h3 class="headline mb-0">{{people.name}}</h3>
                     <hr>
-                    <v-list-group class="animated fadeInDown">
+                    <v-list-group>
                       <div class="animated fadeInDown">
                         <v-list-tile>Height: {{people.height}}</v-list-tile>
                         <v-divider></v-divider>
@@ -68,7 +68,7 @@
                   <div>
                     <h3 class="headline mb-0">{{people.name}}</h3>
                     <hr>
-                    <v-list-group class="animated fadeInDown">
+                    <v-list-group>
                       <div class="animated fadeInDown">
                         <v-list-tile>Height: {{people.height}}</v-list-tile>
                         <v-divider></v-divider>
@@ -96,7 +96,7 @@
                   <div> 
                     <h3 class="headline mb-0">{{people.name}}</h3>
                     <hr>
-                    <v-list-group class="animated fadeInDown">
+                    <v-list-group>
                       <div class="animated fadeInDown">
                         <v-list-tile>Height: {{people.height}}</v-list-tile>
                         <v-divider></v-divider>
@@ -124,7 +124,7 @@
                   <div>
                     <h3 class="headline mb-0">{{people.name}}</h3>
                     <hr>
-                    <v-list-group class="animated fadeInDown">
+                    <v-list-group>
                       <div class="animated fadeInDown">
                         <v-list-tile>Height: {{people.height}}</v-list-tile>
                         <v-divider></v-divider>
@@ -152,7 +152,7 @@
                   <div>
                     <h3 class="headline mb-0">{{people.name}}</h3>
                     <hr>
-                    <v-list-group class="animated fadeInDown">
+                    <v-list-group>
                       <div class="animated fadeInDown">
                         <v-list-tile>Height: {{people.height}}</v-list-tile>
                         <v-divider></v-divider>
@@ -180,7 +180,7 @@
                   <div>
                     <h3 class="headline mb-0">{{people.name}}</h3>
                     <hr>
-                    <v-list-group class="animated fadeInDown">
+                    <v-list-group>
                       <div class="animated fadeInDown">
                         <v-list-tile>Height: {{people.height}}</v-list-tile>
                         <v-divider></v-divider>
@@ -208,7 +208,7 @@
                   <div>
                     <h3 class="headline mb-0">{{people.name}}</h3>
                     <hr>
-                    <v-list-group class="animated fadeInDown">
+                    <v-list-group>
                       <div class="animated fadeInDown">
                         <v-list-tile>Height: {{people.height}}</v-list-tile>
                         <v-divider></v-divider>
@@ -236,7 +236,7 @@
                   <div>
                     <h3 class="headline mb-0">{{people.name}}</h3>
                     <hr>
-                    <v-list-group class="animated fadeInDown">
+                    <v-list-group>
                       <div class="animated fadeInDown">
                         <v-list-tile>Height: {{people.height}}</v-list-tile>
                         <v-divider></v-divider>
