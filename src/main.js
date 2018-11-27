@@ -4,7 +4,6 @@ import './plugins/vuetify'
 import App from "./App.vue";
 import router from "./router";
 import store from "./store";
-import people from "./assets/people";
 import Vuelidate from "vuelidate"
 import axios from 'axios'
 
@@ -18,7 +17,7 @@ Vue.directive('box-shadow', {
     if (binding.arg === 'offset') {
       el.style.boxShadow = '0px ${binding.value}px ${blur}px #666'
     }else{
-    el.style.boxShadow = '0px 3px 5px #666'
+    el.style.boxShadow = '0px 5px 10px #444'
     }
   }
 })
@@ -43,6 +42,5 @@ axios.interceptors.request.eject(responseInterceptor)
 new Vue({
   router,
   store,
-  people,
   render: h => h(App)
 }).$mount("#app");

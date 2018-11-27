@@ -107,6 +107,9 @@ export default {
     },
     auth() {
       return this.$store.getters.authenticatedUser
+    },
+    userName () {
+      return this.$store.getters.user.name
     }
   },
   methods: {

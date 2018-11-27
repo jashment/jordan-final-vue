@@ -9,47 +9,45 @@
           </div>
       </v-layout>
     </v-slide-y-transition>
-    <v-img src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/3B1EMIOKH5.jpg" height="400" position="100% 20%"></v-img>
+    <v-img v-box-shadow src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/3B1EMIOKH5.jpg" height="400" position="100% 20%"></v-img>
     <v-container grid-list-xl v-if="auth">
       <v-layout>
         <v-flex xs4>
-          <v-card>
-            <v-card-title hover>
-                <router-link to="/people" style="text-decoration: none;">People</router-link>
+          <v-card hover to="/people">
+            <v-card-title>
+                People
             </v-card-title>
           </v-card>
         </v-flex>
             <v-divider></v-divider>
         <v-flex xs4>
-          <v-card>
-            <v-card-title hover>
-              <div>
-              <router-link to="/planets" style="text-decoration: none;">Planets</router-link>
-              </div>
+          <v-card hover to="/planets">
+            <v-card-title>
+              Planets
             </v-card-title>
             </v-card>
         </v-flex>
             <v-divider></v-divider>
         <v-flex xs4>
-          <v-card>
-            <v-card-title hover>
-              <router-link to="/species" style="text-decoration: none;">Species</router-link>
+          <v-card hover to="/species">
+            <v-card-title>
+              Species
             </v-card-title>
             </v-card>
         </v-flex>
             <v-divider></v-divider>
         <v-flex xs4>
-          <v-card>
-            <v-card-title hover>
-              <router-link to="/starships" style="text-decoration: none;">Starships</router-link>
+          <v-card hover to="/starships">
+            <v-card-title>
+              Starships
             </v-card-title>
             </v-card>
         </v-flex>
             <v-divider></v-divider>
         <v-flex xs4>
-          <v-card>
-            <v-card-title hover>
-              <router-link to="/vehicles" style="text-decoration: none;">Vehicles</router-link>
+          <v-card hover to="/vehicles">
+            <v-card-title>
+              Vehicles
             </v-card-title>
             </v-card>
         </v-flex>
