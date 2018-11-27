@@ -3,7 +3,6 @@
       <h1 id="heading" style="text-align: center;">People</h1>
       <br>
       <br>
-      <br>
         <v-container grid-list-xl>
           <v-layout row wrap>
 

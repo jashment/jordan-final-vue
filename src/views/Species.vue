@@ -3,7 +3,6 @@
       <h1 id="heading" style="text-align: center;">Species</h1>
       <br>
       <br>
-      <br>
         <v-container grid-list-xl>
           <v-layout row wrap>
             <v-flex v-for="species in SWArray" :key="`1${i}`" xs4>

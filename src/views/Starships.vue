@@ -3,7 +3,6 @@
       <h1 id="heading" style="text-align: center;">Starships</h1>
       <br>
       <br>
-      <br>
         <v-container grid-list-xl>
           <v-layout row wrap>
             <v-flex v-for="starships in SWArray" :key="`1${i}`" xs4>
