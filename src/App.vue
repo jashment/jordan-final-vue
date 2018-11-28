@@ -85,7 +85,7 @@ export default {
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Star Wars Guide (Made with Swapi.co API)',
+      title: 'Star Wars Guide (Made with Vuetify and Swapi.co API)',
       filterText: ''
     }
   },
