@@ -4,7 +4,7 @@
     <v-slide-y-transition mode="out-in">
       <v-layout column align-center>
           <div style="text-align: center;">
-            <h1 class="animated infinite flash slower">Welcome to an App using Swapi.co</h1>
+            <h1 class="animated infinite flash slower">Welcome to a Star Wars Guide</h1>
             <p v-if="!auth">Please Login or Sign Up to View Content</p>
           </div>
       </v-layout>
