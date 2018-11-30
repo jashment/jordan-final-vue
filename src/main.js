@@ -8,6 +8,7 @@ import Vuelidate from "vuelidate"
 import axios from 'axios'
 
 Vue.use(Vuelidate)
+
 Vue.directive('box-shadow', {
   bind(el, binding){
     let blur = 0
