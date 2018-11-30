@@ -1,6 +1,6 @@
-# jordan-final-vue Using Swapi.co API and Vuetify
+# Vue.js Project Using Swapi.co API and Vuetify
 
-*Project will only show website content if logged in due to Authentication! Please use info below to log in*
+*Project will only show website content if logged in due to Authentication! Please sign up to view site content*
 
 
 ## Effectively use conditional logic and JavaScript array methods to render large lists.
@@ -30,7 +30,7 @@ Created in [main.js](https://github.com/jashment/jordan-final-vue/blob/master/sr
 Can be seen in [Home.vue](https://github.com/jashment/jordan-final-vue/blob/master/src/views/Home.vue), [People.vue](https://github.com/jashment/jordan-final-vue/blob/master/src/views/People.vue), [Planets.vue](https://github.com/jashment/jordan-final-vue/blob/master/src/views/Planets.vue), [Species.vue](https://github.com/jashment/jordan-final-vue/blob/master/src/views/Species.vue), [Starships.vue](https://github.com/jashment/jordan-final-vue/blob/master/src/views/Starships.vue), [Vehicles.vue](https://github.com/jashment/jordan-final-vue/blob/master/src/views/Vehicles.vue)
 
 ## Connect to a server using HTTP and display retrieved data (use vue-resource or Axios).
-Can be seen implemented in [AxiosMixin.js](https://github.com/jashment/jordan-final-vue/blob/master/src/assets/AxiosMixin.js),
+Axios can be seen implemented in [AxiosMixin.js](https://github.com/jashment/jordan-final-vue/blob/master/src/assets/AxiosMixin.js),
 [AxiosMixin2.js](https://github.com/jashment/jordan-final-vue/blob/master/src/assets/AxiosMixin2.js),
 [AxiosMixin3.js](https://github.com/jashment/jordan-final-vue/blob/master/src/assets/AxiosMixin3.js),
 [AxiosMixin4.js](https://github.com/jashment/jordan-final-vue/blob/master/src/assets/AxiosMixin4.js),
