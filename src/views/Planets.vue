@@ -11,8 +11,8 @@
                   <div>
                     <h3 class="headline mb-0">{{planets.name}}</h3>
                     <hr>
-                    <v-list-group class="animated fadeInDown">
-                      <div class="animated fadeInDown">
+                    <v-list  class="animated fadeInDown">
+                    <v-list-group>
                         <v-list-tile>Rotation Period: {{planets.rotation_period}}</v-list-tile>
                         <v-divider></v-divider>
                         <v-list-tile>Orbital Period: {{planets.orbital_period}}</v-list-tile>
@@ -29,8 +29,8 @@
                         <v-divider></v-divider>
                         <v-list-tile>Population: {{planets.population}}</v-list-tile>
                         <v-divider></v-divider>
-                      </div>
                     </v-list-group>
+                    </v-list>
                   </div>
                 </v-card-title>
               </v-card>
@@ -41,8 +41,8 @@
                   <div>
                     <h3 class="headline mb-0">{{planets.name}}</h3>
                     <hr>
-                    <v-list-group class="animated fadeInDown">
-                      <div class="animated fadeInDown">
+                    <v-list  class="animated fadeInDown">
+                    <v-list-group>
                         <v-list-tile>Rotation Period: {{planets.rotation_period}}</v-list-tile>
                         <v-divider></v-divider>
                         <v-list-tile>Orbital Period: {{planets.orbital_period}}</v-list-tile>
@@ -59,8 +59,8 @@
                         <v-divider></v-divider>
                         <v-list-tile>Population: {{planets.population}}</v-list-tile>
                         <v-divider></v-divider>
-                      </div>
                     </v-list-group>
+                    </v-list>
                   </div>
                 </v-card-title>
               </v-card>
@@ -71,8 +71,8 @@
                   <div>
                     <h3 class="headline mb-0">{{planets.name}}</h3>
                     <hr>
-                    <v-list-group class="animated fadeInDown">
-                      <div class="animated fadeInDown">
+                    <v-list class="animated fadeInDown">
+                    <v-list-group>
                         <v-list-tile>Rotation Period: {{planets.rotation_period}}</v-list-tile>
                         <v-divider></v-divider>
                         <v-list-tile>Orbital Period: {{planets.orbital_period}}</v-list-tile>
@@ -89,8 +89,8 @@
                         <v-divider></v-divider>
                         <v-list-tile>Population: {{planets.population}}</v-list-tile>
                         <v-divider></v-divider>
-                      </div>
                     </v-list-group>
+                    </v-list>
                   </div>
                 </v-card-title>
               </v-card>
@@ -101,8 +101,8 @@
                   <div>
                     <h3 class="headline mb-0">{{planets.name}}</h3>
                     <hr>
-                    <v-list-group class="animated fadeInDown">
-                      <div class="animated fadeInDown">
+                    <v-list  class="animated fadeInDown">
+                    <v-list-group>
                         <v-list-tile>Rotation Period: {{planets.rotation_period}}</v-list-tile>
                         <v-divider></v-divider>
                         <v-list-tile>Orbital Period: {{planets.orbital_period}}</v-list-tile>
@@ -119,8 +119,8 @@
                         <v-divider></v-divider>
                         <v-list-tile>Population: {{planets.population}}</v-list-tile>
                         <v-divider></v-divider>
-                      </div>
                     </v-list-group>
+                    </v-list>
                   </div>
                 </v-card-title>
               </v-card>
@@ -131,8 +131,8 @@
                   <div>
                     <h3 class="headline mb-0">{{planets.name}}</h3>
                     <hr>
-                    <v-list-group class="animated fadeInDown">
-                      <div class="animated fadeInDown">
+                    <v-list class="animated fadeInDown">
+                    <v-list-group>
                         <v-list-tile>Rotation Period: {{planets.rotation_period}}</v-list-tile>
                         <v-divider></v-divider>
                         <v-list-tile>Orbital Period: {{planets.orbital_period}}</v-list-tile>
@@ -149,8 +149,8 @@
                         <v-divider></v-divider>
                         <v-list-tile>Population: {{planets.population}}</v-list-tile>
                         <v-divider></v-divider>
-                      </div>
                     </v-list-group>
+                    </v-list>
                   </div>
                 </v-card-title>
               </v-card>
@@ -161,8 +161,8 @@
                   <div>
                     <h3 class="headline mb-0">{{planets.name}}</h3>
                     <hr>
-                    <v-list-group class="animated fadeInDown">
-                      <div class="animated fadeInDown">
+                    <v-list  class="animated fadeInDown">
+                    <v-list-group>
                         <v-list-tile>Rotation Period: {{planets.rotation_period}}</v-list-tile>
                         <v-divider></v-divider>
                         <v-list-tile>Orbital Period: {{planets.orbital_period}}</v-list-tile>
@@ -179,8 +179,8 @@
                         <v-divider></v-divider>
                         <v-list-tile>Population: {{planets.population}}</v-list-tile>
                         <v-divider></v-divider>
-                      </div>
                     </v-list-group>
+                    </v-list>
                   </div>
                 </v-card-title>
               </v-card>
@@ -191,8 +191,8 @@
                   <div>
                     <h3 class="headline mb-0">{{planets.name}}</h3>
                     <hr>
-                    <v-list-group class="animated fadeInDown">
-                      <div class="animated fadeInDown">
+                    <v-list class="animated fadeInDown">
+                    <v-list-group>
                         <v-list-tile>Rotation Period: {{planets.rotation_period}}</v-list-tile>
                         <v-divider></v-divider>
                         <v-list-tile>Orbital Period: {{planets.orbital_period}}</v-list-tile>
@@ -209,8 +209,8 @@
                         <v-divider></v-divider>
                         <v-list-tile>Population: {{planets.population}}</v-list-tile>
                         <v-divider></v-divider>
-                      </div>
                     </v-list-group>
+                    </v-list>
                   </div>
                 </v-card-title>
               </v-card>

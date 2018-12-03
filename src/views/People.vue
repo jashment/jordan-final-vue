@@ -12,8 +12,8 @@
                   <div>
                     <h3 class="headline mb-0">{{people.name}}</h3>
                     <hr>
-                    <v-list-group>
                       <v-list class="animated fadeInDown">
+                        <v-list-group>
                         <v-list-tile>Height: {{people.height}}</v-list-tile>
                         <v-divider></v-divider>
                         <v-list-tile>Mass: {{people.mass}}</v-list-tile>
@@ -27,8 +27,8 @@
                         <v-list-tile>Eye Color: {{people.eye_color}}</v-list-tile>
                         <v-divider></v-divider>
                         <v-list-tile>Gender: {{people.gender}}</v-list-tile>
+                        </v-list-group>
                       </v-list>
-                    </v-list-group>
                   </div>
                 </v-card-title>
               </v-card>
@@ -40,8 +40,8 @@
                   <div>
                     <h3 class="headline mb-0">{{people.name}}</h3>
                     <hr>
-                    <v-list-group>
                       <div class="animated fadeInDown">
+                        <v-list-group>
                         <v-list-tile>Height: {{people.height}}</v-list-tile>
                         <v-divider></v-divider>
                         <v-list-tile>Mass: {{people.mass}}</v-list-tile>
@@ -55,8 +55,8 @@
                         <v-list-tile>Eye Color: {{people.eye_color}}</v-list-tile>
                         <v-divider></v-divider>
                         <v-list-tile>Gender: {{people.gender}}</v-list-tile>
+                        </v-list-group>
                       </div>
-                    </v-list-group>
                   </div>
                 </v-card-title>
               </v-card>
@@ -68,8 +68,8 @@
                   <div>
                     <h3 class="headline mb-0">{{people.name}}</h3>
                     <hr>
-                    <v-list-group>
                       <div class="animated fadeInDown">
+                        <v-list-group>
                         <v-list-tile>Height: {{people.height}}</v-list-tile>
                         <v-divider></v-divider>
                         <v-list-tile>Mass: {{people.mass}}</v-list-tile>
@@ -83,8 +83,8 @@
                         <v-list-tile>Eye Color: {{people.eye_color}}</v-list-tile>
                         <v-divider></v-divider>
                         <v-list-tile>Gender: {{people.gender}}</v-list-tile>
+                        </v-list-group>
                       </div>
-                    </v-list-group>
                   </div>
                 </v-card-title>
               </v-card>
@@ -96,8 +96,8 @@
                   <div> 
                     <h3 class="headline mb-0">{{people.name}}</h3>
                     <hr>
-                    <v-list-group>
                       <div class="animated fadeInDown">
+                        <v-list-group>
                         <v-list-tile>Height: {{people.height}}</v-list-tile>
                         <v-divider></v-divider>
                         <v-list-tile>Mass: {{people.mass}}</v-list-tile>
@@ -111,8 +111,8 @@
                         <v-list-tile>Eye Color: {{people.eye_color}}</v-list-tile>
                         <v-divider></v-divider>
                         <v-list-tile>Gender: {{people.gender}}</v-list-tile>
+                        </v-list-group>
                       </div>
-                    </v-list-group>
                   </div>
                 </v-card-title>
               </v-card>
@@ -124,8 +124,9 @@
                   <div>
                     <h3 class="headline mb-0">{{people.name}}</h3>
                     <hr>
-                    <v-list-group>
+                    
                       <div class="animated fadeInDown">
+                        <v-list-group>
                         <v-list-tile>Height: {{people.height}}</v-list-tile>
                         <v-divider></v-divider>
                         <v-list-tile>Mass: {{people.mass}}</v-list-tile>
@@ -139,8 +140,9 @@
                         <v-list-tile>Eye Color: {{people.eye_color}}</v-list-tile>
                         <v-divider></v-divider>
                         <v-list-tile>Gender: {{people.gender}}</v-list-tile>
+                        </v-list-group>
                       </div>
-                    </v-list-group>
+                    
                   </div>
                 </v-card-title>
               </v-card>
@@ -152,8 +154,8 @@
                   <div>
                     <h3 class="headline mb-0">{{people.name}}</h3>
                     <hr>
-                    <v-list-group>
                       <div class="animated fadeInDown">
+                        <v-list-group>
                         <v-list-tile>Height: {{people.height}}</v-list-tile>
                         <v-divider></v-divider>
                         <v-list-tile>Mass: {{people.mass}}</v-list-tile>
@@ -167,8 +169,8 @@
                         <v-list-tile>Eye Color: {{people.eye_color}}</v-list-tile>
                         <v-divider></v-divider>
                         <v-list-tile>Gender: {{people.gender}}</v-list-tile>
+                        </v-list-group>
                       </div>
-                    </v-list-group>
                   </div>
                 </v-card-title>
               </v-card>
@@ -180,8 +182,9 @@
                   <div>
                     <h3 class="headline mb-0">{{people.name}}</h3>
                     <hr>
-                    <v-list-group>
+
                       <div class="animated fadeInDown">
+                        <v-list-group>
                         <v-list-tile>Height: {{people.height}}</v-list-tile>
                         <v-divider></v-divider>
                         <v-list-tile>Mass: {{people.mass}}</v-list-tile>
@@ -195,8 +198,9 @@
                         <v-list-tile>Eye Color: {{people.eye_color}}</v-list-tile>
                         <v-divider></v-divider>
                         <v-list-tile>Gender: {{people.gender}}</v-list-tile>
+                        </v-list-group>
                       </div>
-                    </v-list-group>
+                    
                   </div>
                 </v-card-title>
               </v-card>
@@ -208,8 +212,8 @@
                   <div>
                     <h3 class="headline mb-0">{{people.name}}</h3>
                     <hr>
-                    <v-list-group>
                       <div class="animated fadeInDown">
+                        <v-list-group>
                         <v-list-tile>Height: {{people.height}}</v-list-tile>
                         <v-divider></v-divider>
                         <v-list-tile>Mass: {{people.mass}}</v-list-tile>
@@ -223,8 +227,8 @@
                         <v-list-tile>Eye Color: {{people.eye_color}}</v-list-tile>
                         <v-divider></v-divider>
                         <v-list-tile>Gender: {{people.gender}}</v-list-tile>
+                        </v-list-group>
                       </div>
-                    </v-list-group>
                   </div>
                 </v-card-title>
               </v-card>
@@ -236,8 +240,8 @@
                   <div>
                     <h3 class="headline mb-0">{{people.name}}</h3>
                     <hr>
-                    <v-list-group>
                       <div class="animated fadeInDown">
+                        <v-list-group>
                         <v-list-tile>Height: {{people.height}}</v-list-tile>
                         <v-divider></v-divider>
                         <v-list-tile>Mass: {{people.mass}}</v-list-tile>
@@ -251,8 +255,8 @@
                         <v-list-tile>Eye Color: {{people.eye_color}}</v-list-tile>
                         <v-divider></v-divider>
                         <v-list-tile>Gender: {{people.gender}}</v-list-tile>
+                        </v-list-group>
                       </div>
-                    </v-list-group>
                   </div>
                 </v-card-title>
               </v-card>

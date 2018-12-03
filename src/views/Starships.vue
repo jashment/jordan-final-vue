@@ -11,8 +11,8 @@
                   <div>
                     <h3 class="headline mb-0">{{starships.name}}</h3>
                     <hr>
-                    <v-list-group class="animated fadeInDown">
-                      <div class="animated fadeInDown">
+                    <v-list class="animated fadeInDown">
+                    <v-list-group>
                         <v-list-tile>Model: {{starships.model}}</v-list-tile>
                         <v-divider></v-divider>
                         <v-list-tile>Manufacturer: {{starships.manufacturer}}</v-list-tile>
@@ -26,8 +26,8 @@
                         <v-list-tile>Crew: {{starships.crew}}</v-list-tile>
                         <v-divider></v-divider>
                         <v-list-tile>Starship Class: {{starships.starship_class}}</v-list-tile>
-                      </div>
                     </v-list-group>
+                    </v-list>
                   </div>
                 </v-card-title>
               </v-card>
@@ -38,8 +38,8 @@
                   <div>
                     <h3 class="headline mb-0">{{starships.name}}</h3>
                     <hr>
+                    <v-list class="animated fadeInDown">
                     <v-list-group class="animated fadeInDown">
-                      <div class="animated fadeInDown">
                         <v-list-tile>Model: {{starships.model}}</v-list-tile>
                         <v-divider></v-divider>
                         <v-list-tile>Manufacturer: {{starships.manufacturer}}</v-list-tile>
@@ -53,8 +53,8 @@
                         <v-list-tile>Crew: {{starships.crew}}</v-list-tile>
                         <v-divider></v-divider>
                         <v-list-tile>Starship Class: {{starships.starship_class}}</v-list-tile>
-                      </div>
                     </v-list-group>
+                    </v-list>
                   </div>
                 </v-card-title>
               </v-card>
@@ -65,8 +65,8 @@
                   <div>
                     <h3 class="headline mb-0">{{starships.name}}</h3>
                     <hr>
-                    <v-list-group class="animated fadeInDown">
-                      <div class="animated fadeInDown">
+                    <v-list class="animated fadeInDown">
+                    <v-list-group>
                         <v-list-tile>Model: {{starships.model}}</v-list-tile>
                         <v-divider></v-divider>
                         <v-list-tile>Manufacturer: {{starships.manufacturer}}</v-list-tile>
@@ -80,8 +80,8 @@
                         <v-list-tile>Crew: {{starships.crew}}</v-list-tile>
                         <v-divider></v-divider>
                         <v-list-tile>Starship Class: {{starships.starship_class}}</v-list-tile>
-                      </div>
                     </v-list-group>
+                    </v-list>
                   </div>
                 </v-card-title>
               </v-card>
@@ -92,8 +92,8 @@
                   <div>
                     <h3 class="headline mb-0">{{starships.name}}</h3>
                     <hr>
-                    <v-list-group class="animated fadeInDown">
-                      <div class="animated fadeInDown">
+                    <v-list class="animated fadeInDown">
+                    <v-list-group>
                         <v-list-tile>Model: {{starships.model}}</v-list-tile>
                         <v-divider></v-divider>
                         <v-list-tile>Manufacturer: {{starships.manufacturer}}</v-list-tile>
@@ -107,8 +107,8 @@
                         <v-list-tile>Crew: {{starships.crew}}</v-list-tile>
                         <v-divider></v-divider>
                         <v-list-tile>Starship Class: {{starships.starship_class}}</v-list-tile>
-                      </div>
                     </v-list-group>
+                    </v-list>
                   </div>
                 </v-card-title>
               </v-card>

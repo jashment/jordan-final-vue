@@ -11,8 +11,8 @@
                   <div>
                     <h3 class="headline mb-0">{{species.name}}</h3>
                     <hr>
-                    <v-list-group class="animated fadeInDown">
-                      <div class="animated fadeInDown">
+                    <v-list class="animated fadeInDown">
+                    <v-list-group>
                         <v-list-tile>Classification: {{species.classification}}</v-list-tile>
                         <v-divider></v-divider>
                         <v-list-tile>Designation: {{species.designation}}</v-list-tile>
@@ -28,8 +28,8 @@
                         <v-list-tile>Average Lifespan: {{species.average_lifespan}}</v-list-tile>
                         <v-divider></v-divider>
                         <v-list-tile>Language: {{species.language}}</v-list-tile>
-                      </div>
                     </v-list-group>
+                    </v-list>
                   </div>
                 </v-card-title>
               </v-card>
@@ -40,8 +40,8 @@
                   <div>
                     <h3 class="headline mb-0">{{species.name}}</h3>
                     <hr>
-                    <v-list-group class="animated fadeInDown">
-                      <div class="animated fadeInDown">
+                    <v-list class="animated fadeInDown">
+                    <v-list-group>
                         <v-list-tile>Classification: {{species.classification}}</v-list-tile>
                         <v-divider></v-divider>
                         <v-list-tile>Designation: {{species.designation}}</v-list-tile>
@@ -57,8 +57,8 @@
                         <v-list-tile>Average Lifespan: {{species.average_lifespan}}</v-list-tile>
                         <v-divider></v-divider>
                         <v-list-tile>Language: {{species.language}}</v-list-tile>
-                      </div>
                     </v-list-group>
+                    </v-list>
                   </div>
                 </v-card-title>
               </v-card>
@@ -69,8 +69,8 @@
                   <div>
                     <h3 class="headline mb-0">{{species.name}}</h3>
                     <hr>
-                    <v-list-group class="animated fadeInDown">
-                      <div class="animated fadeInDown">
+                    <v-list class="animated fadeInDown">
+                    <v-list-group>
                         <v-list-tile>Classification: {{species.classification}}</v-list-tile>
                         <v-divider></v-divider>
                         <v-list-tile>Designation: {{species.designation}}</v-list-tile>
@@ -86,8 +86,8 @@
                         <v-list-tile>Average Lifespan: {{species.average_lifespan}}</v-list-tile>
                         <v-divider></v-divider>
                         <v-list-tile>Language: {{species.language}}</v-list-tile>
-                      </div>
                     </v-list-group>
+                    </v-list>
                   </div>
                 </v-card-title>
               </v-card>
@@ -98,8 +98,8 @@
                   <div>
                     <h3 class="headline mb-0">{{species.name}}</h3>
                     <hr>
-                    <v-list-group class="animated fadeInDown">
-                      <div class="animated fadeInDown">
+                    <v-list class="animated fadeInDown">
+                    <v-list-group>
                         <v-list-tile>Classification: {{species.classification}}</v-list-tile>
                         <v-divider></v-divider>
                         <v-list-tile>Designation: {{species.designation}}</v-list-tile>
@@ -115,8 +115,8 @@
                         <v-list-tile>Average Lifespan: {{species.average_lifespan}}</v-list-tile>
                         <v-divider></v-divider>
                         <v-list-tile>Language: {{species.language}}</v-list-tile>
-                      </div>
                     </v-list-group>
+                    </v-list>
                   </div>
                 </v-card-title>
               </v-card>
