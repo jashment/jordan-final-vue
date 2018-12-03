@@ -5,7 +5,7 @@
       <br>
         <v-container grid-list-xl>
           <v-layout row wrap>
-            <v-flex v-for="planets in SWArray" :key="`1${i}`" xs4>
+            <v-flex v-for="planets in SWArray" :key="planets.name" xs4>
               <v-card>
                 <v-card-title primary-title>
                   <div>
@@ -35,7 +35,7 @@
                 </v-card-title>
               </v-card>
             </v-flex>
-            <v-flex v-for="planets in SWArray2" :key="`1${i}`" xs4>
+            <v-flex v-for="planets in SWArray2" :key="planets.name" xs4>
               <v-card>
                 <v-card-title primary-title>
                   <div>
@@ -65,7 +65,7 @@
                 </v-card-title>
               </v-card>
             </v-flex>
-            <v-flex v-for="planets in SWArray3" :key="`1${i}`" xs4>
+            <v-flex v-for="planets in SWArray3" :key="planets.name" xs4>
               <v-card>
                 <v-card-title primary-title>
                   <div>
@@ -95,7 +95,7 @@
                 </v-card-title>
               </v-card>
             </v-flex>
-            <v-flex v-for="planets in SWArray4" :key="`1${i}`" xs4>
+            <v-flex v-for="planets in SWArray4" :key="planets.name" xs4>
               <v-card>
                 <v-card-title primary-title>
                   <div>
@@ -125,7 +125,7 @@
                 </v-card-title>
               </v-card>
             </v-flex>
-            <v-flex v-for="planets in SWArray5" :key="`1${i}`" xs4>
+            <v-flex v-for="planets in SWArray5" :key="planets.name" xs4>
               <v-card>
                 <v-card-title primary-title>
                   <div>
@@ -155,7 +155,7 @@
                 </v-card-title>
               </v-card>
             </v-flex>
-            <v-flex v-for="planets in SWArray6" :key="`1${i}`" xs4>
+            <v-flex v-for="planets in SWArray6" :key="planets.name" xs4>
               <v-card>
                 <v-card-title primary-title>
                   <div>
@@ -185,7 +185,7 @@
                 </v-card-title>
               </v-card>
             </v-flex>
-            <v-flex v-for="planets in SWArray7" :key="`1${i}`" xs4>
+            <v-flex v-for="planets in SWArray7" :key="planets.name" xs4>
               <v-card>
                 <v-card-title primary-title>
                   <div>

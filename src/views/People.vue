@@ -6,7 +6,7 @@
         <v-container grid-list-xl>
           <v-layout row wrap>
 
-            <v-flex v-for="people in SWArray" :key="`1${i}`" xs4>
+            <v-flex v-for="people in SWArray" :key="people.name" xs4>
               <v-card>
                 <v-card-title primary-title>
                   <div>
@@ -34,7 +34,7 @@
               </v-card>
             </v-flex>
 
-            <v-flex v-for="people in SWArray2" :key="`1${i}`" xs4>
+            <v-flex v-for="people in SWArray2" :key="people.name" xs4>
               <v-card>
                 <v-card-title primary-title>
                   <div>
@@ -62,7 +62,7 @@
               </v-card>
             </v-flex>
 
-            <v-flex v-for="people in SWArray3" :key="`1${i}`" xs4>
+            <v-flex v-for="people in SWArray3" :key="people.name" xs4>
               <v-card>
                 <v-card-title primary-title>
                   <div>
@@ -90,7 +90,7 @@
               </v-card>
             </v-flex>
 
-            <v-flex v-for="people in SWArray4" :key="`1${i}`" xs4>
+            <v-flex v-for="people in SWArray4" :key="people.name" xs4>
               <v-card>
                 <v-card-title primary-title>
                   <div> 
@@ -118,7 +118,7 @@
               </v-card>
             </v-flex>
 
-            <v-flex v-for="people in SWArray5" :key="`1${i}`" xs4>
+            <v-flex v-for="people in SWArray5" :key="people.name" xs4>
               <v-card>
                 <v-card-title primary-title>
                   <div>
@@ -148,7 +148,7 @@
               </v-card>
             </v-flex>
 
-            <v-flex v-for="people in SWArray6" :key="`1${i}`" xs4>
+            <v-flex v-for="people in SWArray6" :key="people.name" xs4>
               <v-card>
                 <v-card-title primary-title>
                   <div>
@@ -176,7 +176,7 @@
               </v-card>
             </v-flex>
 
-            <v-flex v-for="people in SWArray7" :key="`1${i}`" xs4>
+            <v-flex v-for="people in SWArray7" :key="people.name" xs4>
               <v-card>
                 <v-card-title primary-title>
                   <div>
@@ -206,7 +206,7 @@
               </v-card>
             </v-flex>
 
-            <v-flex v-for="people in SWArray8" :key="`1${i}`" xs4>
+            <v-flex v-for="people in SWArray8" :key="people.name" xs4>
               <v-card>
                 <v-card-title primary-title>
                   <div>
@@ -234,7 +234,7 @@
               </v-card>
             </v-flex>
 
-            <v-flex v-for="people in SWArray9" :key="`1${i}`" xs4>
+            <v-flex v-for="people in SWArray9" :key="people.name" xs4>
               <v-card>
                 <v-card-title primary-title>
                   <div>

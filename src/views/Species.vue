@@ -5,7 +5,7 @@
       <br>
         <v-container grid-list-xl>
           <v-layout row wrap>
-            <v-flex v-for="species in SWArray" :key="`1${i}`" xs4>
+            <v-flex v-for="species in SWArray" :key="species.name" xs4>
               <v-card hover>
                 <v-card-title primary-title>
                   <div>
@@ -34,7 +34,7 @@
                 </v-card-title>
               </v-card>
             </v-flex>
-            <v-flex v-for="species in SWArray2" :key="`1${i}`" xs4>
+            <v-flex v-for="species in SWArray2" :key="species.name" xs4>
               <v-card hover>
                 <v-card-title primary-title>
                   <div>
@@ -63,7 +63,7 @@
                 </v-card-title>
               </v-card>
             </v-flex>
-            <v-flex v-for="species in SWArray3" :key="`1${i}`" xs4>
+            <v-flex v-for="species in SWArray3" :key="species.name" xs4>
               <v-card hover>
                 <v-card-title primary-title>
                   <div>
@@ -92,7 +92,7 @@
                 </v-card-title>
               </v-card>
             </v-flex>
-            <v-flex v-for="species in SWArray4" :key="`1${i}`" xs4>
+            <v-flex v-for="species in SWArray4" :key="species.name" xs4>
               <v-card hover>
                 <v-card-title primary-title>
                   <div>

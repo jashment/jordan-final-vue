@@ -5,7 +5,7 @@
       <br>
         <v-container grid-list-xl>
           <v-layout row wrap>
-            <v-flex v-for="starships in SWArray" :key="`1${i}`" xs4>
+            <v-flex v-for="starships in SWArray" :key="starships.name" xs4>
               <v-card>
                 <v-card-title primary-title>
                   <div>
@@ -32,7 +32,7 @@
                 </v-card-title>
               </v-card>
             </v-flex>
-            <v-flex v-for="starships in SWArray2" :key="`1${i}`" xs4>
+            <v-flex v-for="starships in SWArray2" :key="starships.name" xs4>
               <v-card>
                 <v-card-title primary-title>
                   <div>
@@ -59,7 +59,7 @@
                 </v-card-title>
               </v-card>
             </v-flex>
-            <v-flex v-for="starships in SWArray3" :key="`1${i}`" xs4>
+            <v-flex v-for="starships in SWArray3" :key="starships.name" xs4>
               <v-card>
                 <v-card-title primary-title>
                   <div>
@@ -86,7 +86,7 @@
                 </v-card-title>
               </v-card>
             </v-flex>
-            <v-flex v-for="starships in SWArray4" :key="`1${i}`" xs4>
+            <v-flex v-for="starships in SWArray4" :key="starships.name" xs4>
               <v-card>
                 <v-card-title primary-title>
                   <div>
