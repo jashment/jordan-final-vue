@@ -6,8 +6,13 @@ import router from "./router";
 import store from "./store";
 import Vuelidate from "vuelidate"
 import axios from 'axios'
+import About from './views/About.vue';
+
+
 
 Vue.use(Vuelidate)
+
+Vue.component('aboutInfo', About);
 
 Vue.directive('box-shadow', {
   bind(el, binding){

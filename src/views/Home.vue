@@ -53,12 +53,15 @@
         </v-flex>
       </v-layout>
     </v-container>
+  <aboutInfo/>
   </v-container>
 </v-app>
 </template>
 
 <script>
+
 import axios from 'axios'
+
 export default {
   data () {
     return {
@@ -74,6 +77,9 @@ export default {
       return this.$store.getters.authenticatedUser
     }
   },
+  components: {
+    
+  }
 }
 </script>
 
