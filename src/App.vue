@@ -33,6 +33,10 @@
             <router-link to="/vehicles" style="text-decoration: none;">Vehicles</router-link>
           </v-card>
           <v-divider></v-divider>
+          <v-card hover v-if="!auth">
+            <router-link to="/login" style="text-decoration: none;">Login</router-link>
+          </v-card>
+          <v-divider></v-divider>
       </v-list>
     </v-navigation-drawer>
     <v-toolbar
@@ -54,7 +58,7 @@
     </v-content>
 
     <v-footer :fixed="fixed" app>
-      <span>&copy; 2018</span>
+      <span>&copy; 2018 Jordan Ashment</span>
     </v-footer>
   </v-app>
 </template>
