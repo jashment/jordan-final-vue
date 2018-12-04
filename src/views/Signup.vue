@@ -1,5 +1,6 @@
 <template>
     <v-container grid-list-md>
+        <h1>Sign Up</h1>
         <v-layout>
             <v-flex xs6 class="ma-auto">
                 <v-card>
@@ -8,7 +9,7 @@
                         <v-text-field 
                             v-model="name" 
                             :rules="[nameRules.required]"
-                            :counter="10" 
+                            :counter="20" 
                             label="Name" 
                             required>
                         </v-text-field>
@@ -102,5 +103,8 @@ export default {
 <style scoped>
     div {
             padding: .5em;
+    }
+    h1 {
+        text-align: center;
     }
 </style>

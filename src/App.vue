@@ -34,7 +34,7 @@
           </v-card>
           <v-divider></v-divider>
           <v-card hover v-if="!auth">
-            <router-link to="/login" style="text-decoration: none;">Login</router-link>
+            <router-link to="/login" style="text-decoration: none; color: white;">Sign In</router-link>
           </v-card>
           <v-divider></v-divider>
       </v-list>

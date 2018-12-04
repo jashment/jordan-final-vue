@@ -3,7 +3,6 @@
         <h1>Please Login to View Content</h1>
         <v-layout>
             <v-flex xs6 class="ma-auto">
-
                 <v-card>
                     <div>
                     <v-form @submit.prevent="onSubmit">
@@ -30,7 +29,13 @@
                         </v-text-field>
                         <v-btn type="submit">Submit</v-btn>
                         <v-btn @click="clear">Clear</v-btn>
+                        <v-spacer></v-spacer>
                     </v-form>
+                    </div>
+                    <div>
+                        <h3>Sign Up if you don't have an account!</h3>
+                        <v-spacer></v-spacer>
+                        <v-btn block to="/signup">Sign Up</v-btn>
                     </div>
                 </v-card>
             </v-flex>
@@ -92,6 +97,9 @@ export default {
         padding: .5em;
     }
     h1 {
+        text-align: center;
+    }
+    h3 {
         text-align: center;
     }
 </style>
