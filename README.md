@@ -19,6 +19,7 @@ Evident through entire project
 Seen on my [Profile Page](https://github.com/jashment)
 
 ## Allow communication between components using props, custom events, or local store.
+Evident through entire project
 
 ## Present a form for user input that provides useful form validation and feedback.
 Can be seen in [Login.vue](https://github.com/jashment/jordan-final-vue/blob/master/src/views/Login.vue) and [Signup.vue](https://github.com/jashment/jordan-final-vue/blob/master/src/views/Signup.vue)
@@ -44,5 +45,4 @@ Created in [router.js](https://github.com/jashment/jordan-final-vue/blob/master/
 Can be seen in [store.js](https://github.com/jashment/jordan-final-vue/blob/master/src/store.js) and implemented in [Login.vue](https://github.com/jashment/jordan-final-vue/blob/master/src/views/Login.vue) and [Signup.vue](https://github.com/jashment/jordan-final-vue/blob/master/src/views/Signup.vue)
 
 ## Structure, document, and deploy your final project code according to common industry practices.
-
 Evident through [Github profile](https://github.com/jashment) and [Repository Page](https://github.com/jashment/jordan-final-vue) for this project
