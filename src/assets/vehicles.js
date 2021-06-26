@@ -13,12 +13,12 @@ export const vehicles = [
         "vehicle_class": "wheeled",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/5/",
-            "https://swapi.co/api/films/1/"
+            "https://swapi.dev/api/films/5/",
+            "https://swapi.dev/api/films/1/"
         ],
         "created": "2014-12-10T15:36:25.724000Z",
         "edited": "2014-12-22T18:21:15.523587Z",
-        "url": "https://swapi.co/api/vehicles/4/"
+        "url": "https://swapi.dev/api/vehicles/4/"
     },
     {
         "name": "T-16 skyhopper",
@@ -34,11 +34,11 @@ export const vehicles = [
         "vehicle_class": "repulsorcraft",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/1/"
+            "https://swapi.dev/api/films/1/"
         ],
         "created": "2014-12-10T16:01:52.434000Z",
         "edited": "2014-12-22T18:21:15.552614Z",
-        "url": "https://swapi.co/api/vehicles/6/"
+        "url": "https://swapi.dev/api/vehicles/6/"
     },
     {
         "name": "X-34 landspeeder",
@@ -54,11 +54,11 @@ export const vehicles = [
         "vehicle_class": "repulsorcraft",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/1/"
+            "https://swapi.dev/api/films/1/"
         ],
         "created": "2014-12-10T16:13:52.586000Z",
         "edited": "2014-12-22T18:21:15.583700Z",
-        "url": "https://swapi.co/api/vehicles/7/"
+        "url": "https://swapi.dev/api/vehicles/7/"
     },
     {
         "name": "TIE/LN starfighter",
@@ -74,13 +74,13 @@ export const vehicles = [
         "vehicle_class": "starfighter",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/2/",
-            "https://swapi.co/api/films/3/",
-            "https://swapi.co/api/films/1/"
+            "https://swapi.dev/api/films/2/",
+            "https://swapi.dev/api/films/3/",
+            "https://swapi.dev/api/films/1/"
         ],
         "created": "2014-12-10T16:33:52.860000Z",
         "edited": "2014-12-22T18:21:15.606149Z",
-        "url": "https://swapi.co/api/vehicles/8/"
+        "url": "https://swapi.dev/api/vehicles/8/"
     },
     {
         "name": "Snowspeeder",
@@ -95,15 +95,15 @@ export const vehicles = [
         "consumables": "none",
         "vehicle_class": "airspeeder",
         "pilots": [
-            "https://swapi.co/api/people/1/",
-            "https://swapi.co/api/people/18/"
+            "https://swapi.dev/api/people/1/",
+            "https://swapi.dev/api/people/18/"
         ],
         "films": [
-            "https://swapi.co/api/films/2/"
+            "https://swapi.dev/api/films/2/"
         ],
         "created": "2014-12-15T12:22:12Z",
         "edited": "2014-12-22T18:21:15.623033Z",
-        "url": "https://swapi.co/api/vehicles/14/"
+        "url": "https://swapi.dev/api/vehicles/14/"
     },
     {
         "name": "TIE bomber",
@@ -119,12 +119,12 @@ export const vehicles = [
         "vehicle_class": "space/planetary bomber",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/2/",
-            "https://swapi.co/api/films/3/"
+            "https://swapi.dev/api/films/2/",
+            "https://swapi.dev/api/films/3/"
         ],
         "created": "2014-12-15T12:33:15.838000Z",
         "edited": "2014-12-22T18:21:15.667730Z",
-        "url": "https://swapi.co/api/vehicles/16/"
+        "url": "https://swapi.dev/api/vehicles/16/"
     },
     {
         "name": "AT-AT",
@@ -140,12 +140,12 @@ export const vehicles = [
         "vehicle_class": "assault walker",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/2/",
-            "https://swapi.co/api/films/3/"
+            "https://swapi.dev/api/films/2/",
+            "https://swapi.dev/api/films/3/"
         ],
         "created": "2014-12-15T12:38:25.937000Z",
         "edited": "2014-12-22T18:21:15.714673Z",
-        "url": "https://swapi.co/api/vehicles/18/"
+        "url": "https://swapi.dev/api/vehicles/18/"
     },
     {
         "name": "AT-ST",
@@ -160,15 +160,15 @@ export const vehicles = [
         "consumables": "none",
         "vehicle_class": "walker",
         "pilots": [
-            "https://swapi.co/api/people/13/"
+            "https://swapi.dev/api/people/13/"
         ],
         "films": [
-            "https://swapi.co/api/films/2/",
-            "https://swapi.co/api/films/3/"
+            "https://swapi.dev/api/films/2/",
+            "https://swapi.dev/api/films/3/"
         ],
         "created": "2014-12-15T12:46:42.384000Z",
         "edited": "2014-12-22T18:21:15.761584Z",
-        "url": "https://swapi.co/api/vehicles/19/"
+        "url": "https://swapi.dev/api/vehicles/19/"
     },
     {
         "name": "Storm IV Twin-Pod cloud car",
@@ -184,11 +184,11 @@ export const vehicles = [
         "vehicle_class": "repulsorcraft",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/2/"
+            "https://swapi.dev/api/films/2/"
         ],
         "created": "2014-12-15T12:58:50.530000Z",
         "edited": "2014-12-22T18:21:15.783232Z",
-        "url": "https://swapi.co/api/vehicles/20/"
+        "url": "https://swapi.dev/api/vehicles/20/"
     },
     {
         "name": "Sail barge",
@@ -204,11 +204,11 @@ export const vehicles = [
         "vehicle_class": "sail barge",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/3/"
+            "https://swapi.dev/api/films/3/"
         ],
         "created": "2014-12-18T10:44:14.217000Z",
         "edited": "2014-12-22T18:21:15.807906Z",
-        "url": "https://swapi.co/api/vehicles/24/"
+        "url": "https://swapi.dev/api/vehicles/24/"
     },
     {
         "name": "Bantha-II cargo skiff",
@@ -224,11 +224,11 @@ export const vehicles = [
         "vehicle_class": "repulsorcraft cargo skiff",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/3/"
+            "https://swapi.dev/api/films/3/"
         ],
         "created": "2014-12-18T10:48:03.208000Z",
         "edited": "2014-12-22T18:21:15.845988Z",
-        "url": "https://swapi.co/api/vehicles/25/"
+        "url": "https://swapi.dev/api/vehicles/25/"
     },
     {
         "name": "TIE/IN interceptor",
@@ -244,11 +244,11 @@ export const vehicles = [
         "vehicle_class": "starfighter",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/3/"
+            "https://swapi.dev/api/films/3/"
         ],
         "created": "2014-12-18T10:50:28.225000Z",
         "edited": "2014-12-22T18:21:15.882388Z",
-        "url": "https://swapi.co/api/vehicles/26/"
+        "url": "https://swapi.dev/api/vehicles/26/"
     },
     {
         "name": "Imperial Speeder Bike",
@@ -263,15 +263,15 @@ export const vehicles = [
         "consumables": "1 day",
         "vehicle_class": "speeder",
         "pilots": [
-            "https://swapi.co/api/people/1/",
-            "https://swapi.co/api/people/5/"
+            "https://swapi.dev/api/people/1/",
+            "https://swapi.dev/api/people/5/"
         ],
         "films": [
-            "https://swapi.co/api/films/3/"
+            "https://swapi.dev/api/films/3/"
         ],
         "created": "2014-12-18T11:20:04.625000Z",
         "edited": "2014-12-22T18:21:15.920537Z",
-        "url": "https://swapi.co/api/vehicles/30/"
+        "url": "https://swapi.dev/api/vehicles/30/"
     },
     {
         "name": "Vulture Droid",
@@ -287,12 +287,12 @@ export const vehicles = [
         "vehicle_class": "starfighter",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/4/",
-            "https://swapi.co/api/films/6/"
+            "https://swapi.dev/api/films/4/",
+            "https://swapi.dev/api/films/6/"
         ],
         "created": "2014-12-19T17:09:53.584000Z",
         "edited": "2014-12-22T18:21:15.953870Z",
-        "url": "https://swapi.co/api/vehicles/33/"
+        "url": "https://swapi.dev/api/vehicles/33/"
     },
     {
         "name": "Multi-Troop Transport",
@@ -308,11 +308,11 @@ export const vehicles = [
         "vehicle_class": "repulsorcraft",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/4/"
+            "https://swapi.dev/api/films/4/"
         ],
         "created": "2014-12-19T17:12:04.400000Z",
         "edited": "2014-12-22T18:21:15.975171Z",
-        "url": "https://swapi.co/api/vehicles/34/"
+        "url": "https://swapi.dev/api/vehicles/34/"
     },
     {
         "name": "Armored Assault Tank",
@@ -328,11 +328,11 @@ export const vehicles = [
         "vehicle_class": "repulsorcraft",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/4/"
+            "https://swapi.dev/api/films/4/"
         ],
         "created": "2014-12-19T17:13:29.799000Z",
         "edited": "2014-12-22T18:21:15.984817Z",
-        "url": "https://swapi.co/api/vehicles/35/"
+        "url": "https://swapi.dev/api/vehicles/35/"
     },
     {
         "name": "Single Trooper Aerial Platform",
@@ -348,11 +348,11 @@ export const vehicles = [
         "vehicle_class": "repulsorcraft",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/4/"
+            "https://swapi.dev/api/films/4/"
         ],
         "created": "2014-12-19T17:15:09.511000Z",
         "edited": "2014-12-22T18:21:16.008594Z",
-        "url": "https://swapi.co/api/vehicles/36/"
+        "url": "https://swapi.dev/api/vehicles/36/"
     },
     {
         "name": "C-9979 landing craft",
@@ -368,11 +368,11 @@ export const vehicles = [
         "vehicle_class": "landing craft",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/4/"
+            "https://swapi.dev/api/films/4/"
         ],
         "created": "2014-12-19T17:20:36.373000Z",
         "edited": "2014-12-22T18:21:16.033738Z",
-        "url": "https://swapi.co/api/vehicles/37/"
+        "url": "https://swapi.dev/api/vehicles/37/"
     },
     {
         "name": "Tribubble bongo",
@@ -387,15 +387,15 @@ export const vehicles = [
         "consumables": "unknown",
         "vehicle_class": "submarine",
         "pilots": [
-            "https://swapi.co/api/people/10/",
-            "https://swapi.co/api/people/32/"
+            "https://swapi.dev/api/people/10/",
+            "https://swapi.dev/api/people/32/"
         ],
         "films": [
-            "https://swapi.co/api/films/4/"
+            "https://swapi.dev/api/films/4/"
         ],
         "created": "2014-12-19T17:37:37.924000Z",
         "edited": "2014-12-22T18:21:16.072083Z",
-        "url": "https://swapi.co/api/vehicles/38/"
+        "url": "https://swapi.dev/api/vehicles/38/"
     },
     {
         "name": "Sith speeder",
@@ -410,14 +410,14 @@ export const vehicles = [
         "consumables": "unknown",
         "vehicle_class": "speeder",
         "pilots": [
-            "https://swapi.co/api/people/44/"
+            "https://swapi.dev/api/people/44/"
         ],
         "films": [
-            "https://swapi.co/api/films/4/"
+            "https://swapi.dev/api/films/4/"
         ],
         "created": "2014-12-20T10:09:56.095000Z",
         "edited": "2014-12-22T18:21:16.095041Z",
-        "url": "https://swapi.co/api/vehicles/42/"
+        "url": "https://swapi.dev/api/vehicles/42/"
     },
     {
         "name": "Zephyr-G swoop bike",
@@ -432,14 +432,14 @@ export const vehicles = [
         "consumables": "none",
         "vehicle_class": "repulsorcraft",
         "pilots": [
-            "https://swapi.co/api/people/11/"
+            "https://swapi.dev/api/people/11/"
         ],
         "films": [
-            "https://swapi.co/api/films/5/"
+            "https://swapi.dev/api/films/5/"
         ],
         "created": "2014-12-20T16:24:16.026000Z",
         "edited": "2014-12-22T18:21:16.117652Z",
-        "url": "https://swapi.co/api/vehicles/44/"
+        "url": "https://swapi.dev/api/vehicles/44/"
     },
     {
         "name": "Koro-2 Exodrive airspeeder",
@@ -454,14 +454,14 @@ export const vehicles = [
         "consumables": "unknown",
         "vehicle_class": "airspeeder",
         "pilots": [
-            "https://swapi.co/api/people/70/"
+            "https://swapi.dev/api/people/70/"
         ],
         "films": [
-            "https://swapi.co/api/films/5/"
+            "https://swapi.dev/api/films/5/"
         ],
         "created": "2014-12-20T17:17:33.526000Z",
         "edited": "2014-12-22T18:21:16.140018Z",
-        "url": "https://swapi.co/api/vehicles/45/"
+        "url": "https://swapi.dev/api/vehicles/45/"
     },
     {
         "name": "XJ-6 airspeeder",
@@ -476,14 +476,14 @@ export const vehicles = [
         "consumables": "unknown",
         "vehicle_class": "airspeeder",
         "pilots": [
-            "https://swapi.co/api/people/11/"
+            "https://swapi.dev/api/people/11/"
         ],
         "films": [
-            "https://swapi.co/api/films/5/"
+            "https://swapi.dev/api/films/5/"
         ],
         "created": "2014-12-20T17:19:19.991000Z",
         "edited": "2014-12-22T18:21:16.150194Z",
-        "url": "https://swapi.co/api/vehicles/46/"
+        "url": "https://swapi.dev/api/vehicles/46/"
     },
     {
         "name": "LAAT/i",
@@ -499,12 +499,12 @@ export const vehicles = [
         "vehicle_class": "gunship",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/5/",
-            "https://swapi.co/api/films/6/"
+            "https://swapi.dev/api/films/5/",
+            "https://swapi.dev/api/films/6/"
         ],
         "created": "2014-12-20T18:01:21.014000Z",
         "edited": "2014-12-22T18:21:16.181363Z",
-        "url": "https://swapi.co/api/vehicles/50/"
+        "url": "https://swapi.dev/api/vehicles/50/"
     },
     {
         "name": "LAAT/c",
@@ -520,11 +520,11 @@ export const vehicles = [
         "vehicle_class": "gunship",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/5/"
+            "https://swapi.dev/api/films/5/"
         ],
         "created": "2014-12-20T18:02:46.802000Z",
         "edited": "2014-12-22T18:21:16.229733Z",
-        "url": "https://swapi.co/api/vehicles/51/"
+        "url": "https://swapi.dev/api/vehicles/51/"
     },
     {
         "name": "Tsmeu-6 personal wheel bike",
@@ -539,14 +539,14 @@ export const vehicles = [
         "consumables": "none",
         "vehicle_class": "wheeled walker",
         "pilots": [
-            "https://swapi.co/api/people/79/"
+            "https://swapi.dev/api/people/79/"
         ],
         "films": [
-            "https://swapi.co/api/films/6/"
+            "https://swapi.dev/api/films/6/"
         ],
         "created": "2014-12-20T19:43:54.870000Z",
         "edited": "2014-12-22T18:21:16.422662Z",
-        "url": "https://swapi.co/api/vehicles/60/"
+        "url": "https://swapi.dev/api/vehicles/60/"
     },
     {
         "name": "Emergency Firespeeder",
@@ -562,11 +562,11 @@ export const vehicles = [
         "vehicle_class": "fire suppression ship",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/6/"
+            "https://swapi.dev/api/films/6/"
         ],
         "created": "2014-12-20T19:50:58.559000Z",
         "edited": "2014-12-22T18:21:16.450655Z",
-        "url": "https://swapi.co/api/vehicles/62/"
+        "url": "https://swapi.dev/api/vehicles/62/"
     },
     {
         "name": "Droid tri-fighter",
@@ -582,11 +582,11 @@ export const vehicles = [
         "vehicle_class": "droid starfighter",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/6/"
+            "https://swapi.dev/api/films/6/"
         ],
         "created": "2014-12-20T20:05:19.992000Z",
         "edited": "2014-12-22T18:21:16.478901Z",
-        "url": "https://swapi.co/api/vehicles/67/"
+        "url": "https://swapi.dev/api/vehicles/67/"
     },
     {
         "name": "Oevvaor jet catamaran",
@@ -602,11 +602,11 @@ export const vehicles = [
         "vehicle_class": "airspeeder",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/6/"
+            "https://swapi.dev/api/films/6/"
         ],
         "created": "2014-12-20T20:20:53.931000Z",
         "edited": "2014-12-22T18:21:16.517049Z",
-        "url": "https://swapi.co/api/vehicles/69/"
+        "url": "https://swapi.dev/api/vehicles/69/"
     },
     {
         "name": "Raddaugh Gnasp fluttercraft",
@@ -622,11 +622,11 @@ export const vehicles = [
         "vehicle_class": "air speeder",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/6/"
+            "https://swapi.dev/api/films/6/"
         ],
         "created": "2014-12-20T20:21:55.648000Z",
         "edited": "2014-12-22T18:21:16.547708Z",
-        "url": "https://swapi.co/api/vehicles/70/"
+        "url": "https://swapi.dev/api/vehicles/70/"
     },
     {
         "name": "Clone turbo tank",
@@ -642,11 +642,11 @@ export const vehicles = [
         "vehicle_class": "wheeled walker",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/6/"
+            "https://swapi.dev/api/films/6/"
         ],
         "created": "2014-12-20T20:24:45.587000Z",
         "edited": "2014-12-22T18:21:16.571079Z",
-        "url": "https://swapi.co/api/vehicles/71/"
+        "url": "https://swapi.dev/api/vehicles/71/"
     },
     {
         "name": "Corporate Alliance tank droid",
@@ -662,11 +662,11 @@ export const vehicles = [
         "vehicle_class": "droid tank",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/6/"
+            "https://swapi.dev/api/films/6/"
         ],
         "created": "2014-12-20T20:26:55.522000Z",
         "edited": "2014-12-22T18:21:16.612902Z",
-        "url": "https://swapi.co/api/vehicles/72/"
+        "url": "https://swapi.dev/api/vehicles/72/"
     },
     {
         "name": "Droid gunship",
@@ -682,11 +682,11 @@ export const vehicles = [
         "vehicle_class": "airspeeder",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/6/"
+            "https://swapi.dev/api/films/6/"
         ],
         "created": "2014-12-20T20:32:05.687000Z",
         "edited": "2014-12-22T18:21:16.643329Z",
-        "url": "https://swapi.co/api/vehicles/73/"
+        "url": "https://swapi.dev/api/vehicles/73/"
     },
     {
         "name": "AT-RT",
@@ -702,11 +702,11 @@ export const vehicles = [
         "vehicle_class": "walker",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/6/"
+            "https://swapi.dev/api/films/6/"
         ],
         "created": "2014-12-20T20:47:49.189000Z",
         "edited": "2014-12-22T18:21:16.672821Z",
-        "url": "https://swapi.co/api/vehicles/76/"
+        "url": "https://swapi.dev/api/vehicles/76/"
     },
     {
         "name": "AT-TE",
@@ -722,12 +722,12 @@ export const vehicles = [
         "vehicle_class": "walker",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/5/",
-            "https://swapi.co/api/films/6/"
+            "https://swapi.dev/api/films/5/",
+            "https://swapi.dev/api/films/6/"
         ],
         "created": "2014-12-20T18:10:07.560000Z",
         "edited": "2014-12-22T18:21:16.293771Z",
-        "url": "https://swapi.co/api/vehicles/53/"
+        "url": "https://swapi.dev/api/vehicles/53/"
     },
     {
         "name": "SPHA",
@@ -743,11 +743,11 @@ export const vehicles = [
         "vehicle_class": "walker",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/5/"
+            "https://swapi.dev/api/films/5/"
         ],
         "created": "2014-12-20T18:12:32.315000Z",
         "edited": "2014-12-22T18:21:16.311761Z",
-        "url": "https://swapi.co/api/vehicles/54/"
+        "url": "https://swapi.dev/api/vehicles/54/"
     },
     {
         "name": "Flitknot speeder",
@@ -762,14 +762,14 @@ export const vehicles = [
         "consumables": "unknown",
         "vehicle_class": "speeder",
         "pilots": [
-            "https://swapi.co/api/people/67/"
+            "https://swapi.dev/api/people/67/"
         ],
         "films": [
-            "https://swapi.co/api/films/5/"
+            "https://swapi.dev/api/films/5/"
         ],
         "created": "2014-12-20T18:15:20.312000Z",
         "edited": "2014-12-22T18:21:16.335005Z",
-        "url": "https://swapi.co/api/vehicles/55/"
+        "url": "https://swapi.dev/api/vehicles/55/"
     },
     {
         "name": "Neimoidian shuttle",
@@ -785,12 +785,12 @@ export const vehicles = [
         "vehicle_class": "transport",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/5/",
-            "https://swapi.co/api/films/6/"
+            "https://swapi.dev/api/films/5/",
+            "https://swapi.dev/api/films/6/"
         ],
         "created": "2014-12-20T18:25:44.912000Z",
         "edited": "2014-12-22T18:21:16.366134Z",
-        "url": "https://swapi.co/api/vehicles/56/"
+        "url": "https://swapi.dev/api/vehicles/56/"
     },
     {
         "name": "Geonosian starfighter",
@@ -806,10 +806,10 @@ export const vehicles = [
         "vehicle_class": "starfighter",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/5/"
+            "https://swapi.dev/api/films/5/"
         ],
         "created": "2014-12-20T18:34:12.541000Z",
         "edited": "2014-12-22T18:21:16.390980Z",
-        "url": "https://swapi.co/api/vehicles/57/"
+        "url": "https://swapi.dev/api/vehicles/57/"
     }
 ]

@@ -8,18 +8,18 @@ export const species = [
         "hair_colors": "n/a",
         "eye_colors": "yellow, red",
         "average_lifespan": "1000",
-        "homeworld": "https://swapi.co/api/planets/24/",
+        "homeworld": "https://swapi.dev/api/planets/24/",
         "language": "Huttese",
         "people": [
-            "https://swapi.co/api/people/16/"
+            "https://swapi.dev/api/people/16/"
         ],
         "films": [
-            "https://swapi.co/api/films/3/",
-            "https://swapi.co/api/films/1/"
+            "https://swapi.dev/api/films/3/",
+            "https://swapi.dev/api/films/1/"
         ],
         "created": "2014-12-10T17:12:50.410000Z",
         "edited": "2014-12-20T21:36:42.146000Z",
-        "url": "https://swapi.co/api/species/5/"
+        "url": "https://swapi.dev/api/species/5/"
     },
     {
         "name": "Yoda's species",
@@ -30,21 +30,21 @@ export const species = [
         "hair_colors": "brown, white",
         "eye_colors": "brown, green, yellow",
         "average_lifespan": "900",
-        "homeworld": "https://swapi.co/api/planets/28/",
+        "homeworld": "https://swapi.dev/api/planets/28/",
         "language": "Galactic basic",
         "people": [
-            "https://swapi.co/api/people/20/"
+            "https://swapi.dev/api/people/20/"
         ],
         "films": [
-            "https://swapi.co/api/films/2/",
-            "https://swapi.co/api/films/5/",
-            "https://swapi.co/api/films/4/",
-            "https://swapi.co/api/films/6/",
-            "https://swapi.co/api/films/3/"
+            "https://swapi.dev/api/films/2/",
+            "https://swapi.dev/api/films/5/",
+            "https://swapi.dev/api/films/4/",
+            "https://swapi.dev/api/films/6/",
+            "https://swapi.dev/api/films/3/"
         ],
         "created": "2014-12-15T12:27:22.877000Z",
         "edited": "2014-12-20T21:36:42.148000Z",
-        "url": "https://swapi.co/api/species/6/"
+        "url": "https://swapi.dev/api/species/6/"
     },
     {
         "name": "Trandoshan",
@@ -55,17 +55,17 @@ export const species = [
         "hair_colors": "none",
         "eye_colors": "yellow, orange",
         "average_lifespan": "unknown",
-        "homeworld": "https://swapi.co/api/planets/29/",
+        "homeworld": "https://swapi.dev/api/planets/29/",
         "language": "Dosh",
         "people": [
-            "https://swapi.co/api/people/24/"
+            "https://swapi.dev/api/people/24/"
         ],
         "films": [
-            "https://swapi.co/api/films/2/"
+            "https://swapi.dev/api/films/2/"
         ],
         "created": "2014-12-15T13:07:47.704000Z",
         "edited": "2014-12-20T21:36:42.151000Z",
-        "url": "https://swapi.co/api/species/7/"
+        "url": "https://swapi.dev/api/species/7/"
     },
     {
         "name": "Mon Calamari",
@@ -76,17 +76,17 @@ export const species = [
         "hair_colors": "none",
         "eye_colors": "yellow",
         "average_lifespan": "unknown",
-        "homeworld": "https://swapi.co/api/planets/31/",
+        "homeworld": "https://swapi.dev/api/planets/31/",
         "language": "Mon Calamarian",
         "people": [
-            "https://swapi.co/api/people/27/"
+            "https://swapi.dev/api/people/27/"
         ],
         "films": [
-            "https://swapi.co/api/films/3/"
+            "https://swapi.dev/api/films/3/"
         ],
         "created": "2014-12-18T11:09:52.263000Z",
         "edited": "2014-12-20T21:36:42.153000Z",
-        "url": "https://swapi.co/api/species/8/"
+        "url": "https://swapi.dev/api/species/8/"
     },
     {
         "name": "Ewok",
@@ -97,17 +97,17 @@ export const species = [
         "hair_colors": "white, brown, black",
         "eye_colors": "orange, brown",
         "average_lifespan": "unknown",
-        "homeworld": "https://swapi.co/api/planets/7/",
+        "homeworld": "https://swapi.dev/api/planets/7/",
         "language": "Ewokese",
         "people": [
-            "https://swapi.co/api/people/30/"
+            "https://swapi.dev/api/people/30/"
         ],
         "films": [
-            "https://swapi.co/api/films/3/"
+            "https://swapi.dev/api/films/3/"
         ],
         "created": "2014-12-18T11:22:00.285000Z",
         "edited": "2014-12-20T21:36:42.155000Z",
-        "url": "https://swapi.co/api/species/9/"
+        "url": "https://swapi.dev/api/species/9/"
     },
     {
         "name": "Sullustan",
@@ -118,17 +118,17 @@ export const species = [
         "hair_colors": "none",
         "eye_colors": "black",
         "average_lifespan": "unknown",
-        "homeworld": "https://swapi.co/api/planets/33/",
+        "homeworld": "https://swapi.dev/api/planets/33/",
         "language": "Sullutese",
         "people": [
-            "https://swapi.co/api/people/31/"
+            "https://swapi.dev/api/people/31/"
         ],
         "films": [
-            "https://swapi.co/api/films/3/"
+            "https://swapi.dev/api/films/3/"
         ],
         "created": "2014-12-18T11:26:20.103000Z",
         "edited": "2014-12-20T21:36:42.157000Z",
-        "url": "https://swapi.co/api/species/10/"
+        "url": "https://swapi.dev/api/species/10/"
     },
     {
         "name": "Neimodian",
@@ -139,17 +139,17 @@ export const species = [
         "hair_colors": "none",
         "eye_colors": "red, pink",
         "average_lifespan": "unknown",
-        "homeworld": "https://swapi.co/api/planets/18/",
+        "homeworld": "https://swapi.dev/api/planets/18/",
         "language": "Neimoidia",
         "people": [
-            "https://swapi.co/api/people/33/"
+            "https://swapi.dev/api/people/33/"
         ],
         "films": [
-            "https://swapi.co/api/films/4/"
+            "https://swapi.dev/api/films/4/"
         ],
         "created": "2014-12-19T17:07:31.319000Z",
         "edited": "2014-12-20T21:36:42.160000Z",
-        "url": "https://swapi.co/api/species/11/"
+        "url": "https://swapi.dev/api/species/11/"
     },
     {
         "name": "Gungan",
@@ -160,20 +160,20 @@ export const species = [
         "hair_colors": "none",
         "eye_colors": "orange",
         "average_lifespan": "unknown",
-        "homeworld": "https://swapi.co/api/planets/8/",
+        "homeworld": "https://swapi.dev/api/planets/8/",
         "language": "Gungan basic",
         "people": [
-            "https://swapi.co/api/people/36/",
-            "https://swapi.co/api/people/37/",
-            "https://swapi.co/api/people/38/"
+            "https://swapi.dev/api/people/36/",
+            "https://swapi.dev/api/people/37/",
+            "https://swapi.dev/api/people/38/"
         ],
         "films": [
-            "https://swapi.co/api/films/5/",
-            "https://swapi.co/api/films/4/"
+            "https://swapi.dev/api/films/5/",
+            "https://swapi.dev/api/films/4/"
         ],
         "created": "2014-12-19T17:30:37.341000Z",
         "edited": "2014-12-20T21:36:42.163000Z",
-        "url": "https://swapi.co/api/species/12/"
+        "url": "https://swapi.dev/api/species/12/"
     },
     {
         "name": "Toydarian",
@@ -184,18 +184,18 @@ export const species = [
         "hair_colors": "none",
         "eye_colors": "yellow",
         "average_lifespan": "91",
-        "homeworld": "https://swapi.co/api/planets/34/",
+        "homeworld": "https://swapi.dev/api/planets/34/",
         "language": "Toydarian",
         "people": [
-            "https://swapi.co/api/people/40/"
+            "https://swapi.dev/api/people/40/"
         ],
         "films": [
-            "https://swapi.co/api/films/5/",
-            "https://swapi.co/api/films/4/"
+            "https://swapi.dev/api/films/5/",
+            "https://swapi.dev/api/films/4/"
         ],
         "created": "2014-12-19T17:48:56.893000Z",
         "edited": "2014-12-20T21:36:42.165000Z",
-        "url": "https://swapi.co/api/species/13/"
+        "url": "https://swapi.dev/api/species/13/"
     },
     {
         "name": "Dug",
@@ -206,17 +206,17 @@ export const species = [
         "hair_colors": "none",
         "eye_colors": "yellow, blue",
         "average_lifespan": "unknown",
-        "homeworld": "https://swapi.co/api/planets/35/",
+        "homeworld": "https://swapi.dev/api/planets/35/",
         "language": "Dugese",
         "people": [
-            "https://swapi.co/api/people/41/"
+            "https://swapi.dev/api/people/41/"
         ],
         "films": [
-            "https://swapi.co/api/films/4/"
+            "https://swapi.dev/api/films/4/"
         ],
         "created": "2014-12-19T17:53:11.214000Z",
         "edited": "2014-12-20T21:36:42.167000Z",
-        "url": "https://swapi.co/api/species/14/"
+        "url": "https://swapi.dev/api/species/14/"
     },
     {
         "name": "Twi'lek",
@@ -227,21 +227,21 @@ export const species = [
         "hair_colors": "none",
         "eye_colors": "blue, brown, orange, pink",
         "average_lifespan": "unknown",
-        "homeworld": "https://swapi.co/api/planets/37/",
+        "homeworld": "https://swapi.dev/api/planets/37/",
         "language": "Twi'leki",
         "people": [
-            "https://swapi.co/api/people/45/",
-            "https://swapi.co/api/people/46/"
+            "https://swapi.dev/api/people/45/",
+            "https://swapi.dev/api/people/46/"
         ],
         "films": [
-            "https://swapi.co/api/films/5/",
-            "https://swapi.co/api/films/4/",
-            "https://swapi.co/api/films/6/",
-            "https://swapi.co/api/films/3/"
+            "https://swapi.dev/api/films/5/",
+            "https://swapi.dev/api/films/4/",
+            "https://swapi.dev/api/films/6/",
+            "https://swapi.dev/api/films/3/"
         ],
         "created": "2014-12-20T09:48:02.406000Z",
         "edited": "2014-12-20T21:36:42.169000Z",
-        "url": "https://swapi.co/api/species/15/"
+        "url": "https://swapi.dev/api/species/15/"
     },
     {
         "name": "Aleena",
@@ -252,17 +252,17 @@ export const species = [
         "hair_colors": "none",
         "eye_colors": "unknown",
         "average_lifespan": "79",
-        "homeworld": "https://swapi.co/api/planets/38/",
+        "homeworld": "https://swapi.dev/api/planets/38/",
         "language": "Aleena",
         "people": [
-            "https://swapi.co/api/people/47/"
+            "https://swapi.dev/api/people/47/"
         ],
         "films": [
-            "https://swapi.co/api/films/4/"
+            "https://swapi.dev/api/films/4/"
         ],
         "created": "2014-12-20T09:53:16.481000Z",
         "edited": "2014-12-20T21:36:42.171000Z",
-        "url": "https://swapi.co/api/species/16/"
+        "url": "https://swapi.dev/api/species/16/"
     },
     {
         "name": "Vulptereen",
@@ -273,17 +273,17 @@ export const species = [
         "hair_colors": "none",
         "eye_colors": "yellow",
         "average_lifespan": "unknown",
-        "homeworld": "https://swapi.co/api/planets/39/",
+        "homeworld": "https://swapi.dev/api/planets/39/",
         "language": "vulpterish",
         "people": [
-            "https://swapi.co/api/people/48/"
+            "https://swapi.dev/api/people/48/"
         ],
         "films": [
-            "https://swapi.co/api/films/4/"
+            "https://swapi.dev/api/films/4/"
         ],
         "created": "2014-12-20T09:57:33.128000Z",
         "edited": "2014-12-20T21:36:42.173000Z",
-        "url": "https://swapi.co/api/species/17/"
+        "url": "https://swapi.dev/api/species/17/"
     },
     {
         "name": "Xexto",
@@ -294,17 +294,17 @@ export const species = [
         "hair_colors": "none",
         "eye_colors": "black",
         "average_lifespan": "unknown",
-        "homeworld": "https://swapi.co/api/planets/40/",
+        "homeworld": "https://swapi.dev/api/planets/40/",
         "language": "Xextese",
         "people": [
-            "https://swapi.co/api/people/49/"
+            "https://swapi.dev/api/people/49/"
         ],
         "films": [
-            "https://swapi.co/api/films/4/"
+            "https://swapi.dev/api/films/4/"
         ],
         "created": "2014-12-20T10:02:13.915000Z",
         "edited": "2014-12-20T21:36:42.175000Z",
-        "url": "https://swapi.co/api/species/18/"
+        "url": "https://swapi.dev/api/species/18/"
     },
     {
         "name": "Toong",
@@ -315,18 +315,18 @@ export const species = [
         "hair_colors": "none",
         "eye_colors": "orange",
         "average_lifespan": "unknown",
-        "homeworld": "https://swapi.co/api/planets/41/",
+        "homeworld": "https://swapi.dev/api/planets/41/",
         "language": "Tundan",
         "people": [
-            "https://swapi.co/api/people/50/"
+            "https://swapi.dev/api/people/50/"
         ],
         "films": [
-            "https://swapi.co/api/films/4/",
-            "https://swapi.co/api/films/6/"
+            "https://swapi.dev/api/films/4/",
+            "https://swapi.dev/api/films/6/"
         ],
         "created": "2014-12-20T10:08:36.795000Z",
         "edited": "2014-12-20T21:36:42.177000Z",
-        "url": "https://swapi.co/api/species/19/"
+        "url": "https://swapi.dev/api/species/19/"
     },
     {
         "name": "Cerean",
@@ -337,18 +337,18 @@ export const species = [
         "hair_colors": "red, blond, black, white",
         "eye_colors": "hazel",
         "average_lifespan": "unknown",
-        "homeworld": "https://swapi.co/api/planets/43/",
+        "homeworld": "https://swapi.dev/api/planets/43/",
         "language": "Cerean",
         "people": [
-            "https://swapi.co/api/people/52/"
+            "https://swapi.dev/api/people/52/"
         ],
         "films": [
-            "https://swapi.co/api/films/4/",
-            "https://swapi.co/api/films/6/"
+            "https://swapi.dev/api/films/4/",
+            "https://swapi.dev/api/films/6/"
         ],
         "created": "2014-12-20T10:15:33.765000Z",
         "edited": "2014-12-20T21:36:42.179000Z",
-        "url": "https://swapi.co/api/species/20/"
+        "url": "https://swapi.dev/api/species/20/"
     },
     {
         "name": "Nautolan",
@@ -359,17 +359,17 @@ export const species = [
         "hair_colors": "none",
         "eye_colors": "black",
         "average_lifespan": "70",
-        "homeworld": "https://swapi.co/api/planets/44/",
+        "homeworld": "https://swapi.dev/api/planets/44/",
         "language": "Nautila",
         "people": [
-            "https://swapi.co/api/people/53/"
+            "https://swapi.dev/api/people/53/"
         ],
         "films": [
-            "https://swapi.co/api/films/4/"
+            "https://swapi.dev/api/films/4/"
         ],
         "created": "2014-12-20T10:18:58.610000Z",
         "edited": "2014-12-20T21:36:42.181000Z",
-        "url": "https://swapi.co/api/species/21/"
+        "url": "https://swapi.dev/api/species/21/"
     },
     {
         "name": "Zabrak",
@@ -380,18 +380,18 @@ export const species = [
         "hair_colors": "black",
         "eye_colors": "brown, orange",
         "average_lifespan": "unknown",
-        "homeworld": "https://swapi.co/api/planets/45/",
+        "homeworld": "https://swapi.dev/api/planets/45/",
         "language": "Zabraki",
         "people": [
-            "https://swapi.co/api/people/44/",
-            "https://swapi.co/api/people/54/"
+            "https://swapi.dev/api/people/44/",
+            "https://swapi.dev/api/people/54/"
         ],
         "films": [
-            "https://swapi.co/api/films/4/"
+            "https://swapi.dev/api/films/4/"
         ],
         "created": "2014-12-20T10:26:59.894000Z",
         "edited": "2014-12-20T21:36:42.183000Z",
-        "url": "https://swapi.co/api/species/22/"
+        "url": "https://swapi.dev/api/species/22/"
     },
     {
         "name": "Tholothian",
@@ -402,18 +402,18 @@ export const species = [
         "hair_colors": "unknown",
         "eye_colors": "blue, indigo",
         "average_lifespan": "unknown",
-        "homeworld": "https://swapi.co/api/planets/46/",
+        "homeworld": "https://swapi.dev/api/planets/46/",
         "language": "unknown",
         "people": [
-            "https://swapi.co/api/people/55/"
+            "https://swapi.dev/api/people/55/"
         ],
         "films": [
-            "https://swapi.co/api/films/4/",
-            "https://swapi.co/api/films/6/"
+            "https://swapi.dev/api/films/4/",
+            "https://swapi.dev/api/films/6/"
         ],
         "created": "2014-12-20T10:29:13.798000Z",
         "edited": "2014-12-20T21:36:42.186000Z",
-        "url": "https://swapi.co/api/species/23/"
+        "url": "https://swapi.dev/api/species/23/"
     },
     {
         "name": "Iktotchi",
@@ -424,18 +424,18 @@ export const species = [
         "hair_colors": "none",
         "eye_colors": "orange",
         "average_lifespan": "unknown",
-        "homeworld": "https://swapi.co/api/planets/47/",
+        "homeworld": "https://swapi.dev/api/planets/47/",
         "language": "Iktotchese",
         "people": [
-            "https://swapi.co/api/people/56/"
+            "https://swapi.dev/api/people/56/"
         ],
         "films": [
-            "https://swapi.co/api/films/4/",
-            "https://swapi.co/api/films/6/"
+            "https://swapi.dev/api/films/4/",
+            "https://swapi.dev/api/films/6/"
         ],
         "created": "2014-12-20T10:32:13.046000Z",
         "edited": "2014-12-20T21:36:42.188000Z",
-        "url": "https://swapi.co/api/species/24/"
+        "url": "https://swapi.dev/api/species/24/"
     },
     {
         "name": "Quermian",
@@ -446,18 +446,18 @@ export const species = [
         "hair_colors": "none",
         "eye_colors": "yellow",
         "average_lifespan": "86",
-        "homeworld": "https://swapi.co/api/planets/48/",
+        "homeworld": "https://swapi.dev/api/planets/48/",
         "language": "Quermian",
         "people": [
-            "https://swapi.co/api/people/57/"
+            "https://swapi.dev/api/people/57/"
         ],
         "films": [
-            "https://swapi.co/api/films/4/",
-            "https://swapi.co/api/films/6/"
+            "https://swapi.dev/api/films/4/",
+            "https://swapi.dev/api/films/6/"
         ],
         "created": "2014-12-20T10:34:50.827000Z",
         "edited": "2014-12-20T21:36:42.189000Z",
-        "url": "https://swapi.co/api/species/25/"
+        "url": "https://swapi.dev/api/species/25/"
     },
     {
         "name": "Kel Dor",
@@ -468,18 +468,18 @@ export const species = [
         "hair_colors": "none",
         "eye_colors": "black, silver",
         "average_lifespan": "70",
-        "homeworld": "https://swapi.co/api/planets/49/",
+        "homeworld": "https://swapi.dev/api/planets/49/",
         "language": "Kel Dor",
         "people": [
-            "https://swapi.co/api/people/58/"
+            "https://swapi.dev/api/people/58/"
         ],
         "films": [
-            "https://swapi.co/api/films/4/",
-            "https://swapi.co/api/films/6/"
+            "https://swapi.dev/api/films/4/",
+            "https://swapi.dev/api/films/6/"
         ],
         "created": "2014-12-20T10:49:21.692000Z",
         "edited": "2014-12-20T21:36:42.191000Z",
-        "url": "https://swapi.co/api/species/26/"
+        "url": "https://swapi.dev/api/species/26/"
     },
     {
         "name": "Chagrian",
@@ -490,18 +490,18 @@ export const species = [
         "hair_colors": "none",
         "eye_colors": "blue",
         "average_lifespan": "unknown",
-        "homeworld": "https://swapi.co/api/planets/50/",
+        "homeworld": "https://swapi.dev/api/planets/50/",
         "language": "Chagria",
         "people": [
-            "https://swapi.co/api/people/59/"
+            "https://swapi.dev/api/people/59/"
         ],
         "films": [
-            "https://swapi.co/api/films/4/",
-            "https://swapi.co/api/films/6/"
+            "https://swapi.dev/api/films/4/",
+            "https://swapi.dev/api/films/6/"
         ],
         "created": "2014-12-20T10:53:28.795000Z",
         "edited": "2014-12-20T21:36:42.193000Z",
-        "url": "https://swapi.co/api/species/27/"
+        "url": "https://swapi.dev/api/species/27/"
     },
     {
         "name": "Geonosian",
@@ -512,18 +512,18 @@ export const species = [
         "hair_colors": "none",
         "eye_colors": "green, hazel",
         "average_lifespan": "unknown",
-        "homeworld": "https://swapi.co/api/planets/11/",
+        "homeworld": "https://swapi.dev/api/planets/11/",
         "language": "Geonosian",
         "people": [
-            "https://swapi.co/api/people/63/"
+            "https://swapi.dev/api/people/63/"
         ],
         "films": [
-            "https://swapi.co/api/films/5/",
-            "https://swapi.co/api/films/6/"
+            "https://swapi.dev/api/films/5/",
+            "https://swapi.dev/api/films/6/"
         ],
         "created": "2014-12-20T16:40:45.618000Z",
         "edited": "2014-12-20T21:36:42.195000Z",
-        "url": "https://swapi.co/api/species/28/"
+        "url": "https://swapi.dev/api/species/28/"
     },
     {
         "name": "Mirialan",
@@ -534,19 +534,19 @@ export const species = [
         "hair_colors": "black, brown",
         "eye_colors": "blue, green, red, yellow, brown, orange",
         "average_lifespan": "unknown",
-        "homeworld": "https://swapi.co/api/planets/51/",
+        "homeworld": "https://swapi.dev/api/planets/51/",
         "language": "Mirialan",
         "people": [
-            "https://swapi.co/api/people/64/",
-            "https://swapi.co/api/people/65/"
+            "https://swapi.dev/api/people/64/",
+            "https://swapi.dev/api/people/65/"
         ],
         "films": [
-            "https://swapi.co/api/films/5/",
-            "https://swapi.co/api/films/6/"
+            "https://swapi.dev/api/films/5/",
+            "https://swapi.dev/api/films/6/"
         ],
         "created": "2014-12-20T16:46:48.290000Z",
         "edited": "2014-12-20T21:36:42.197000Z",
-        "url": "https://swapi.co/api/species/29/"
+        "url": "https://swapi.dev/api/species/29/"
     },
     {
         "name": "Clawdite",
@@ -557,18 +557,18 @@ export const species = [
         "hair_colors": "none",
         "eye_colors": "yellow",
         "average_lifespan": "70",
-        "homeworld": "https://swapi.co/api/planets/54/",
+        "homeworld": "https://swapi.dev/api/planets/54/",
         "language": "Clawdite",
         "people": [
-            "https://swapi.co/api/people/70/"
+            "https://swapi.dev/api/people/70/"
         ],
         "films": [
-            "https://swapi.co/api/films/5/",
-            "https://swapi.co/api/films/6/"
+            "https://swapi.dev/api/films/5/",
+            "https://swapi.dev/api/films/6/"
         ],
         "created": "2014-12-20T16:57:46.171000Z",
         "edited": "2014-12-20T21:36:42.199000Z",
-        "url": "https://swapi.co/api/species/30/"
+        "url": "https://swapi.dev/api/species/30/"
     },
     {
         "name": "Besalisk",
@@ -579,17 +579,17 @@ export const species = [
         "hair_colors": "none",
         "eye_colors": "yellow",
         "average_lifespan": "75",
-        "homeworld": "https://swapi.co/api/planets/55/",
+        "homeworld": "https://swapi.dev/api/planets/55/",
         "language": "besalisk",
         "people": [
-            "https://swapi.co/api/people/71/"
+            "https://swapi.dev/api/people/71/"
         ],
         "films": [
-            "https://swapi.co/api/films/5/"
+            "https://swapi.dev/api/films/5/"
         ],
         "created": "2014-12-20T17:28:28.821000Z",
         "edited": "2014-12-20T21:36:42.200000Z",
-        "url": "https://swapi.co/api/species/31/"
+        "url": "https://swapi.dev/api/species/31/"
     },
     {
         "name": "Kaminoan",
@@ -600,18 +600,18 @@ export const species = [
         "hair_colors": "none",
         "eye_colors": "black",
         "average_lifespan": "80",
-        "homeworld": "https://swapi.co/api/planets/10/",
+        "homeworld": "https://swapi.dev/api/planets/10/",
         "language": "Kaminoan",
         "people": [
-            "https://swapi.co/api/people/72/",
-            "https://swapi.co/api/people/73/"
+            "https://swapi.dev/api/people/72/",
+            "https://swapi.dev/api/people/73/"
         ],
         "films": [
-            "https://swapi.co/api/films/5/"
+            "https://swapi.dev/api/films/5/"
         ],
         "created": "2014-12-20T17:31:24.838000Z",
         "edited": "2014-12-20T21:36:42.202000Z",
-        "url": "https://swapi.co/api/species/32/"
+        "url": "https://swapi.dev/api/species/32/"
     },
     {
         "name": "Skakoan",
@@ -622,18 +622,18 @@ export const species = [
         "hair_colors": "none",
         "eye_colors": "unknown",
         "average_lifespan": "unknown",
-        "homeworld": "https://swapi.co/api/planets/56/",
+        "homeworld": "https://swapi.dev/api/planets/56/",
         "language": "Skakoan",
         "people": [
-            "https://swapi.co/api/people/76/"
+            "https://swapi.dev/api/people/76/"
         ],
         "films": [
-            "https://swapi.co/api/films/5/",
-            "https://swapi.co/api/films/6/"
+            "https://swapi.dev/api/films/5/",
+            "https://swapi.dev/api/films/6/"
         ],
         "created": "2014-12-20T17:53:54.515000Z",
         "edited": "2014-12-20T21:36:42.204000Z",
-        "url": "https://swapi.co/api/species/33/"
+        "url": "https://swapi.dev/api/species/33/"
     },
     {
         "name": "Muun",
@@ -644,18 +644,18 @@ export const species = [
         "hair_colors": "none",
         "eye_colors": "black",
         "average_lifespan": "100",
-        "homeworld": "https://swapi.co/api/planets/57/",
+        "homeworld": "https://swapi.dev/api/planets/57/",
         "language": "Muun",
         "people": [
-            "https://swapi.co/api/people/77/"
+            "https://swapi.dev/api/people/77/"
         ],
         "films": [
-            "https://swapi.co/api/films/5/",
-            "https://swapi.co/api/films/6/"
+            "https://swapi.dev/api/films/5/",
+            "https://swapi.dev/api/films/6/"
         ],
         "created": "2014-12-20T17:58:19.088000Z",
         "edited": "2014-12-20T21:36:42.207000Z",
-        "url": "https://swapi.co/api/species/34/"
+        "url": "https://swapi.dev/api/species/34/"
     },
     {
         "name": "Togruta",
@@ -666,18 +666,18 @@ export const species = [
         "hair_colors": "none",
         "eye_colors": "red, orange, yellow, green, blue, black",
         "average_lifespan": "94",
-        "homeworld": "https://swapi.co/api/planets/58/",
+        "homeworld": "https://swapi.dev/api/planets/58/",
         "language": "Togruti",
         "people": [
-            "https://swapi.co/api/people/78/"
+            "https://swapi.dev/api/people/78/"
         ],
         "films": [
-            "https://swapi.co/api/films/5/",
-            "https://swapi.co/api/films/6/"
+            "https://swapi.dev/api/films/5/",
+            "https://swapi.dev/api/films/6/"
         ],
         "created": "2014-12-20T18:44:03.246000Z",
         "edited": "2014-12-20T21:36:42.209000Z",
-        "url": "https://swapi.co/api/species/35/"
+        "url": "https://swapi.dev/api/species/35/"
     },
     {
         "name": "Kaleesh",
@@ -688,17 +688,17 @@ export const species = [
         "hair_colors": "none",
         "eye_colors": "yellow",
         "average_lifespan": "80",
-        "homeworld": "https://swapi.co/api/planets/59/",
+        "homeworld": "https://swapi.dev/api/planets/59/",
         "language": "Kaleesh",
         "people": [
-            "https://swapi.co/api/people/79/"
+            "https://swapi.dev/api/people/79/"
         ],
         "films": [
-            "https://swapi.co/api/films/6/"
+            "https://swapi.dev/api/films/6/"
         ],
         "created": "2014-12-20T19:45:42.537000Z",
         "edited": "2014-12-20T21:36:42.210000Z",
-        "url": "https://swapi.co/api/species/36/"
+        "url": "https://swapi.dev/api/species/36/"
     },
     {
         "name": "Pau'an",
@@ -709,17 +709,17 @@ export const species = [
         "hair_colors": "none",
         "eye_colors": "black",
         "average_lifespan": "700",
-        "homeworld": "https://swapi.co/api/planets/12/",
+        "homeworld": "https://swapi.dev/api/planets/12/",
         "language": "Utapese",
         "people": [
-            "https://swapi.co/api/people/83/"
+            "https://swapi.dev/api/people/83/"
         ],
         "films": [
-            "https://swapi.co/api/films/6/"
+            "https://swapi.dev/api/films/6/"
         ],
         "created": "2014-12-20T20:35:06.777000Z",
         "edited": "2014-12-20T21:36:42.212000Z",
-        "url": "https://swapi.co/api/species/37/"
+        "url": "https://swapi.dev/api/species/37/"
     },
     {
         "name": "Wookiee",
@@ -730,22 +730,22 @@ export const species = [
         "hair_colors": "black, brown",
         "eye_colors": "blue, green, yellow, brown, golden, red",
         "average_lifespan": "400",
-        "homeworld": "https://swapi.co/api/planets/14/",
+        "homeworld": "https://swapi.dev/api/planets/14/",
         "language": "Shyriiwook",
         "people": [
-            "https://swapi.co/api/people/13/",
-            "https://swapi.co/api/people/80/"
+            "https://swapi.dev/api/people/13/",
+            "https://swapi.dev/api/people/80/"
         ],
         "films": [
-            "https://swapi.co/api/films/2/",
-            "https://swapi.co/api/films/7/",
-            "https://swapi.co/api/films/6/",
-            "https://swapi.co/api/films/3/",
-            "https://swapi.co/api/films/1/"
+            "https://swapi.dev/api/films/2/",
+            "https://swapi.dev/api/films/7/",
+            "https://swapi.dev/api/films/6/",
+            "https://swapi.dev/api/films/3/",
+            "https://swapi.dev/api/films/1/"
         ],
         "created": "2014-12-10T16:44:31.486000Z",
         "edited": "2015-01-30T21:23:03.074598Z",
-        "url": "https://swapi.co/api/species/3/"
+        "url": "https://swapi.dev/api/species/3/"
     },
     {
         "name": "Droid",
@@ -759,24 +759,24 @@ export const species = [
         "homeworld": null,
         "language": "n/a",
         "people": [
-            "https://swapi.co/api/people/2/",
-            "https://swapi.co/api/people/3/",
-            "https://swapi.co/api/people/8/",
-            "https://swapi.co/api/people/23/",
-            "https://swapi.co/api/people/87/"
+            "https://swapi.dev/api/people/2/",
+            "https://swapi.dev/api/people/3/",
+            "https://swapi.dev/api/people/8/",
+            "https://swapi.dev/api/people/23/",
+            "https://swapi.dev/api/people/87/"
         ],
         "films": [
-            "https://swapi.co/api/films/2/",
-            "https://swapi.co/api/films/7/",
-            "https://swapi.co/api/films/5/",
-            "https://swapi.co/api/films/4/",
-            "https://swapi.co/api/films/6/",
-            "https://swapi.co/api/films/3/",
-            "https://swapi.co/api/films/1/"
+            "https://swapi.dev/api/films/2/",
+            "https://swapi.dev/api/films/7/",
+            "https://swapi.dev/api/films/5/",
+            "https://swapi.dev/api/films/4/",
+            "https://swapi.dev/api/films/6/",
+            "https://swapi.dev/api/films/3/",
+            "https://swapi.dev/api/films/1/"
         ],
         "created": "2014-12-10T15:16:16.259000Z",
         "edited": "2015-04-17T06:59:43.869528Z",
-        "url": "https://swapi.co/api/species/2/"
+        "url": "https://swapi.dev/api/species/2/"
     },
     {
         "name": "Human",
@@ -787,57 +787,57 @@ export const species = [
         "hair_colors": "blonde, brown, black, red",
         "eye_colors": "brown, blue, green, hazel, grey, amber",
         "average_lifespan": "120",
-        "homeworld": "https://swapi.co/api/planets/9/",
+        "homeworld": "https://swapi.dev/api/planets/9/",
         "language": "Galactic Basic",
         "people": [
-            "https://swapi.co/api/people/1/",
-            "https://swapi.co/api/people/4/",
-            "https://swapi.co/api/people/5/",
-            "https://swapi.co/api/people/6/",
-            "https://swapi.co/api/people/7/",
-            "https://swapi.co/api/people/9/",
-            "https://swapi.co/api/people/10/",
-            "https://swapi.co/api/people/11/",
-            "https://swapi.co/api/people/12/",
-            "https://swapi.co/api/people/14/",
-            "https://swapi.co/api/people/18/",
-            "https://swapi.co/api/people/19/",
-            "https://swapi.co/api/people/21/",
-            "https://swapi.co/api/people/22/",
-            "https://swapi.co/api/people/25/",
-            "https://swapi.co/api/people/26/",
-            "https://swapi.co/api/people/28/",
-            "https://swapi.co/api/people/29/",
-            "https://swapi.co/api/people/32/",
-            "https://swapi.co/api/people/34/",
-            "https://swapi.co/api/people/43/",
-            "https://swapi.co/api/people/51/",
-            "https://swapi.co/api/people/60/",
-            "https://swapi.co/api/people/61/",
-            "https://swapi.co/api/people/62/",
-            "https://swapi.co/api/people/66/",
-            "https://swapi.co/api/people/67/",
-            "https://swapi.co/api/people/68/",
-            "https://swapi.co/api/people/69/",
-            "https://swapi.co/api/people/74/",
-            "https://swapi.co/api/people/81/",
-            "https://swapi.co/api/people/84/",
-            "https://swapi.co/api/people/85/",
-            "https://swapi.co/api/people/86/",
-            "https://swapi.co/api/people/35/"
+            "https://swapi.dev/api/people/1/",
+            "https://swapi.dev/api/people/4/",
+            "https://swapi.dev/api/people/5/",
+            "https://swapi.dev/api/people/6/",
+            "https://swapi.dev/api/people/7/",
+            "https://swapi.dev/api/people/9/",
+            "https://swapi.dev/api/people/10/",
+            "https://swapi.dev/api/people/11/",
+            "https://swapi.dev/api/people/12/",
+            "https://swapi.dev/api/people/14/",
+            "https://swapi.dev/api/people/18/",
+            "https://swapi.dev/api/people/19/",
+            "https://swapi.dev/api/people/21/",
+            "https://swapi.dev/api/people/22/",
+            "https://swapi.dev/api/people/25/",
+            "https://swapi.dev/api/people/26/",
+            "https://swapi.dev/api/people/28/",
+            "https://swapi.dev/api/people/29/",
+            "https://swapi.dev/api/people/32/",
+            "https://swapi.dev/api/people/34/",
+            "https://swapi.dev/api/people/43/",
+            "https://swapi.dev/api/people/51/",
+            "https://swapi.dev/api/people/60/",
+            "https://swapi.dev/api/people/61/",
+            "https://swapi.dev/api/people/62/",
+            "https://swapi.dev/api/people/66/",
+            "https://swapi.dev/api/people/67/",
+            "https://swapi.dev/api/people/68/",
+            "https://swapi.dev/api/people/69/",
+            "https://swapi.dev/api/people/74/",
+            "https://swapi.dev/api/people/81/",
+            "https://swapi.dev/api/people/84/",
+            "https://swapi.dev/api/people/85/",
+            "https://swapi.dev/api/people/86/",
+            "https://swapi.dev/api/people/35/"
         ],
         "films": [
-            "https://swapi.co/api/films/2/",
-            "https://swapi.co/api/films/7/",
-            "https://swapi.co/api/films/5/",
-            "https://swapi.co/api/films/4/",
-            "https://swapi.co/api/films/6/",
-            "https://swapi.co/api/films/3/",
-            "https://swapi.co/api/films/1/"
+            "https://swapi.dev/api/films/2/",
+            "https://swapi.dev/api/films/7/",
+            "https://swapi.dev/api/films/5/",
+            "https://swapi.dev/api/films/4/",
+            "https://swapi.dev/api/films/6/",
+            "https://swapi.dev/api/films/3/",
+            "https://swapi.dev/api/films/1/"
         ],
         "created": "2014-12-10T13:52:11.567000Z",
         "edited": "2015-04-17T06:59:55.850671Z",
-        "url": "https://swapi.co/api/species/1/"
+        "url": "https://swapi.dev/api/species/1/"
     },
     {
         "name": "Rodian",
@@ -848,16 +848,16 @@ export const species = [
         "hair_colors": "n/a",
         "eye_colors": "black",
         "average_lifespan": "unknown",
-        "homeworld": "https://swapi.co/api/planets/23/",
+        "homeworld": "https://swapi.dev/api/planets/23/",
         "language": "Galactic Basic",
         "people": [
-            "https://swapi.co/api/people/15/"
+            "https://swapi.dev/api/people/15/"
         ],
         "films": [
-            "https://swapi.co/api/films/1/"
+            "https://swapi.dev/api/films/1/"
         ],
         "created": "2014-12-10T17:05:26.471000Z",
         "edited": "2016-07-19T13:27:03.156498Z",
-        "url": "https://swapi.co/api/species/4/"
+        "url": "https://swapi.dev/api/species/4/"
     }
 ]

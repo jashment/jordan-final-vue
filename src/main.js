@@ -30,7 +30,7 @@ Vue.directive('box-shadow', {
 
 Vue.config.productionTip = false;
 
-axios.defaults.baseURL = "https://swapi.co/api"
+axios.defaults.baseURL = "https://swapi.dev/api"
 
 const requestInterceptor = axios.interceptors.request.use(config =>{
   console.log(config)

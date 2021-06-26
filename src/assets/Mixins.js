@@ -18,7 +18,7 @@ export const Mixins = {
             console.log(people);
         },
         mounted() {
-        axios.get("https://swapi.co/api/planets")
+        axios.get("https://swapi.dev/api/planets")
         .then(response => {this.info = response.data})
       }
 }

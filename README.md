@@ -1,4 +1,4 @@
-# Vue.js Project Using Swapi.co API and Vuetify
+# Vue.js Project Using Swapi.dev API and Vuetify
 
 *Project will only show website content if logged in due to Authentication! Please sign up to view site content*
 

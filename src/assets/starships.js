@@ -15,12 +15,12 @@ export const starships = [
         "starship_class": "Star dreadnought",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/2/",
-            "https://swapi.co/api/films/3/"
+            "https://swapi.dev/api/films/2/",
+            "https://swapi.dev/api/films/3/"
         ],
         "created": "2014-12-15T12:31:42.547000Z",
         "edited": "2017-04-19T10:56:06.685592Z",
-        "url": "https://swapi.co/api/starships/15/"
+        "url": "https://swapi.dev/api/starships/15/"
     },
     {
         "name": "Sentinel-class landing craft",
@@ -38,11 +38,11 @@ export const starships = [
         "starship_class": "landing craft",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/1/"
+            "https://swapi.dev/api/films/1/"
         ],
         "created": "2014-12-10T15:48:00.586000Z",
         "edited": "2014-12-22T17:35:44.431407Z",
-        "url": "https://swapi.co/api/starships/5/"
+        "url": "https://swapi.dev/api/starships/5/"
     },
     {
         "name": "Death Star",
@@ -60,11 +60,11 @@ export const starships = [
         "starship_class": "Deep Space Mobile Battlestation",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/1/"
+            "https://swapi.dev/api/films/1/"
         ],
         "created": "2014-12-10T16:36:50.509000Z",
         "edited": "2014-12-22T17:35:44.452589Z",
-        "url": "https://swapi.co/api/starships/9/"
+        "url": "https://swapi.dev/api/starships/9/"
     },
     {
         "name": "Millennium Falcon",
@@ -81,20 +81,20 @@ export const starships = [
         "MGLT": "75",
         "starship_class": "Light freighter",
         "pilots": [
-            "https://swapi.co/api/people/13/",
-            "https://swapi.co/api/people/14/",
-            "https://swapi.co/api/people/25/",
-            "https://swapi.co/api/people/31/"
+            "https://swapi.dev/api/people/13/",
+            "https://swapi.dev/api/people/14/",
+            "https://swapi.dev/api/people/25/",
+            "https://swapi.dev/api/people/31/"
         ],
         "films": [
-            "https://swapi.co/api/films/2/",
-            "https://swapi.co/api/films/7/",
-            "https://swapi.co/api/films/3/",
-            "https://swapi.co/api/films/1/"
+            "https://swapi.dev/api/films/2/",
+            "https://swapi.dev/api/films/7/",
+            "https://swapi.dev/api/films/3/",
+            "https://swapi.dev/api/films/1/"
         ],
         "created": "2014-12-10T16:59:45.094000Z",
         "edited": "2014-12-22T17:35:44.464156Z",
-        "url": "https://swapi.co/api/starships/10/"
+        "url": "https://swapi.dev/api/starships/10/"
     },
     {
         "name": "Y-wing",
@@ -112,13 +112,13 @@ export const starships = [
         "starship_class": "assault starfighter",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/2/",
-            "https://swapi.co/api/films/3/",
-            "https://swapi.co/api/films/1/"
+            "https://swapi.dev/api/films/2/",
+            "https://swapi.dev/api/films/3/",
+            "https://swapi.dev/api/films/1/"
         ],
         "created": "2014-12-12T11:00:39.817000Z",
         "edited": "2014-12-22T17:35:44.479706Z",
-        "url": "https://swapi.co/api/starships/11/"
+        "url": "https://swapi.dev/api/starships/11/"
     },
     {
         "name": "X-wing",
@@ -135,19 +135,19 @@ export const starships = [
         "MGLT": "100",
         "starship_class": "Starfighter",
         "pilots": [
-            "https://swapi.co/api/people/1/",
-            "https://swapi.co/api/people/9/",
-            "https://swapi.co/api/people/18/",
-            "https://swapi.co/api/people/19/"
+            "https://swapi.dev/api/people/1/",
+            "https://swapi.dev/api/people/9/",
+            "https://swapi.dev/api/people/18/",
+            "https://swapi.dev/api/people/19/"
         ],
         "films": [
-            "https://swapi.co/api/films/2/",
-            "https://swapi.co/api/films/3/",
-            "https://swapi.co/api/films/1/"
+            "https://swapi.dev/api/films/2/",
+            "https://swapi.dev/api/films/3/",
+            "https://swapi.dev/api/films/1/"
         ],
         "created": "2014-12-12T11:19:05.340000Z",
         "edited": "2014-12-22T17:35:44.491233Z",
-        "url": "https://swapi.co/api/starships/12/"
+        "url": "https://swapi.dev/api/starships/12/"
     },
     {
         "name": "TIE Advanced x1",
@@ -164,14 +164,14 @@ export const starships = [
         "MGLT": "105",
         "starship_class": "Starfighter",
         "pilots": [
-            "https://swapi.co/api/people/4/"
+            "https://swapi.dev/api/people/4/"
         ],
         "films": [
-            "https://swapi.co/api/films/1/"
+            "https://swapi.dev/api/films/1/"
         ],
         "created": "2014-12-12T11:21:32.991000Z",
         "edited": "2014-12-22T17:35:44.549047Z",
-        "url": "https://swapi.co/api/starships/13/"
+        "url": "https://swapi.dev/api/starships/13/"
     },
     {
         "name": "Slave 1",
@@ -188,15 +188,15 @@ export const starships = [
         "MGLT": "70",
         "starship_class": "Patrol craft",
         "pilots": [
-            "https://swapi.co/api/people/22/"
+            "https://swapi.dev/api/people/22/"
         ],
         "films": [
-            "https://swapi.co/api/films/2/",
-            "https://swapi.co/api/films/5/"
+            "https://swapi.dev/api/films/2/",
+            "https://swapi.dev/api/films/5/"
         ],
         "created": "2014-12-15T13:00:56.332000Z",
         "edited": "2014-12-22T17:35:44.716273Z",
-        "url": "https://swapi.co/api/starships/21/"
+        "url": "https://swapi.dev/api/starships/21/"
     },
     {
         "name": "Imperial shuttle",
@@ -213,17 +213,17 @@ export const starships = [
         "MGLT": "50",
         "starship_class": "Armed government transport",
         "pilots": [
-            "https://swapi.co/api/people/1/",
-            "https://swapi.co/api/people/13/",
-            "https://swapi.co/api/people/14/"
+            "https://swapi.dev/api/people/1/",
+            "https://swapi.dev/api/people/13/",
+            "https://swapi.dev/api/people/14/"
         ],
         "films": [
-            "https://swapi.co/api/films/2/",
-            "https://swapi.co/api/films/3/"
+            "https://swapi.dev/api/films/2/",
+            "https://swapi.dev/api/films/3/"
         ],
         "created": "2014-12-15T13:04:47.235000Z",
         "edited": "2014-12-22T17:35:44.795405Z",
-        "url": "https://swapi.co/api/starships/22/"
+        "url": "https://swapi.dev/api/starships/22/"
     },
     {
         "name": "EF76 Nebulon-B escort frigate",
@@ -241,12 +241,12 @@ export const starships = [
         "starship_class": "Escort ship",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/2/",
-            "https://swapi.co/api/films/3/"
+            "https://swapi.dev/api/films/2/",
+            "https://swapi.dev/api/films/3/"
         ],
         "created": "2014-12-15T13:06:30.813000Z",
         "edited": "2014-12-22T17:35:44.848329Z",
-        "url": "https://swapi.co/api/starships/23/"
+        "url": "https://swapi.dev/api/starships/23/"
     },
     {
         "name": "Calamari Cruiser",
@@ -264,11 +264,11 @@ export const starships = [
         "starship_class": "Star Cruiser",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/3/"
+            "https://swapi.dev/api/films/3/"
         ],
         "created": "2014-12-18T10:54:57.804000Z",
         "edited": "2014-12-22T17:35:44.957852Z",
-        "url": "https://swapi.co/api/starships/27/"
+        "url": "https://swapi.dev/api/starships/27/"
     },
     {
         "name": "A-wing",
@@ -285,14 +285,14 @@ export const starships = [
         "MGLT": "120",
         "starship_class": "Starfighter",
         "pilots": [
-            "https://swapi.co/api/people/29/"
+            "https://swapi.dev/api/people/29/"
         ],
         "films": [
-            "https://swapi.co/api/films/3/"
+            "https://swapi.dev/api/films/3/"
         ],
         "created": "2014-12-18T11:16:34.542000Z",
         "edited": "2014-12-22T17:35:44.978754Z",
-        "url": "https://swapi.co/api/starships/28/"
+        "url": "https://swapi.dev/api/starships/28/"
     },
     {
         "name": "B-wing",
@@ -310,11 +310,11 @@ export const starships = [
         "starship_class": "Assault Starfighter",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/3/"
+            "https://swapi.dev/api/films/3/"
         ],
         "created": "2014-12-18T11:18:04.763000Z",
         "edited": "2014-12-22T17:35:45.011193Z",
-        "url": "https://swapi.co/api/starships/29/"
+        "url": "https://swapi.dev/api/starships/29/"
     },
     {
         "name": "Republic Cruiser",
@@ -332,11 +332,11 @@ export const starships = [
         "starship_class": "Space cruiser",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/4/"
+            "https://swapi.dev/api/films/4/"
         ],
         "created": "2014-12-19T17:01:31.488000Z",
         "edited": "2014-12-22T17:35:45.027308Z",
-        "url": "https://swapi.co/api/starships/31/"
+        "url": "https://swapi.dev/api/starships/31/"
     },
     {
         "name": "Naboo fighter",
@@ -353,17 +353,17 @@ export const starships = [
         "MGLT": "unknown",
         "starship_class": "Starfighter",
         "pilots": [
-            "https://swapi.co/api/people/11/",
-            "https://swapi.co/api/people/60/",
-            "https://swapi.co/api/people/35/"
+            "https://swapi.dev/api/people/11/",
+            "https://swapi.dev/api/people/60/",
+            "https://swapi.dev/api/people/35/"
         ],
         "films": [
-            "https://swapi.co/api/films/5/",
-            "https://swapi.co/api/films/4/"
+            "https://swapi.dev/api/films/5/",
+            "https://swapi.dev/api/films/4/"
         ],
         "created": "2014-12-19T17:39:17.582000Z",
         "edited": "2014-12-22T17:35:45.079452Z",
-        "url": "https://swapi.co/api/starships/39/"
+        "url": "https://swapi.dev/api/starships/39/"
     },
     {
         "name": "Naboo Royal Starship",
@@ -380,14 +380,14 @@ export const starships = [
         "MGLT": "unknown",
         "starship_class": "yacht",
         "pilots": [
-            "https://swapi.co/api/people/39/"
+            "https://swapi.dev/api/people/39/"
         ],
         "films": [
-            "https://swapi.co/api/films/4/"
+            "https://swapi.dev/api/films/4/"
         ],
         "created": "2014-12-19T17:45:03.506000Z",
         "edited": "2014-12-22T17:35:45.091925Z",
-        "url": "https://swapi.co/api/starships/40/"
+        "url": "https://swapi.dev/api/starships/40/"
     },
     {
         "name": "Scimitar",
@@ -404,14 +404,14 @@ export const starships = [
         "MGLT": "unknown",
         "starship_class": "Space Transport",
         "pilots": [
-            "https://swapi.co/api/people/44/"
+            "https://swapi.dev/api/people/44/"
         ],
         "films": [
-            "https://swapi.co/api/films/4/"
+            "https://swapi.dev/api/films/4/"
         ],
         "created": "2014-12-20T09:39:56.116000Z",
         "edited": "2014-12-22T17:35:45.105522Z",
-        "url": "https://swapi.co/api/starships/41/"
+        "url": "https://swapi.dev/api/starships/41/"
     },
     {
         "name": "J-type diplomatic barge",
@@ -429,11 +429,11 @@ export const starships = [
         "starship_class": "Diplomatic barge",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/5/"
+            "https://swapi.dev/api/films/5/"
         ],
         "created": "2014-12-20T11:05:51.237000Z",
         "edited": "2014-12-22T17:35:45.124386Z",
-        "url": "https://swapi.co/api/starships/43/"
+        "url": "https://swapi.dev/api/starships/43/"
     },
     {
         "name": "AA-9 Coruscant freighter",
@@ -451,11 +451,11 @@ export const starships = [
         "starship_class": "freighter",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/5/"
+            "https://swapi.dev/api/films/5/"
         ],
         "created": "2014-12-20T17:24:23.509000Z",
         "edited": "2014-12-22T17:35:45.135987Z",
-        "url": "https://swapi.co/api/starships/47/"
+        "url": "https://swapi.dev/api/starships/47/"
     },
     {
         "name": "Jedi starfighter",
@@ -472,16 +472,16 @@ export const starships = [
         "MGLT": "unknown",
         "starship_class": "Starfighter",
         "pilots": [
-            "https://swapi.co/api/people/10/",
-            "https://swapi.co/api/people/58/"
+            "https://swapi.dev/api/people/10/",
+            "https://swapi.dev/api/people/58/"
         ],
         "films": [
-            "https://swapi.co/api/films/5/",
-            "https://swapi.co/api/films/6/"
+            "https://swapi.dev/api/films/5/",
+            "https://swapi.dev/api/films/6/"
         ],
         "created": "2014-12-20T17:35:23.906000Z",
         "edited": "2014-12-22T17:35:45.147746Z",
-        "url": "https://swapi.co/api/starships/48/"
+        "url": "https://swapi.dev/api/starships/48/"
     },
     {
         "name": "H-type Nubian yacht",
@@ -498,14 +498,14 @@ export const starships = [
         "MGLT": "unknown",
         "starship_class": "yacht",
         "pilots": [
-            "https://swapi.co/api/people/35/"
+            "https://swapi.dev/api/people/35/"
         ],
         "films": [
-            "https://swapi.co/api/films/5/"
+            "https://swapi.dev/api/films/5/"
         ],
         "created": "2014-12-20T17:46:46.847000Z",
         "edited": "2014-12-22T17:35:45.158969Z",
-        "url": "https://swapi.co/api/starships/49/"
+        "url": "https://swapi.dev/api/starships/49/"
     },
     {
         "name": "Star Destroyer",
@@ -523,13 +523,13 @@ export const starships = [
         "starship_class": "Star Destroyer",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/2/",
-            "https://swapi.co/api/films/3/",
-            "https://swapi.co/api/films/1/"
+            "https://swapi.dev/api/films/2/",
+            "https://swapi.dev/api/films/3/",
+            "https://swapi.dev/api/films/1/"
         ],
         "created": "2014-12-10T15:08:19.848000Z",
         "edited": "2014-12-22T17:35:44.410941Z",
-        "url": "https://swapi.co/api/starships/3/"
+        "url": "https://swapi.dev/api/starships/3/"
     },
     {
         "name": "Trade Federation cruiser",
@@ -546,15 +546,15 @@ export const starships = [
         "MGLT": "unknown",
         "starship_class": "capital ship",
         "pilots": [
-            "https://swapi.co/api/people/10/",
-            "https://swapi.co/api/people/11/"
+            "https://swapi.dev/api/people/10/",
+            "https://swapi.dev/api/people/11/"
         ],
         "films": [
-            "https://swapi.co/api/films/6/"
+            "https://swapi.dev/api/films/6/"
         ],
         "created": "2014-12-20T19:40:21.902000Z",
         "edited": "2014-12-22T17:35:45.195165Z",
-        "url": "https://swapi.co/api/starships/59/"
+        "url": "https://swapi.dev/api/starships/59/"
     },
     {
         "name": "Theta-class T-2c shuttle",
@@ -572,11 +572,11 @@ export const starships = [
         "starship_class": "transport",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/6/"
+            "https://swapi.dev/api/films/6/"
         ],
         "created": "2014-12-20T19:48:40.409000Z",
         "edited": "2014-12-22T17:35:45.208584Z",
-        "url": "https://swapi.co/api/starships/61/"
+        "url": "https://swapi.dev/api/starships/61/"
     },
     {
         "name": "T-70 X-wing fighter",
@@ -593,14 +593,14 @@ export const starships = [
         "MGLT": "unknown",
         "starship_class": "fighter",
         "pilots": [
-            "https://swapi.co/api/people/86/"
+            "https://swapi.dev/api/people/86/"
         ],
         "films": [
-            "https://swapi.co/api/films/7/"
+            "https://swapi.dev/api/films/7/"
         ],
         "created": "2015-04-17T06:58:50.614475Z",
         "edited": "2015-04-17T06:58:50.614528Z",
-        "url": "https://swapi.co/api/starships/77/"
+        "url": "https://swapi.dev/api/starships/77/"
     },
     {
         "name": "Rebel transport",
@@ -618,12 +618,12 @@ export const starships = [
         "starship_class": "Medium transport",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/2/",
-            "https://swapi.co/api/films/3/"
+            "https://swapi.dev/api/films/2/",
+            "https://swapi.dev/api/films/3/"
         ],
         "created": "2014-12-15T12:34:52.264000Z",
         "edited": "2014-12-22T17:35:44.680838Z",
-        "url": "https://swapi.co/api/starships/17/"
+        "url": "https://swapi.dev/api/starships/17/"
     },
     {
         "name": "Droid control ship",
@@ -641,13 +641,13 @@ export const starships = [
         "starship_class": "Droid control ship",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/5/",
-            "https://swapi.co/api/films/4/",
-            "https://swapi.co/api/films/6/"
+            "https://swapi.dev/api/films/5/",
+            "https://swapi.dev/api/films/4/",
+            "https://swapi.dev/api/films/6/"
         ],
         "created": "2014-12-19T17:04:06.323000Z",
         "edited": "2014-12-22T17:35:45.042900Z",
-        "url": "https://swapi.co/api/starships/32/"
+        "url": "https://swapi.dev/api/starships/32/"
     },
     {
         "name": "Republic Assault ship",
@@ -665,11 +665,11 @@ export const starships = [
         "starship_class": "assault ship",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/5/"
+            "https://swapi.dev/api/films/5/"
         ],
         "created": "2014-12-20T18:08:42.926000Z",
         "edited": "2014-12-22T17:35:45.171653Z",
-        "url": "https://swapi.co/api/starships/52/"
+        "url": "https://swapi.dev/api/starships/52/"
     },
     {
         "name": "Solar Sailer",
@@ -687,11 +687,11 @@ export const starships = [
         "starship_class": "yacht",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/5/"
+            "https://swapi.dev/api/films/5/"
         ],
         "created": "2014-12-20T18:37:56.969000Z",
         "edited": "2014-12-22T17:35:45.183075Z",
-        "url": "https://swapi.co/api/starships/58/"
+        "url": "https://swapi.dev/api/starships/58/"
     },
     {
         "name": "Republic attack cruiser",
@@ -709,11 +709,11 @@ export const starships = [
         "starship_class": "star destroyer",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/6/"
+            "https://swapi.dev/api/films/6/"
         ],
         "created": "2014-12-20T19:52:56.232000Z",
         "edited": "2014-12-22T17:35:45.224540Z",
-        "url": "https://swapi.co/api/starships/63/"
+        "url": "https://swapi.dev/api/starships/63/"
     },
     {
         "name": "Naboo star skiff",
@@ -730,15 +730,15 @@ export const starships = [
         "MGLT": "unknown",
         "starship_class": "yacht",
         "pilots": [
-            "https://swapi.co/api/people/10/",
-            "https://swapi.co/api/people/35/"
+            "https://swapi.dev/api/people/10/",
+            "https://swapi.dev/api/people/35/"
         ],
         "films": [
-            "https://swapi.co/api/films/6/"
+            "https://swapi.dev/api/films/6/"
         ],
         "created": "2014-12-20T19:55:15.396000Z",
         "edited": "2014-12-22T17:35:45.258859Z",
-        "url": "https://swapi.co/api/starships/64/"
+        "url": "https://swapi.dev/api/starships/64/"
     },
     {
         "name": "Jedi Interceptor",
@@ -755,15 +755,15 @@ export const starships = [
         "MGLT": "unknown",
         "starship_class": "starfighter",
         "pilots": [
-            "https://swapi.co/api/people/10/",
-            "https://swapi.co/api/people/11/"
+            "https://swapi.dev/api/people/10/",
+            "https://swapi.dev/api/people/11/"
         ],
         "films": [
-            "https://swapi.co/api/films/6/"
+            "https://swapi.dev/api/films/6/"
         ],
         "created": "2014-12-20T19:56:57.468000Z",
         "edited": "2014-12-22T17:35:45.272349Z",
-        "url": "https://swapi.co/api/starships/65/"
+        "url": "https://swapi.dev/api/starships/65/"
     },
     {
         "name": "arc-170",
@@ -781,11 +781,11 @@ export const starships = [
         "starship_class": "starfighter",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/6/"
+            "https://swapi.dev/api/films/6/"
         ],
         "created": "2014-12-20T20:03:48.603000Z",
         "edited": "2014-12-22T17:35:45.287214Z",
-        "url": "https://swapi.co/api/starships/66/"
+        "url": "https://swapi.dev/api/starships/66/"
     },
     {
         "name": "Belbullab-22 starfighter",
@@ -802,15 +802,15 @@ export const starships = [
         "MGLT": "unknown",
         "starship_class": "starfighter",
         "pilots": [
-            "https://swapi.co/api/people/10/",
-            "https://swapi.co/api/people/79/"
+            "https://swapi.dev/api/people/10/",
+            "https://swapi.dev/api/people/79/"
         ],
         "films": [
-            "https://swapi.co/api/films/6/"
+            "https://swapi.dev/api/films/6/"
         ],
         "created": "2014-12-20T20:38:05.031000Z",
         "edited": "2014-12-22T17:35:45.381900Z",
-        "url": "https://swapi.co/api/starships/74/"
+        "url": "https://swapi.dev/api/starships/74/"
     },
     {
         "name": "V-wing",
@@ -828,11 +828,11 @@ export const starships = [
         "starship_class": "starfighter",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/6/"
+            "https://swapi.dev/api/films/6/"
         ],
         "created": "2014-12-20T20:43:04.349000Z",
         "edited": "2014-12-22T17:35:45.396711Z",
-        "url": "https://swapi.co/api/starships/75/"
+        "url": "https://swapi.dev/api/starships/75/"
     },
     {
         "name": "CR90 corvette",
@@ -850,13 +850,13 @@ export const starships = [
         "starship_class": "corvette",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/6/",
-            "https://swapi.co/api/films/3/",
-            "https://swapi.co/api/films/1/"
+            "https://swapi.dev/api/films/6/",
+            "https://swapi.dev/api/films/3/",
+            "https://swapi.dev/api/films/1/"
         ],
         "created": "2014-12-10T14:20:33.369000Z",
         "edited": "2014-12-22T17:35:45.408368Z",
-        "url": "https://swapi.co/api/starships/2/"
+        "url": "https://swapi.dev/api/starships/2/"
     },
     {
         "name": "Banking clan frigate",
@@ -874,10 +874,10 @@ export const starships = [
         "starship_class": "cruiser",
         "pilots": [],
         "films": [
-            "https://swapi.co/api/films/6/"
+            "https://swapi.dev/api/films/6/"
         ],
         "created": "2014-12-20T20:07:11.538000Z",
         "edited": "2017-04-19T10:53:32.700283Z",
-        "url": "https://swapi.co/api/starships/68/"
+        "url": "https://swapi.dev/api/starships/68/"
     }
 ]
